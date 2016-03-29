@@ -14,5 +14,4 @@ public enum BlockList
 	public static Optional<? extends Block>	cherryTreeStairs = Optional.absent();
 	public static Optional<? extends Block>	cherryTreeLeaves = Optional.absent();
 	public static Optional<? extends Block>	cherryTreeSapling = Optional.absent();
-
 }

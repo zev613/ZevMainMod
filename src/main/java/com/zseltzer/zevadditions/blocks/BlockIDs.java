@@ -1,12 +1,7 @@
 package com.zseltzer.zevadditions.blocks;
 
-/**
- * Block IDs.
- * @author Zev613
- */
 public class BlockIDs 
 {
-	
 	/**
 	 * Light Dimension Blocks
 	 */

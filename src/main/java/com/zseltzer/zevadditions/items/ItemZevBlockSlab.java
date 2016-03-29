@@ -7,13 +7,6 @@ import net.minecraft.item.ItemSlab;
 
 public class ItemZevBlockSlab extends ItemSlab 
 {
-    /*
-    Initializes a new instance of the ItemBlockStainedBrickSlab class.
-     @param block the block behind the item.
-     @param bedrockSlab the half height slab.
-     @param bedrockDoubleSlab the full height slab.
-     @param stacked whether or not the block is the stacked version.
-    */
 	
 	public ItemZevBlockSlab(
 	        final Block block,
@@ -23,7 +16,5 @@ public class ItemZevBlockSlab extends ItemSlab
 	{
 	        super(block, slab, doubleSlab, stacked);
 	        	System.out.println("In ItemBlockSlab.Class, block is: " + block);
-
 	}
-
 }

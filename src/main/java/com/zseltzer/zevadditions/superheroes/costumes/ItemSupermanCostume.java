@@ -8,11 +8,11 @@ import net.minecraft.entity.Entity;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
 
-public class ItemAquamanCostume extends ItemArmor 
+public class ItemSupermanCostume extends ItemArmor 
 {
-	public String textureName = "aquaman";
+	public String textureName = "superman";
 
-	 public ItemAquamanCostume( ArmorMaterial material, int ArmorType, String unlocalizedName) 
+	 public ItemSupermanCostume( ArmorMaterial material, int ArmorType, String unlocalizedName) 
 		{
 			super(material, 0, ArmorType);
 			setUnlocalizedName(unlocalizedName);
@@ -22,13 +22,13 @@ public class ItemAquamanCostume extends ItemArmor
 	 
 		public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type)
 		{
-			if (stack.getItem() == ModDCCostumes.aquamanHead || stack.getItem() == ModDCCostumes.aquamanChest || stack.getItem() == ModDCCostumes.aquamanBoots)
+			if (stack.getItem() == ModDCCostumes.supermanChest || stack.getItem() == ModDCCostumes.supermanBoots)
 			{
-				return Reference.MODID + ":textures/models/aquaman_1.png";
+				return Reference.MODID + ":textures/models/superman_1.png";
 			}
-			else if (stack.getItem() == ModDCCostumes.aquamanPants)
+			else if (stack.getItem() == ModDCCostumes.supermanPants)
 			{
-				return Reference.MODID + ":textures/models/aquaman_2.png";
+				return Reference.MODID + ":textures/models/superman_2.png";
 			}
 			else
 			{

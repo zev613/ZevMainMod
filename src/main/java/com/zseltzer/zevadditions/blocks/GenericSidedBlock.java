@@ -47,5 +47,4 @@ public class GenericSidedBlock extends BlockRotatedPillar
             this.side_Texture = icon.registerIcon(this.getTextureName());
             this.top_Texture = icon.registerIcon(this.getTextureName() + "_top");
     }
-
 }

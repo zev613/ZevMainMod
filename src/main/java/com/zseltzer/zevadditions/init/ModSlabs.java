@@ -22,6 +22,7 @@ public class ModSlabs
 		"snow", "soulSand", "sponge", "stone_limestone", "stone_limestone_bricks", "stone_limestoneCobble", "stone_limestonePolishedBlock", "stone1", "stone2", "stone3", "stone4", "stone5", "stone6", "stone7", "stone8", "stone9", "stone10", "stone11", "stone12", "sugarBlock", "thatch", "thatch_other", "topazBlock", "topazOre", "willow_planks", "wool_black", "wool_blue", "wool_brown", "wool_cyan", "wool_gray", "wool_green", 
 		"wool_lightBlue", "wool_lightGray", "wool_lime", "wool_magenta", "wool_orange", "wool_pink", "wool_purple", "wool_red", "wool_white", "wool_yellow", "yellowStone", "yellowStone_smooth"};
 	
+	
 	public static void init()
 	{
 		ZevBlockSlab[] allSlabBlocks;

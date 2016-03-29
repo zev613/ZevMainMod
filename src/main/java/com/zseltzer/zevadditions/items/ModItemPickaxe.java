@@ -26,5 +26,4 @@ public final ToolMaterial toolMaterial;
 	{
 		this.itemIcon = par1IconRegister.registerIcon(Reference.MODID + ":" + getUnlocalizedName().substring(5));
 	}
-	
 }

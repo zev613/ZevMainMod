@@ -20,10 +20,6 @@ public class ModHeroItems
 	
 	public static Item redDiamond = new GenericHeroItem("redDiamond");
 
-
-	
-
-	
 	
 	public static void init()
 	{
@@ -39,9 +35,5 @@ public class ModHeroItems
 		RegisterHelper.registerItem(vibranium);
 		
 		RegisterHelper.registerItem(redDiamond);
-
-
-
 	}
-	
 }

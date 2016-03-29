@@ -13,10 +13,8 @@ public class ToolRecipes
 	public static void init()
 	{	
 
-
 //AMETHYST TOOL RECIPES		
-		
-		
+			
 	GameRegistry.addShapedRecipe(new ItemStack(ModArmory.amethystSword), 
 		new Object[] {
 			" A ", 
@@ -52,10 +50,8 @@ public class ToolRecipes
 			" B ", 
 			'A', ModItems.amethystIngot, 'B', Items.stick});
 
-
 //RUBY TOOL RECIPES
 	
-
 	GameRegistry.addShapedRecipe(new ItemStack(ModArmory.rubySword), 
 		new Object[] {
 			" A ", 
@@ -91,9 +87,7 @@ public class ToolRecipes
 			" B ", 
 			'A', ModItems.rubyIngot, 'B', Items.stick});
 
-
 //EMERALD TOOL RECIPES	
-
 
 	GameRegistry.addShapedRecipe(new ItemStack(ModArmory.emeraldSword), 
 		new Object[] {
@@ -130,10 +124,8 @@ public class ToolRecipes
 			" B ", 
 			'A', Items.emerald, 'B', Items.stick});
 
-
 //SAPPHIRE TOOL RECIPES
 	
-
 GameRegistry.addShapedRecipe(new ItemStack(ModArmory.sapphireSword), 
 		new Object[] {
 			" A ", 
@@ -168,7 +160,5 @@ GameRegistry.addShapedRecipe(new ItemStack(ModArmory.sapphireSword),
 			" B ", 
 			" B ", 
 			'A', ModItems.sapphireIngot, 'B', Items.stick});
-
 	}
-	
 }

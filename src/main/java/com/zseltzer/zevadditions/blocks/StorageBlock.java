@@ -36,6 +36,5 @@ public class StorageBlock extends Block
 				this.setHardness(2.5F);
 			  	this.setResistance(10.0F);
 			}
-	}
-	
+	}	
 }

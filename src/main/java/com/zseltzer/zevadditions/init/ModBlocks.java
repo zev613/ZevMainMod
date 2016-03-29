@@ -199,9 +199,7 @@ public class ModBlocks
 //STAIR BLOCKS
 	/*
 	public static String[] stairTypeNames = {"bedrock", "sponge", "dirt", "smoothStone", "basalt", "shale", "obsidian", "iron_Block", "aquaStone", "endStone"};
-	
 
-	
 	public static Block[] stairBlockNames = {Blocks.bedrock, Blocks.sponge, Blocks.dirt, Blocks.stone, ModBlocks.basalt, ModBlocks.shale, Blocks.obsidian, Blocks.iron_block, ModBlocks.aquaStone, Blocks.end_stone,};
 	{
 	
@@ -219,8 +217,7 @@ public class ModBlocks
 //TREES
 	/*
 	public static void initTrees()
-	{
-		
+	{	
 		int i_this;
 		
 		for(int i = 0; i < BlockModLightLeaves.typeNames.length; i ++)
@@ -229,7 +226,6 @@ public class ModBlocks
 			BlockModLightLeaves leaves = new BlockModLightLeaves(BlockModLightLeaves.typeNames[i]);
 			BlockModLightSapling saplings = new BlockModLightSapling(BlockModLightLeaves.typeNames[i]);
 
-	           
 			 	//ZevBlockSlab doubleSlab =
 	                //new ZevBlockSlab(true, slabTypeNames[j]);
 	            //ItemSlab itemSlab = new ItemSlab(slab, slab, doubleSlab, false);

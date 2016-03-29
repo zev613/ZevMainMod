@@ -50,11 +50,9 @@ public class ModArmory
 			
 		static ArmorMaterial SAPPHIRE_ARMOR = EnumHelper.addArmorMaterial
 				("SAPPHIRE_ARMOR", 20, new int[]{3, 7, 5, 2}, 14);	
-		
-		
+			
 		//TOOL SETS		
-			
-			
+				
 //AMETHYST TOOLS
 			
 	public static Item amethystSword = new ModItemSword(AMETHYST).setUnlocalizedName("amethystSword");
@@ -72,9 +70,7 @@ public class ModArmory
 //RUBY TOOLS	
 	
 	public static Item rubySword = new ModItemSword(RUBY).setUnlocalizedName("rubySword");
-	
-	//public static Item rubyEnchantedSword = new ModItemEnchantedSword(RUBY).setUnlocalizedName("rubyEnchantedSword");
-	
+		
 	public static Item rubyPickaxe = new ModItemPickaxe(RUBY).setUnlocalizedName("rubyPickaxe");
 	
 	public static Item rubyShovel = new ModItemShovel(RUBY).setUnlocalizedName("rubyShovel");
@@ -86,9 +82,7 @@ public class ModArmory
 //EMERALD TOOLS
 	
 	public static Item emeraldSword = new ModItemSword(EMERALD).setUnlocalizedName("emeraldSword");
-	
-	//public static Item emeraldEnchantedSword = new ModItemEnchantedSword(EMERALD).setUnlocalizedName("emeraldEnchantedSword");
-	
+		
 	public static Item emeraldPickaxe = new ModItemPickaxe(EMERALD).setUnlocalizedName("emeraldPickaxe");
 	
 	public static Item emeraldShovel = new ModItemShovel(EMERALD).setUnlocalizedName("emeraldShovel");
@@ -100,9 +94,7 @@ public class ModArmory
 	//SAPPHIRE TOOLS
 	
 	public static Item sapphireSword = new ModItemSword(SAPPHIRE).setUnlocalizedName("sapphireSword");
-		
-	//public static Item sapphireEnchantedSword = new ModItemEnchantedSword(SAPPHIRE).setUnlocalizedName("sapphireEnchantedSword");
-		
+				
 	public static Item sapphirePickaxe = new ModItemPickaxe(SAPPHIRE).setUnlocalizedName("sapphirePickaxe");
 		
 	public static Item sapphireShovel = new ModItemShovel(SAPPHIRE).setUnlocalizedName("sapphireShovel");
@@ -110,10 +102,8 @@ public class ModArmory
 	public static Item sapphireAxe = new ModItemAxe(SAPPHIRE).setUnlocalizedName("sapphireAxe");
 		
 	public static Item sapphireHoe = new ModItemHoe(SAPPHIRE).setUnlocalizedName("sapphireHoe");
-	
 		
 		//ARMOR SETS	
-	
 	
 //AMETHYST ARMOR	
 	
@@ -155,8 +145,7 @@ public class ModArmory
 		
 	public static Item sapphireBoots = new ItemSapphireArmor(SAPPHIRE_ARMOR, 3, "sapphireBoots");	
 	
-	
-	
+
 	public static void init()
 	{
 		
@@ -219,9 +208,7 @@ public class ModArmory
 		RegisterHelper.registerItem(sapphireHelmet);
 		RegisterHelper.registerItem(sapphireChestplate);
 		RegisterHelper.registerItem(sapphireLeggings);
-		RegisterHelper.registerItem(sapphireBoots);
-		
+		RegisterHelper.registerItem(sapphireBoots);		
 		
 	}
-
 }

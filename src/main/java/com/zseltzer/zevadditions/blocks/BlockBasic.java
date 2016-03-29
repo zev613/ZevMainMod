@@ -32,7 +32,7 @@ public class BlockBasic extends Block
 	{
 		super(p_i45394_1_);
 	}
-
+	
 	/**
 	 * Creates a basic block.
 	 * @param material

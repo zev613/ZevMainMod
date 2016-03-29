@@ -29,8 +29,6 @@ public class ModHeroBlocks
 	public static Block tesseract = new GenericHeroBlock("tesseract");
 
 	
-	
-	
 	public static void init()
 	{
 	
@@ -53,9 +51,5 @@ public class ModHeroBlocks
 		RegisterHelper.registerBlock(platinumOre);
 
 		RegisterHelper.registerBlock(tesseract);
-
-
-	
 	}
-	
 }

@@ -21,5 +21,4 @@ GameRegistry.addShapedRecipe(new ItemStack(Items.saddle),
 				"BCB", 
 				'A', Items.leather, 'B', Items.iron_ingot, 'C', Blocks.iron_block});
 	}
-	
 }

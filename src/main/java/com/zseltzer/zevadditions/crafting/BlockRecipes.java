@@ -17,7 +17,6 @@ public class BlockRecipes
 		
 //SHAPED RECIPES		
 
-		
 		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.amethystBlock), 
 				new Object[] {
 					"AAA", 
@@ -109,8 +108,6 @@ public class BlockRecipes
 					"AAA", 
 					'A', ModItems.topazIngot});
 		
-		
-		
 		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.aquaStone_smooth, 4), 
 				new Object[] {
 					"AA", 
@@ -159,7 +156,6 @@ public class BlockRecipes
 					"AA", 
 					'A', ModBlocks.yellowStone});
 
-
 //SHAPELESS RECIPES		
 		
 	//STORAGE BLOCK SHAPELESS RECIPES
@@ -190,10 +186,6 @@ public class BlockRecipes
 
 		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.topazBlock, 1), new Object[] {new ItemStack(ModItems.topazIngot, 9)});
 
-		
-		//GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.aquaStone, 4), Items.bucket, 1, 
-				//new Object[] {new ItemStack(Blocks.stone, 2), Items.bucket, 1});
-
 		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.lightStone, 1), new Object[] {new ItemStack(Blocks.dirt, 2), new ItemStack(Blocks.cobblestone, 2)});
 		
 //SMELTING RECIPES		
@@ -213,9 +205,6 @@ public class BlockRecipes
 				new ItemStack(ModItems.silverIngot), 0.1F);
 		
 		GameRegistry.addSmelting(ModBlocks.amethystOre, 
-				new ItemStack(ModItems.amethystIngot), 0.1F);
-
-		
+				new ItemStack(ModItems.amethystIngot), 0.1F);	
 	}
-	
 }

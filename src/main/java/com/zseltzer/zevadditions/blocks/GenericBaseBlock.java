@@ -20,9 +20,7 @@ public class GenericBaseBlock extends Block
         this.setHardness(2.5F);
 	  	this.setResistance(25.0F);
 	  	this.setHarvestLevel("pickaxe", 2);
-
-	}
-	
+	}	
 }
 
 

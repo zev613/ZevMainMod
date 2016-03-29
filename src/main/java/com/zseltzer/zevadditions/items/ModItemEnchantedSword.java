@@ -40,5 +40,4 @@ public static String potionInfoName;
 	{
 		this.itemIcon = par1IconRegister.registerIcon(Reference.MODID + ":" + getUnlocalizedName().substring(5));
 	}
-	
 }

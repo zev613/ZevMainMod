@@ -9,7 +9,6 @@ import net.minecraftforge.event.entity.player.BonemealEvent;
 
 public class EventHelper 
 {
-
 	/** Used to make the sapling grow the tree **/
 	@SubscribeEvent
 	public void bonemealUsed(BonemealEvent event) 
@@ -18,17 +17,6 @@ public class EventHelper
 		{
 			((BlockModLightSapling)ModBlocks.lightSapling).func_149878_d(event.world, event.x, event.y, event.z, event.world.rand);
 		}
-		/*
-		else if(event.world.getBlock(event.x, event.y, event.z) == ModBlocks.cherrySapling) 
-		{
-			((BlockModLightSapling)ModBlocks.cherrySapling).func_149878_d(event.world, event.x, event.y, event.z, event.world.rand);
-		}
-		
-		else if(event.world.getBlock(event.x, event.y, event.z) == ModBlocks.redwoodSapling) 
-		{
-			((BlockModLightSapling)ModBlocks.cherrySapling).func_149878_d(event.world, event.x, event.y, event.z, event.world.rand);
-		}
-		*/
 	}
 
 	/**

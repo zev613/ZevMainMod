@@ -2,12 +2,14 @@ package com.zseltzer.zevadditions.superheroes;
 
 import com.zseltzer.zevadditions.RegisterHelper;
 import com.zseltzer.zevadditions.superheroes.costumes.ItemAquamanCostume;
+import com.zseltzer.zevadditions.superheroes.costumes.ItemBatmanCostume;
 import com.zseltzer.zevadditions.superheroes.costumes.ItemDrFateCostume;
 import com.zseltzer.zevadditions.superheroes.costumes.ItemFlashCostume;
 import com.zseltzer.zevadditions.superheroes.costumes.ItemGreenArrowCostume;
 import com.zseltzer.zevadditions.superheroes.costumes.ItemGreenLanternCostume;
 import com.zseltzer.zevadditions.superheroes.costumes.ItemShazamCostume;
 import com.zseltzer.zevadditions.superheroes.costumes.ItemSpectreCostume;
+import com.zseltzer.zevadditions.superheroes.costumes.ItemSupermanCostume;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
@@ -15,12 +17,14 @@ import net.minecraftforge.common.util.EnumHelper;
 
 public class ModDCCostumes 
 {	
-
-/*
- 
-  THIS IS THE SECTION FOR DC COMICS
- 	
- */
+	
+//BATMAN COSTUME	
+		static ArmorMaterial BATMAN_COSTUME = EnumHelper.addArmorMaterial
+				("BATMAN_COSTUME", 20, new int[]{3, 7, 5, 2}, 14);
+		
+//SUPERMAN COSTUME	
+		static ArmorMaterial SUPERMAN_COSTUME = EnumHelper.addArmorMaterial
+				("SUPERMAN_COSTUME", 20, new int[]{3, 7, 5}, 14);
 	
 //FLASH COSTUME 	
 	static ArmorMaterial FLASH_COSTUME = EnumHelper.addArmorMaterial
@@ -50,11 +54,21 @@ public class ModDCCostumes
 	static ArmorMaterial AQUAMAN_COSTUME = EnumHelper.addArmorMaterial
 			("AQUMAN_COSTUME", 20, new int[]{3, 7, 5, 2}, 14);		
 			
-
-
 //DC HERO COSTUMES DECLARATION
+	
+	//SUPERMAN COSTUME SET
+	
+			public static Item supermanChest = new ItemSupermanCostume(SUPERMAN_COSTUME, 0, "supermanChest");
+			public static Item supermanPants = new ItemSupermanCostume(SUPERMAN_COSTUME, 1, "supermanPants");
+			public static Item supermanBoots = new ItemSupermanCostume(SUPERMAN_COSTUME, 2, "supermanBoots");
+	
+	//BATMAN COSTUME SET
+	
+		public static Item batmanHead = new ItemBatmanCostume(BATMAN_COSTUME, 0, "batmanHead");
+		public static Item batmanChest = new ItemBatmanCostume(BATMAN_COSTUME, 1, "batmanChest");
+		public static Item batmanPants = new ItemBatmanCostume(BATMAN_COSTUME, 2, "batmanPants");
+		public static Item batmanBoots = new ItemBatmanCostume(BATMAN_COSTUME, 3, "batmanBoots");
 		
-
 	//FLASH COSTUME SET	
 		
 	public static Item flashHead = new ItemFlashCostume(FLASH_COSTUME, 0, "flashHead");
@@ -104,12 +118,23 @@ public class ModDCCostumes
 	public static Item aquamanPants = new ItemAquamanCostume(AQUAMAN_COSTUME, 2, "aquamanPants");
 	public static Item aquamanBoots = new ItemAquamanCostume(AQUAMAN_COSTUME, 3, "aquamanBoots");
 
-	
 public static void init()
 {
-
 //HERO COSTUME REGISTRY
-		
+	
+	//BATMAN COSTUME SET
+	
+			RegisterHelper.registerItem(batmanHead);
+			RegisterHelper.registerItem(batmanChest);
+			RegisterHelper.registerItem(batmanPants);
+			RegisterHelper.registerItem(batmanBoots);
+			
+	//SUPERMAN COSTUME SET
+			
+			RegisterHelper.registerItem(supermanChest);
+			RegisterHelper.registerItem(supermanPants);
+			RegisterHelper.registerItem(supermanBoots);
+			
 	//FLASH COSTUME SET
 		
 		RegisterHelper.registerItem(flashHead);
@@ -158,7 +183,5 @@ public static void init()
 		RegisterHelper.registerItem(aquamanChest);
 		RegisterHelper.registerItem(aquamanPants);
 		RegisterHelper.registerItem(aquamanBoots);
-		
-}
-
+	}
 }

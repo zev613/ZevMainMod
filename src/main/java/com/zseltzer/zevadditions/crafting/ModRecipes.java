@@ -15,6 +15,5 @@ public class ModRecipes
 		ToolRecipes.init();
 		
 		ArmorRecipes.init();
-	
 	}
 }

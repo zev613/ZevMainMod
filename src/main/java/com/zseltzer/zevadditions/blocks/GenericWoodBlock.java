@@ -12,7 +12,6 @@ public class GenericWoodBlock extends Block
 
 	public GenericWoodBlock(String unlocalizedName)
 	{
-		
 		super(Material.wood);
         this.setCreativeTab(ModTabs.tabNewBlocks);
         this.setBlockName(unlocalizedName);
@@ -21,9 +20,7 @@ public class GenericWoodBlock extends Block
         this.setHardness(2F);
 	  	this.setResistance(10.0F);
 	  	this.setHarvestLevel("axe", 2);
-
 	}
-	
 }
 
 

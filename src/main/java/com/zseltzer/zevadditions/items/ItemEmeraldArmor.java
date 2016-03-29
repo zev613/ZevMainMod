@@ -19,7 +19,7 @@ public class ItemEmeraldArmor extends ItemArmor
 			setTextureName(Reference.MODID + ":" + getUnlocalizedName().substring(5));
 			setCreativeTab(ModTabs.tabNewItems);
 		}
-
+ 
 		public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type)
 		{
 			if (stack.getItem() == ModArmory.emeraldHelmet || stack.getItem() == ModArmory.emeraldChestplate || stack.getItem() == ModArmory.emeraldBoots)

@@ -11,12 +11,10 @@ public class ArmorRecipes
 {
 
 	public static void init()
-	{	
-
+	{
 		
 //AMETHYST ARMOR RECIPES		
-		
-		
+			
 GameRegistry.addShapedRecipe(new ItemStack(ModArmory.amethystHelmet), 
 	new Object[] {
 			"AAA", 
@@ -43,9 +41,7 @@ GameRegistry.addShapedRecipe(new ItemStack(ModArmory.amethystBoots),
 			"A A",  
 			'A', ModItems.amethystIngot});
 
-
 //RUBY ARMOR RECIPES
-
 
 	GameRegistry.addShapedRecipe(new ItemStack(ModArmory.rubyHelmet), 
 		new Object[] {
@@ -73,9 +69,7 @@ GameRegistry.addShapedRecipe(new ItemStack(ModArmory.amethystBoots),
 			"A A",  
 			'A', ModItems.rubyIngot});
 
-
 //EMERALD ARMOR RECIPES
-
 
 	GameRegistry.addShapedRecipe(new ItemStack(ModArmory.emeraldHelmet), 
 		new Object[] {
@@ -103,9 +97,7 @@ GameRegistry.addShapedRecipe(new ItemStack(ModArmory.amethystBoots),
 			"A A",  
 			'A', Items.emerald});
 
-
 //SAPPHIRE ARMOR RECIPES
-
 
 	GameRegistry.addShapedRecipe(new ItemStack(ModArmory.sapphireHelmet), 
 		new Object[] {
@@ -132,8 +124,5 @@ GameRegistry.addShapedRecipe(new ItemStack(ModArmory.amethystBoots),
 			"A A", 
 			"A A",  
 			'A', ModItems.sapphireIngot});
-
-
 	}
-	
 }

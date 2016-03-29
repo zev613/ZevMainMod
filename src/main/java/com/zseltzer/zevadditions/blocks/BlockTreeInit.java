@@ -21,9 +21,7 @@ public class BlockTreeInit
 	          //{
 	    	leafNames_temp[0][i] = typeNames[i] + prefix;
 	    	leafNames_temp[1][i] = typeNames[i] + prefix_O;
-
 	          //}
 	        }
 	}
-	
 }

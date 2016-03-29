@@ -24,5 +24,4 @@ public class GenericItem extends Item
 	{
 		itemIcon = par1IconRegister.registerIcon(Reference.MODID + ":" + getUnlocalizedName().substring(5));
 	}
-
 }

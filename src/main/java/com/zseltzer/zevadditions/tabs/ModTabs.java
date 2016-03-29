@@ -25,7 +25,6 @@ public class ModTabs
 	    }
 	};
 
-	//Use a custom item as an icon (assuming it is instantiated in a class called ModItems)
 	public static CreativeTabs tabNewItems = new CreativeTabs("tabNewItems") 
 	{
 	    @Override

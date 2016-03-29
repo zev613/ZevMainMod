@@ -18,12 +18,6 @@ import net.minecraftforge.common.util.EnumHelper;
 
 public class ModMarvelCostumes 
 {	
-
-/*
- 
-  THIS IS THE SECTION FOR MARVEL COMICS
- 	
- */
 	
 //SPIDERMAN COSTUME 	
 	static ArmorMaterial SPIDERMAN_COSTUME = EnumHelper.addArmorMaterial
@@ -65,10 +59,8 @@ public class ModMarvelCostumes
 	static ArmorMaterial WOLVERINE_COSTUME = EnumHelper.addArmorMaterial
 			("WOLVERINE_COSTUME", 20, new int[]{3, 7, 5, 2}, 14);
 
-
 //DC HERO COSTUMES DECLARATION
 		
-
 	//FLASH COSTUME SET	
 		
 	public static Item spidermanHead = new ItemSpidermanCostume(SPIDERMAN_COSTUME, 0, "spidermanHead");
@@ -139,11 +131,9 @@ public class ModMarvelCostumes
 		public static Item wolverinePants = new ItemWolverineCostume(WOLVERINE_COSTUME, 2, "wolverinePants");
 		public static Item wolverineBoots = new ItemWolverineCostume(WOLVERINE_COSTUME, 3, "wolverineBoots");
 
-	
-public static void init()
-{
-
-//HERO COSTUME REGISTRY
+	public static void init()
+	{
+		//HERO COSTUME REGISTRY
 		
 	//SPIDERMAN COSTUME SET
 		
@@ -215,7 +205,5 @@ public static void init()
 		RegisterHelper.registerItem(wolverineChest);
 		RegisterHelper.registerItem(wolverinePants);
 		RegisterHelper.registerItem(wolverineBoots);
-
-}
-
+	}
 }
