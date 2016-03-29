@@ -37,24 +37,17 @@
 !build.gradle
 !/src/main/java/*
 
+!/src/main/java/com/zseltzer/zevadditions/*
 !/src/main/resources/mcmod.info
 
-!/src/main/resources/*
-
+!*.java
+!*.class
 *.bat
 
 *.sh
 
-/src/main/resources/assets/zevadditions/textures/blocks/Unused/*
-
-/src/main/resources/assets/zevadditions/textures/blocks/NewestBlocks/*
-
-/src/main/resources/assets/zevadditions/textures/items/Unused/*
-
-/src/main/resources/assets/zevadditions/textures/superheroes/*
-
-
-
+/src/main/resources/assets/zevadditions/textures/*
+!/src/main/resources/assets/zevadditions/lang/en_US.lang
 
 /usernamecache.text
 
