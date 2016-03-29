@@ -19,13 +19,6 @@ public class ItemAmethystArmor extends ItemArmor
 			setTextureName(Reference.MODID + ":" + getUnlocalizedName().substring(5));
 			setCreativeTab(ModTabs.tabNewItems);
 		}
-/*		
-	 @Override
-	 public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type)
-	 {
-	     return Reference.MODID + ":textures/models/armor" + this.textureName + "_layer_" + (this.armorType == 2 ? "2" : "1") + ".png";
-	 }
-*/
 	 
 		public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type)
 		{
