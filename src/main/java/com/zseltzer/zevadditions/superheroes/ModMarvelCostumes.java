@@ -58,6 +58,23 @@ public class ModMarvelCostumes
 //WOLVERINE COSTUME	
 	static ArmorMaterial WOLVERINE_COSTUME = EnumHelper.addArmorMaterial
 			("WOLVERINE_COSTUME", 20, new int[]{3, 7, 5, 2}, 14);
+/*
+//BEAST COSTUME	
+	static ArmorMaterial BEAST_COSTUME = EnumHelper.addArmorMaterial
+			("BEAST_COSTUME", 20, new int[]{3, 7, 5, 2}, 14);
+	
+//STORM COSTUME	
+	static ArmorMaterial STORM_COSTUME = EnumHelper.addArmorMaterial
+			("STORM_COSTUME", 20, new int[]{3, 7, 5, 2}, 14);
+	
+//CYCLOPS COSTUME	
+	static ArmorMaterial CYCLOPS_COSTUME = EnumHelper.addArmorMaterial
+			("CYCLOPS_COSTUME", 20, new int[]{3, 7, 5, 2}, 14);	
+	
+//NICK FURY COSTUME	
+	static ArmorMaterial NICK_FURY_COSTUME = EnumHelper.addArmorMaterial
+			("NICK_FURY_COSTUME", 20, new int[]{3, 7, 5, 2}, 14);
+*/
 
 //DC HERO COSTUMES DECLARATION
 		
