@@ -20,7 +20,7 @@ public class ModItems
 	
 //WORLD ITEMS
 	
-	public static Item adobe = new GenericItem("adobe");
+	public static Item ballOfAdobe = new GenericItem("ballOfAdobe");
 	
 	public static Item adobeBrick = new GenericItem("adobeBrick");
 
@@ -40,7 +40,7 @@ public class ModItems
 	
         public static void init()
         {
-        RegisterHelper.registerItem(adobe);
+        RegisterHelper.registerItem(ballOfAdobe);
         RegisterHelper.registerItem(adobeBrick);
         RegisterHelper.registerItem(amethystIngot);
         RegisterHelper.registerItem(blackDye);
