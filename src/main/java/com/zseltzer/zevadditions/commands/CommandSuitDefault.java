@@ -96,7 +96,7 @@ public class CommandSuitDefault implements ICommand
     
             sender.addChatMessage(new ChatComponentText("Setting suit back to normal.")); 
             
-            suitName = "superheroDefault";
+            suitName = "superSuitDefault";
             
             SetSuitTexture.getSuitTexture(suitName);
 

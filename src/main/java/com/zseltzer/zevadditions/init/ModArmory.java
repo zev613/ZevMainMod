@@ -11,6 +11,7 @@ import com.zseltzer.zevadditions.items.ModItemHoe;
 import com.zseltzer.zevadditions.items.ModItemPickaxe;
 import com.zseltzer.zevadditions.items.ModItemShovel;
 import com.zseltzer.zevadditions.items.ModItemSword;
+import com.zseltzer.zevadditions.items.SuperheroTestArmor;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
@@ -19,6 +20,9 @@ import net.minecraftforge.common.util.EnumHelper;
 public class ModArmory 
 {
 
+	static ArmorMaterial SUPERHERO_ARMOR = EnumHelper.addArmorMaterial
+			("SUPERHERO_ARMOR", 20, new int[]{3, 7, 5, 2}, 14);
+	
 //Amethyst Material
 	
 	static Item.ToolMaterial AMETHYST = EnumHelper.addToolMaterial
@@ -105,6 +109,14 @@ public class ModArmory
 		
 		//ARMOR SETS	
 	
+	public static Item superheroHead = new SuperheroTestArmor(SUPERHERO_ARMOR, 0, "superheroHead");
+	
+	public static Item superheroChest = new SuperheroTestArmor(SUPERHERO_ARMOR, 1, "superheroChest");
+	
+	public static Item superheroPants = new SuperheroTestArmor(SUPERHERO_ARMOR, 2, "superheroPants");
+	
+	public static Item superheroBoots = new SuperheroTestArmor(SUPERHERO_ARMOR, 3, "superheroBoots");
+	
 //AMETHYST ARMOR	
 	
 	public static Item amethystHelmet = new ItemAmethystArmor(AMETHYST_ARMOR, 0, "amethystHelmet");
@@ -149,6 +161,8 @@ public class ModArmory
 	public static void init()
 	{
 		
+//TOOLS
+		
 	//AMETHYST TOOLS
 		
 		RegisterHelper.registerItem(amethystSword);
@@ -181,6 +195,13 @@ public class ModArmory
 		RegisterHelper.registerItem(sapphireShovel);
 		RegisterHelper.registerItem(sapphireAxe);
 		RegisterHelper.registerItem(sapphireHoe);
+		
+//ARMOR
+		
+		RegisterHelper.registerItem(superheroHead);
+		RegisterHelper.registerItem(superheroChest);
+		RegisterHelper.registerItem(superheroPants);
+		RegisterHelper.registerItem(superheroBoots);
 		
 	//AMETHYST ARMOR
 		
