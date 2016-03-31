@@ -126,7 +126,7 @@ public class BlockModLightLeaves extends BlockModLeaves
     {
         for (int i = 0; i < leafNames.length; ++i)
         {
-            this.field_150129_M[i] = new IIcon[1/*leafNames[i].length*/];
+            this.field_150129_M[i] = new IIcon[leafNames[i].length];
 
             for (int j = 0; j < leafNames[i].length; ++j)
             {
