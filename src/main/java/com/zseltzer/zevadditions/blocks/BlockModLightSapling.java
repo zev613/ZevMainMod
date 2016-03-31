@@ -51,10 +51,10 @@ public class BlockModLightSapling extends BlockSapling implements IGrowable
 	@SideOnly(Side.CLIENT)
 	public void registerBlockIcons(IIconRegister iconRegister)
 	{
-		textures = new IIcon[1/*BlockModLightLeaves.typeNames.length*/];
+		textures = new IIcon[BlockModLightLeaves.typeNames.length];
 		for (int i = 0; i < BlockModLightLeaves.typeNames.length; ++i)
 		{
-			textures[i] = iconRegister.registerIcon("zevadditions:" + BlockModLightLeaves.typeNames[i] + "_sapling");
+			this.textures[i] = iconRegister.registerIcon("zevadditions:" + BlockModLightLeaves.typeNames[i] + "_sapling");
 		}
 	}
 

@@ -41,8 +41,8 @@ public class BlockModLightLog extends BlockModLogBase
     @SideOnly(Side.CLIENT)
     public void registerBlockIcons(IIconRegister p_149651_1_)
     {
-        this.field_150167_a = new IIcon[1/*BlockModLightLeaves.typeNames.length*/];
-        this.field_150166_b = new IIcon[1/*BlockModLightLeaves.typeNames.length*/];
+        this.field_150167_a = new IIcon[BlockModLightLeaves.typeNames.length];
+        this.field_150166_b = new IIcon[BlockModLightLeaves.typeNames.length];
 
         for (int i = 0; i < this.field_150167_a.length; ++i)
         {
