@@ -15,6 +15,6 @@ public class ItemZevBlockSlab extends ItemSlab
 	        final Boolean stacked) 
 	{
 	        super(block, slab, doubleSlab, stacked);
-	        	System.out.println("In ItemBlockSlab.Class, block is: " + block);
+	        	//System.out.println("In ItemBlockSlab.Class, block is: " + block);
 	}
 }

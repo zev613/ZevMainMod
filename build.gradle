@@ -17,9 +17,9 @@ buildscript {
 
 apply plugin: 'forge'
 
-version = "0.7.1"
+version = "0.2.5"
 group= "com.zseltzer.zevadditions" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "Zev's_Additions"
+archivesBaseName = "Zevs_Additions"
 
 minecraft {
     version = "1.7.10-10.13.4.1558-1.7.10"
@@ -61,5 +61,3 @@ processResources
         exclude 'mcmod.info'
     }
 }
-idea { module { inheritOutputDirs = true } }
-
