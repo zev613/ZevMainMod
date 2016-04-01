@@ -13,11 +13,11 @@ public class HeroItemPickaxe extends ItemPickaxe
 
 public final ToolMaterial toolMaterial;
 	
-	public HeroItemPickaxe(ToolMaterial EnumToolMaterial, String unlocalizedName)
+	public HeroItemPickaxe(ToolMaterial EnumToolMaterial, String name)
 	{
 		super(EnumToolMaterial);
 		this.toolMaterial = EnumToolMaterial;
-		this.setUnlocalizedName(Reference.MODID + ":" + unlocalizedName);
+		this.setUnlocalizedName(name);
 		this.setCreativeTab(ModTabs.tabHeroItems);
 		this.setTextureName(Reference.MODID + ":" + getUnlocalizedName().substring(5) + ".png");
 	}

@@ -13,11 +13,11 @@ public class HeroItemSword extends ItemSword
 
 public final ToolMaterial toolMaterial;
 	
-	public HeroItemSword(ToolMaterial EnumToolMaterial, String unlocalizedName)
+	public HeroItemSword(ToolMaterial EnumToolMaterial, String name)
 	{
 		super(EnumToolMaterial);
 		this.toolMaterial = EnumToolMaterial;
-		this.setUnlocalizedName(Reference.MODID + ":" + unlocalizedName);
+		this.setUnlocalizedName(name);
 		this.setCreativeTab(ModTabs.tabHeroItems);
 		this.setTextureName(Reference.MODID + ":" + getUnlocalizedName().substring(5) + ".png");
 	}

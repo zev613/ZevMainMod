@@ -13,11 +13,11 @@ public class HeroItemAxe extends ItemAxe
 
 public final ToolMaterial toolMaterial;
 	
-	public HeroItemAxe(ToolMaterial EnumToolMaterial, String unlocalizedName)
+	public HeroItemAxe(ToolMaterial EnumToolMaterial, String name)
 	{
 		super(EnumToolMaterial);
 		this.toolMaterial = EnumToolMaterial;
-		this.setUnlocalizedName(Reference.MODID + ":" + unlocalizedName);
+		this.setUnlocalizedName(name);
 		this.setCreativeTab(ModTabs.tabHeroItems);
 		this.setTextureName(Reference.MODID + ":" + getUnlocalizedName().substring(5) + ".png");
 

@@ -14,11 +14,11 @@ public class HeroItemHoe extends ItemHoe
 
 public final ToolMaterial toolMaterial;
 	
-	public HeroItemHoe(ToolMaterial EnumToolMaterial, String unlocalizedName)
+	public HeroItemHoe(ToolMaterial EnumToolMaterial, String name)
 	{
 		super(EnumToolMaterial);
 		this.toolMaterial = EnumToolMaterial;
-		this.setUnlocalizedName(Reference.MODID + ":" + unlocalizedName);
+		this.setUnlocalizedName(name);
 		this.setCreativeTab(ModTabs.tabHeroItems);
 		this.setTextureName(Reference.MODID + ":" + getUnlocalizedName().substring(5) + ".png");
 	}
