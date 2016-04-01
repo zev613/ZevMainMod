@@ -111,7 +111,7 @@ GeneralWorldGeneration eventWorldGen = new GeneralWorldGeneration();
 		proxy.registerRenderers();
 
 	}
-	/*
+	
 	@EventHandler
 	public void serverLoad(FMLServerStartingEvent event)
 	{
@@ -119,10 +119,9 @@ GeneralWorldGeneration eventWorldGen = new GeneralWorldGeneration();
 
 	event.registerServerCommand(new CommandChangeSuit());
 	
-	event.registerServerCommand(new CommandSuitDefault());
+	//event.registerServerCommand(new CommandSuitDefault());
 
 	}
-	*/
 	
 	@Mod.EventHandler
 	public void postInit(FMLPostInitializationEvent event)
