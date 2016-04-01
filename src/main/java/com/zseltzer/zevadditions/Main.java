@@ -1,7 +1,6 @@
 package com.zseltzer.zevadditions;
 
-//import com.zseltzer.zevadditions.commands.CommandChangeSuit;
-//import com.zseltzer.zevadditions.commands.CommandSuitDefault;
+import com.zseltzer.zevadditions.commands.CommandChangeSuit;
 import com.zseltzer.zevadditions.config.ModConfig;
 import com.zseltzer.zevadditions.crafting.ModRecipes;
 import com.zseltzer.zevadditions.events.EventHelper;
