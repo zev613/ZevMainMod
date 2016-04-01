@@ -22,11 +22,11 @@ public class ItemStarSapphireCostume extends ItemArmor
 	 
 		public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type)
 		{
-			if (stack.getItem() == ModDCCostumes.starSapphireHead || stack.getItem() == ModDCCostumes.starSapphireChest || stack.getItem() == ModDCCostumes.starSapphireBoots)
+			if (stack.getItem() == ModDCCostumes.starSapphireHead || stack.getItem() == ModDCCostumes.starSapphireChest || stack.getItem() == ModDCCostumes.starSapphirePants)
 			{
 				return Reference.MODID + ":textures/models/starSapphire_1.png";
 			}
-			else if (stack.getItem() == ModDCCostumes.starSapphirePants)
+			else if (stack.getItem() == ModDCCostumes.starSapphireBoots)
 			{
 				return Reference.MODID + ":textures/models/starSapphire_2.png";
 			}

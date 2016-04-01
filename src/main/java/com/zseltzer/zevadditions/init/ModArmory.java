@@ -111,7 +111,7 @@ public class ModArmory
 	
 	public static Item superheroHead = new SuperheroTestArmor(SUPERHERO_ARMOR, 0, "superheroHead");
 	
-	public static Item superheroChest = new SuperheroTestArmor(SUPERHERO_ARMOR, 1, "superheroChest");
+	public static Item superheroChest = new SuperheroTestArmor(SUPERHERO_ARMOR, 1,"superheroChest");
 	
 	public static Item superheroPants = new SuperheroTestArmor(SUPERHERO_ARMOR, 2, "superheroPants");
 	

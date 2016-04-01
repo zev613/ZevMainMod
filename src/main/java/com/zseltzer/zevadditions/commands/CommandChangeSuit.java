@@ -3,10 +3,15 @@ package com.zseltzer.zevadditions.commands;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.zseltzer.zevadditions.items.SuperheroTestArmor;
 import com.zseltzer.zevadditions.util.SetSuitTexture;
+
+//import com.zseltzer.zevadditions.util.SetSuitTexture;
 
 import net.minecraft.command.ICommand;
 import net.minecraft.command.ICommandSender;
+import net.minecraft.entity.Entity;
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.ChatComponentText;
 import net.minecraft.world.World;
 
@@ -15,24 +20,16 @@ public class CommandChangeSuit implements ICommand
 
     private final List aliases;
   
-    protected String fullEntityName; 
-    public static String suitName; 
+    //protected String fullEntityName; 
+    public static String suitName = "superSuitDefault"; 
   
     public CommandChangeSuit() 
     { 
         aliases = new ArrayList(); 
-        aliases.add("suit"); 
         aliases.add("changeSuit"); 
-        aliases.add("suitChange"); 
-        aliases.add("superheroChange"); 
-        aliases.add("superheroSuit"); 
-        aliases.add("superheroSuitChange"); 
-        aliases.add("changeSuperheroSuit"); 
         aliases.add("changeCostume");
         aliases.add("costumeChange");
-        aliases.add("superheroCostume"); 
-        aliases.add("superheroCostumeChange");
-        aliases.add("changeSuperheroCostume"); 
+        aliases.add("suitChange");
     } 
   
     @Override 
@@ -80,27 +77,10 @@ public class CommandChangeSuit implements ICommand
         sender.addChatMessage(new ChatComponentText("Changing Suit to: [" + argString[0]  
         + "]")); 
             
-        suitName = argString[0]; 
-        
-        SetSuitTexture.getSuitTexture(suitName);
-         
-        }     
-            /*
-            if (EntityList.stringToClassMapping.containsKey(fullEntityName))
-            {    
-            	conjuredEntity = EntityList.createEntityByName(fullEntityName, world);  
-                conjuredEntity.setPosition(sender.getPlayerCoordinates().posX,       
-                sender.getPlayerCoordinates().posY, 
-                sender.getPlayerCoordinates().posZ); 
-                world.spawnEntityInWorld(conjuredEntity); 
-            } 
-            else 
-            { 
-                sender.addChatMessage(new ChatComponentText("Suit " + suitName + " could not be found. Please try a different one.")); 
-            } 
-            */
-        } 
-
+        suitName = argString[0];
+        System.out.println("The current suitName value is: " + suitName + ".");
+        }
+    }
     @Override 
     public boolean canCommandSenderUseCommand(ICommandSender var1) 
     { 
@@ -121,3 +101,4 @@ public class CommandChangeSuit implements ICommand
         return false;
     } 
 }
+

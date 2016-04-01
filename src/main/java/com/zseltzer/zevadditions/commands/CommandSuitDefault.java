@@ -5,7 +5,7 @@ import java.util.List;
 
 import javax.annotation.Resource;
 
-import com.zseltzer.zevadditions.util.SetSuitTexture;
+//import com.zseltzer.zevadditions.util.SetSuitTexture;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.texture.TextureManager;
@@ -16,7 +16,7 @@ import net.minecraft.entity.EntityList;
 import net.minecraft.util.ChatComponentText;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
-
+/*
 public class CommandSuitDefault implements ICommand
 { 
 
@@ -98,23 +98,23 @@ public class CommandSuitDefault implements ICommand
             
             suitName = "superSuitDefault";
             
-            SetSuitTexture.getSuitTexture(suitName);
+            //SetSuitTexture.getSuitTexture(suitName);
 
-            /*
-            if (EntityList.stringToClassMapping.containsKey(fullEntityName))
-            {    
-            	conjuredEntity = EntityList.createEntityByName(fullEntityName, world);  
-                conjuredEntity.setPosition(sender.getPlayerCoordinates().posX,       
-                sender.getPlayerCoordinates().posY, 
-                sender.getPlayerCoordinates().posZ); 
-                world.spawnEntityInWorld(conjuredEntity); 
             
-            } 
-            else 
-            { 
-                sender.addChatMessage(new ChatComponentText("Suit " + suitName + " could not be found. Please try a different one.")); 
-            }
-            */
+            //if (EntityList.stringToClassMapping.containsKey(fullEntityName))
+            //{    
+            	//conjuredEntity = EntityList.createEntityByName(fullEntityName, world);  
+                //conjuredEntity.setPosition(sender.getPlayerCoordinates().posX,       
+                //sender.getPlayerCoordinates().posY, 
+                //sender.getPlayerCoordinates().posZ); 
+                //world.spawnEntityInWorld(conjuredEntity); 
+            
+            //} 
+            //else 
+            //{ 
+                //sender.addChatMessage(new ChatComponentText("Suit " + suitName + " could not be found. Please try a different one.")); 
+            //}
+            
         } 
     } 
 
@@ -138,3 +138,4 @@ public class CommandSuitDefault implements ICommand
         return false;
     } 
 }
+*/
