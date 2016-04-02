@@ -3,7 +3,6 @@ package com.zseltzer.zevadditions.blocks;
 import com.zseltzer.zevadditions.Reference;
 import com.zseltzer.zevadditions.tabs.ModTabs;
 
-import cpw.mods.fml.common.registry.LanguageRegistry;
 import net.minecraft.block.BlockSlab;
 import net.minecraft.block.material.Material;
 

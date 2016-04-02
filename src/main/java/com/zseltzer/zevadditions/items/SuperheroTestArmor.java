@@ -6,7 +6,6 @@ import com.zseltzer.zevadditions.commands.CommandChangeSuit;
 import com.zseltzer.zevadditions.init.ModArmory;
 import com.zseltzer.zevadditions.tabs.ModTabs;
 
-import cpw.mods.fml.common.registry.LanguageRegistry;
 import net.minecraft.entity.Entity;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
@@ -35,12 +34,12 @@ public class SuperheroTestArmor extends ItemArmor
 			if (stack.getItem() == ModArmory.superheroHead || stack.getItem() == ModArmory.superheroChest || stack.getItem() == ModArmory.superheroBoots)
 			{
 				////System.out.println("The current suit texture is: " + CommandChangeSuit.suitName + ".");
-				return Reference.MODID + ":textures/models/superheroSuits/" + CommandChangeSuit.suitName + "_layer_1.png";
+				return "zevadditions:textures/models/superheroSuits/" + CommandChangeSuit.suitName + "_layer_1.png";
 			}
 			else if (stack.getItem() == ModArmory.superheroPants)
 			{
 				//System..out.println("The current suit texture is: " + CommandChangeSuit.suitName + ".");
-				return Reference.MODID + ":textures/models/superheroSuits/" + CommandChangeSuit.suitName + "_layer_2.png";
+				return "zevadditions:textures/models/superheroSuits/" + CommandChangeSuit.suitName + "_layer_2.png";
 			}
 			else
 			{

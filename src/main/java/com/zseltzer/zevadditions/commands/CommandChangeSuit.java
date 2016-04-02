@@ -3,11 +3,9 @@ package com.zseltzer.zevadditions.commands;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
-
+import com.zseltzer.zevadditions.Reference;
 import com.zseltzer.zevadditions.items.SuperheroTestArmor;
 import com.zseltzer.zevadditions.util.SetSuitTexture;
-
-//import com.zseltzer.zevadditions.util.SetSuitTexture;
 
 import net.minecraft.command.ICommand;
 import net.minecraft.command.ICommandSender;
