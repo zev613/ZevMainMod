@@ -1,6 +1,7 @@
 package com.zseltzer.zevadditions;
 
-import com.zseltzer.zevadditions.commands.CommandChangeSuit;
+//import com.zseltzer.zevadditions.commands.CommandChangeSuit;
+//import com.zseltzer.zevadditions.commands.CommandSuitDefault;
 import com.zseltzer.zevadditions.config.ModConfig;
 import com.zseltzer.zevadditions.crafting.ModRecipes;
 import com.zseltzer.zevadditions.events.EventHelper;
@@ -110,7 +111,7 @@ GeneralWorldGeneration eventWorldGen = new GeneralWorldGeneration();
 		proxy.registerRenderers();
 
 	}
-	
+	/*
 	@EventHandler
 	public void serverLoad(FMLServerStartingEvent event)
 	{
@@ -118,9 +119,10 @@ GeneralWorldGeneration eventWorldGen = new GeneralWorldGeneration();
 
 	event.registerServerCommand(new CommandChangeSuit());
 	
-	//event.registerServerCommand(new CommandSuitDefault());
+	event.registerServerCommand(new CommandSuitDefault());
 
 	}
+	*/
 	
 	@Mod.EventHandler
 	public void postInit(FMLPostInitializationEvent event)

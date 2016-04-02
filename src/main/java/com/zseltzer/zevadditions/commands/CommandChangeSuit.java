@@ -1,5 +1,6 @@
 package com.zseltzer.zevadditions.commands;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -63,22 +64,30 @@ public class CommandChangeSuit implements ICommand
     
         if (world.isRemote) 
         { 
-            System.out.println("Not processing on Client side"); 
+            //System.out.println("Not processing on Client side"); 
         } 
         else 
         { 
-            System.out.println("Processing on Server side"); 
+            //System.out.println("Processing on Server side"); 
             if(argString.length == 0) 
             { 
                 sender.addChatMessage(new ChatComponentText("Invalid argument")); 
                 return; 
             } 
     
-        sender.addChatMessage(new ChatComponentText("Changing Suit to: [" + argString[0]  
-        + "]")); 
+            File f = new File("assets/zevadditions/textures/models/superheroSuits/" + argString[0] + ".png");
+            if(f.exists() && !f.isDirectory()) 
+            { 
+            	sender.addChatMessage(new ChatComponentText("Changing your suit to " + argString[0] + "."));
+                suitName = argString[0];
+            }
             
-        suitName = argString[0];
-        System.out.println("The current suitName value is: " + suitName + ".");
+            else
+            {
+            	sender.addChatMessage(new ChatComponentText("You did not pick a valid option. Please try again."));
+            }
+           
+        //System.out.println("The current suitName value is: " + suitName + ".");
         }
     }
     @Override 
@@ -90,14 +99,12 @@ public class CommandChangeSuit implements ICommand
     @Override  
     public List addTabCompletionOptions(ICommandSender var1, String[] var2) 
     { 
-        // TODO Auto-generated method stub 
         return null; 
     } 
 
     @Override 
     public boolean isUsernameIndex(String[] var1, int var2) 
     { 
-        // TODO Auto-generated method stub 
         return false;
     } 
 }

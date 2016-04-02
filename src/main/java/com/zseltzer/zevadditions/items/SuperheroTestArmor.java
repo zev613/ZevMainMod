@@ -1,17 +1,21 @@
 package com.zseltzer.zevadditions.items;
 
-import java.lang.ref.Reference;
 
+import com.zseltzer.zevadditions.Reference;
 import com.zseltzer.zevadditions.commands.CommandChangeSuit;
 import com.zseltzer.zevadditions.init.ModArmory;
 import com.zseltzer.zevadditions.tabs.ModTabs;
 
+import cpw.mods.fml.common.registry.LanguageRegistry;
 import net.minecraft.entity.Entity;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
 
 public class SuperheroTestArmor extends ItemArmor
 {
+	
+	private static String NAME;
+	
 	//public static String suitName = "superSuitDefault";
     //public static String customTexture;
 	
@@ -19,7 +23,9 @@ public class SuperheroTestArmor extends ItemArmor
 		{
 			super(material, 0, ArmorType);
 			setUnlocalizedName(name);
+			NAME = name;
 			setTextureName(Reference.MODID + ":" + getUnlocalizedName().substring(5));
+			//LanguageRegistry.addStringLocalization("superheroChest", "My first block");
 			setCreativeTab(ModTabs.tabNewItems);
 		}
 

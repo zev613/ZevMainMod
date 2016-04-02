@@ -4,6 +4,7 @@ import com.zseltzer.zevadditions.blocks.ZevBlockSlab;
 import com.zseltzer.zevadditions.items.ItemZevBlockSlab;
 
 import cpw.mods.fml.common.registry.GameRegistry;
+import cpw.mods.fml.common.registry.LanguageRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemSlab;
 
@@ -59,7 +60,8 @@ public class ModSlabs
 	                doubleSlab.getId(),
 	                slab,
 	                doubleSlab,
-	                true);
+	                true); 
+	    		//LanguageRegistry.addStringLocalization(slabTypeNames[j] + "Slab", slabTypeNames[j] + " Slab");
 		}
 	}
 }
