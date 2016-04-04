@@ -17,7 +17,7 @@ import net.minecraft.world.World;
 public class SuperheroTestArmor extends ItemArmor
 {
 	
-	public static String simpleHeroName;
+	public static String simpleHeroName = "flash"; 
 	
 	private static String NAME;
 	
@@ -49,9 +49,14 @@ public class SuperheroTestArmor extends ItemArmor
 				return null;
 			}	
 		}
-/*
+
 public static void getSimpleHeroName()
 {
+	if (CommandChangeSuit.suitName == "antman" ||CommandChangeSuit.suitName == "antman2" || CommandChangeSuit.suitName == "antman3" || CommandChangeSuit.suitName == "antmanClassic")
+	{
+		simpleHeroName = "antman";
+	}
+		/*
 	switch (CommandChangeSuit.suitName)
 	{
 		case "angel": simpleHeroName = "angel"; break;
@@ -120,17 +125,53 @@ public static void getSimpleHeroName()
 		case "ironManStarboost": simpleHeroName = "ironMan"; break;
 		default: simpleHeroName = "genericHero"; break;
 	}
-}
 */
+}
 
 @Override
 public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack)
 {
-	if (CommandChangeSuit.suitName == "theFlash" || CommandChangeSuit.suitName == "theFlash6" || CommandChangeSuit.suitName == "theFlashShaded" || CommandChangeSuit.suitName == "theFlashShaded2" || CommandChangeSuit.suitName == "theFlashShaded")
+	if (CommandChangeSuit.suitName == "flash2")
+	{
 		if (itemStack.getItem().equals(ModArmory.superheroBoots))
-		    player.addPotionEffect(new PotionEffect(Potion.moveSpeed.id, 70));	
-		player.stepHeight = 1.1F;
-	/*
+		{    
+			player.addPotionEffect(new PotionEffect(Potion.moveSpeed.id, 100, 100));	
+			player.stepHeight = 1.1F;
+			player.jumpMovementFactor = 0.2F;
+			/*
+			if (player.posY == player.prevPosY)
+			{
+				player.noClip = true;
+			}
+			else 
+			{
+				player.noClip = false;
+			}
+			*/
+		}
+	}
+	else if (CommandChangeSuit.suitName == "antman")
+	{
+		if (itemStack.getItem().equals(ModArmory.superheroChest))
+		{    
+			player.jumpMovementFactor = player.jumpMovementFactor / 2;
+			player.stepHeight = 0.26F;
+			player.height = 0.5F;
+			player.width = 0.5F;
+			player.boundingBox.maxY = player.boundingBox.minY + (player.height);
+			player.eyeHeight = player.getDefaultEyeHeight() / 2;
+			player.noClip = false;
+		/*	
+			player.height = player.height / 2;
+			player.width = player.width / 2;
+			player.boundingBox.maxY = player.boundingBox.minY + (player.height);
+			player.eyeHeight = player.getEyeHeight() / 2; 
+			player.jumpMovementFactor = player.jumpMovementFactor / 2;
+			player.stepHeight = ((player.stepHeight - 0.1F) / 2) + 0.1F;
+		*/
+		}
+	}
+		 /*
 	switch (simpleHeroName)
 	{
 		case "flash":  
@@ -142,11 +183,11 @@ public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack)
 				System.out.println("No potion effects.");
 			break;
 	}
-	*/
-/*
+		 */
+	/*
 	if (CommandChangeSuit.suitName == "theFlash" || CommandChangeSuit.suitName == "theFlash6" || CommandChangeSuit.suitName == "theFlashShaded" || CommandChangeSuit.suitName == "theFlashShaded2" || CommandChangeSuit.suitName == "theFlashShaded")
 	if (itemStack.getItem().equals(ModArmory.superheroBoots))
 	    player.addPotionEffect(new PotionEffect(Potion.moveSpeed.id, 70));
-*/     
+ 	*/     
 }
 }
