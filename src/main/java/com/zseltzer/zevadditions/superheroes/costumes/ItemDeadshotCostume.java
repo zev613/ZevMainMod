@@ -8,11 +8,11 @@ import net.minecraft.entity.Entity;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
 
-public class ItemBatmanCostume extends ItemArmor 
+public class ItemDeadshotCostume extends ItemArmor 
 {
-	public String textureName = "batman";
+	public String textureName = "deadshot";
 
-	 public ItemBatmanCostume( ArmorMaterial material, int ArmorType, String unlocalizedName) 
+	 public ItemDeadshotCostume( ArmorMaterial material, int ArmorType, String unlocalizedName) 
 		{
 			super(material, 0, ArmorType);
 			setUnlocalizedName(unlocalizedName);
@@ -22,13 +22,13 @@ public class ItemBatmanCostume extends ItemArmor
 	 
 		public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type)
 		{
-			if (stack.getItem() == ModDCCostumes.batmanHead || stack.getItem() == ModDCCostumes.batmanChest || stack.getItem() == ModDCCostumes.batmanBoots)
+			if (stack.getItem() == ModDCCostumes.deadshotHead || stack.getItem() == ModDCCostumes.deadshotChest || stack.getItem() == ModDCCostumes.deadshotBoots)
 			{
-				return Reference.MODID + ":textures/models/batman_1.png";
+				return Reference.MODID + ":textures/models/deadshot_1.png";
 			}
-			else if (stack.getItem() == ModDCCostumes.batmanPants)
+			else if (stack.getItem() == ModDCCostumes.deadshotPants)
 			{
-				return Reference.MODID + ":textures/models/batman_2.png";
+				return Reference.MODID + ":textures/models/deadshot_2.png";
 			}
 			else
 			{

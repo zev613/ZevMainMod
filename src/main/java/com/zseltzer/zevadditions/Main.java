@@ -1,9 +1,12 @@
 package com.zseltzer.zevadditions;
 
 import com.zseltzer.zevadditions.commands.CommandChangeSuit;
+//import com.zseltzer.zevadditions.commands.CommandChangeSuit;
+//import com.zseltzer.zevadditions.commands.CommandSuitDefault;
 import com.zseltzer.zevadditions.config.ModConfig;
 import com.zseltzer.zevadditions.crafting.ModRecipes;
 import com.zseltzer.zevadditions.events.EventHelper;
+import com.zseltzer.zevadditions.events.ModEventHandler;
 import com.zseltzer.zevadditions.init.ModArmory;
 import com.zseltzer.zevadditions.init.ModBlocks;
 import com.zseltzer.zevadditions.init.ModEntities;
@@ -22,6 +25,7 @@ import com.zseltzer.zevadditions.world.WorldTypesTutorial;
 import com.zseltzer.zevadditions.world.biomes.ModBiomes;
 import com.zseltzer.zevadditions.world.gen.GeneralWorldGeneration;
 
+import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.Mod.Instance;
@@ -31,6 +35,7 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.event.FMLServerStartingEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraftforge.common.MinecraftForge;
 
 @Mod(modid = Reference.MODID, name = Reference.NAME, version = Reference.VERSION)
 
@@ -55,6 +60,8 @@ public class Main
 	
 	@SidedProxy(clientSide="com.zseltzer.zevadditions.proxies.ClientProxy", serverSide="com.zseltzer.zevadditions.proxies.CommonProxy")
 	public static CommonProxy proxy;
+	
+	ModEventHandler events = new ModEventHandler();
 	
 GeneralWorldGeneration eventWorldGen = new GeneralWorldGeneration();
 	
@@ -86,7 +93,10 @@ GeneralWorldGeneration eventWorldGen = new GeneralWorldGeneration();
 		GameLogger.createFolders();
 		
 		ModConfig.createTutConfig();
-				
+		
+		FMLCommonHandler.instance().bus().register(events);
+
+		MinecraftForge.EVENT_BUS.register(events);
 	}
 	
 	@Mod.EventHandler

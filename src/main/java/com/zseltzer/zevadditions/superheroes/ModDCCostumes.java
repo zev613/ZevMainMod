@@ -1,17 +1,19 @@
 package com.zseltzer.zevadditions.superheroes;
 
 import com.zseltzer.zevadditions.RegisterHelper;
+import com.zseltzer.zevadditions.superheroes.costumes.ItemATOMCostume;
 import com.zseltzer.zevadditions.superheroes.costumes.ItemAquamanCostume;
 import com.zseltzer.zevadditions.superheroes.costumes.ItemBatgirlCostume;
 import com.zseltzer.zevadditions.superheroes.costumes.ItemBatman1960Costume;
 import com.zseltzer.zevadditions.superheroes.costumes.ItemBatmanBeyondCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.ItemBatmanCostume;
 import com.zseltzer.zevadditions.superheroes.costumes.ItemBatmanNew52Costume;
+import com.zseltzer.zevadditions.superheroes.costumes.ItemBlackAdamCostume;
 import com.zseltzer.zevadditions.superheroes.costumes.ItemBlueBeetleCostume;
 import com.zseltzer.zevadditions.superheroes.costumes.ItemBlueLanternCostume;
 import com.zseltzer.zevadditions.superheroes.costumes.ItemBoosterGoldCostume;
 import com.zseltzer.zevadditions.superheroes.costumes.ItemCyborgCostume;
 import com.zseltzer.zevadditions.superheroes.costumes.ItemDeadmanCostume;
+import com.zseltzer.zevadditions.superheroes.costumes.ItemDeadshotCostume;
 import com.zseltzer.zevadditions.superheroes.costumes.ItemDrFateCostume;
 import com.zseltzer.zevadditions.superheroes.costumes.ItemFlashCostume;
 import com.zseltzer.zevadditions.superheroes.costumes.ItemGreenArrowCostume;
@@ -19,6 +21,8 @@ import com.zseltzer.zevadditions.superheroes.costumes.ItemGreenLanternCostume;
 import com.zseltzer.zevadditions.superheroes.costumes.ItemKidFlashCostume;
 import com.zseltzer.zevadditions.superheroes.costumes.ItemMartianManhunterCostume;
 import com.zseltzer.zevadditions.superheroes.costumes.ItemNightwingCostume;
+import com.zseltzer.zevadditions.superheroes.costumes.ItemProfessorZoomCostume;
+import com.zseltzer.zevadditions.superheroes.costumes.ItemRedHoodCostume;
 import com.zseltzer.zevadditions.superheroes.costumes.ItemRedLanternCostume;
 import com.zseltzer.zevadditions.superheroes.costumes.ItemRobinCostume;
 import com.zseltzer.zevadditions.superheroes.costumes.ItemShazamCostume;
@@ -29,6 +33,7 @@ import com.zseltzer.zevadditions.superheroes.costumes.ItemStarSapphireCostume;
 import com.zseltzer.zevadditions.superheroes.costumes.ItemSupergirlCostume;
 import com.zseltzer.zevadditions.superheroes.costumes.ItemSupermanCostume;
 import com.zseltzer.zevadditions.superheroes.costumes.ItemWonderWomanCostume;
+import com.zseltzer.zevadditions.superheroes.costumes.ItemYellowLanternCostume;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
@@ -36,11 +41,7 @@ import net.minecraftforge.common.util.EnumHelper;
 
 public class ModDCCostumes 
 {	
-	
-//BATMAN COSTUME	
-	static ArmorMaterial BATMAN_COSTUME = EnumHelper.addArmorMaterial
-		("BATMAN_COSTUME", 20, new int[]{3, 7, 5, 2}, 14);
-		
+			
 //BATMAN 1960s COSTUME	
 	static ArmorMaterial BATMAN_1960_COSTUME = EnumHelper.addArmorMaterial
 		("BATMAN_1960_COSTUME", 20, new int[]{3, 7, 5, 2}, 14);
@@ -89,6 +90,10 @@ public class ModDCCostumes
 	static ArmorMaterial RED_LANTERN_COSTUME = EnumHelper.addArmorMaterial
 			("RED_LANTERN_COSTUME", 20, new int[]{3, 7, 5, 2}, 14);
 	
+//YELLOW LANTERN COSTUME	
+	static ArmorMaterial YELLOW_LANTERN_COSTUME = EnumHelper.addArmorMaterial
+			("YELLOW_LANTERN_COSTUME", 20, new int[]{3, 7, 5, 2}, 14);
+	
 //STAR SAPPHIRE COSTUME	
 	static ArmorMaterial STAR_SAPPHIRE_COSTUME = EnumHelper.addArmorMaterial
 			("STAR_SAPPHIRE_COSTUME", 20, new int[]{3, 7, 5, 2}, 14);
@@ -116,11 +121,10 @@ public class ModDCCostumes
 //CYBORG COSTUME	
 		static ArmorMaterial CYBORG_COSTUME = EnumHelper.addArmorMaterial
 				("CYBORG_COSTUME", 20, new int[]{3, 7, 5, 2}, 14);
-/*		
+		
 //ATOM COSTUME	
 		static ArmorMaterial ATOM_COSTUME = EnumHelper.addArmorMaterial
 				("ATOM_COSTUME", 20, new int[]{3, 7, 5, 2}, 14);	
-*/
 	
 //DEADMAN COSTUME	
 		static ArmorMaterial DEADMAN_COSTUME = EnumHelper.addArmorMaterial
@@ -153,16 +157,25 @@ public class ModDCCostumes
 //SPAWN COSTUME	
 		static ArmorMaterial SPAWN_COSTUME = EnumHelper.addArmorMaterial
 				("SPAWN_COSTUME", 20, new int[]{3, 7, 5, 2}, 14);
-			
-//DC HERO COSTUMES DECLARATION
-	
-	//BATMAN (DEFAULT) COSTUME SET
 		
-	public static Item batmanHead = new ItemBatmanCostume(BATMAN_COSTUME, 0, "batmanHead");
-	public static Item batmanChest = new ItemBatmanCostume(BATMAN_COSTUME, 1, "batmanChest");
-	public static Item batmanPants = new ItemBatmanCostume(BATMAN_COSTUME, 2, "batmanPants");
-	public static Item batmanBoots = new ItemBatmanCostume(BATMAN_COSTUME, 3, "batmanBoots");	
-			
+//DEADSHOT COSTUME
+		static ArmorMaterial DEADSHOT_COSTUME = EnumHelper.addArmorMaterial
+				("DEADSHOT_COSTUME", 20, new int[]{3, 7, 5, 2}, 14);
+		
+//PROFESSOR ZOOM COSTUME
+		static ArmorMaterial PROFESSOR_ZOOM_COSTUME = EnumHelper.addArmorMaterial
+				("PROFESSOR_ZOOM_COSTUME", 20, new int[]{3, 7, 5, 2}, 14);
+		
+//RED HOOD COSTUME
+		static ArmorMaterial RED_HOOD_COSTUME = EnumHelper.addArmorMaterial
+				("RED_HOOD_COSTUME", 20, new int[]{3, 7, 5, 2}, 14);
+		
+//BLACK ADAM COSTUME
+		static ArmorMaterial BLACK_ADAM_COSTUME = EnumHelper.addArmorMaterial
+				("BLACK_ADAM_COSTUME", 20, new int[]{3, 7, 5, 2}, 14);
+								
+//DC HERO COSTUMES DECLARATION
+				
 	//BATMAN 1960's COSTUME SET
 			
 	public static Item batman1960Head = new ItemBatman1960Costume(BATMAN_1960_COSTUME, 0, "batman1960Head");
@@ -243,7 +256,14 @@ public class ModDCCostumes
 	public static Item redLanternHead = new ItemRedLanternCostume(RED_LANTERN_COSTUME, 0, "redLanternHead");
 	public static Item redLanternChest = new ItemRedLanternCostume(RED_LANTERN_COSTUME, 1, "redLanternChest");
 	public static Item redLanternPants = new ItemRedLanternCostume(RED_LANTERN_COSTUME, 2, "redLanternPants");
-	public static Item redLanternBoots = new ItemRedLanternCostume(RED_LANTERN_COSTUME, 3, "redLanternBoots");		
+	public static Item redLanternBoots = new ItemRedLanternCostume(RED_LANTERN_COSTUME, 3, "redLanternBoots");	
+	
+	//YELLOW LANTERN COSTUME SET
+	
+	public static Item yellowLanternHead = new ItemYellowLanternCostume(YELLOW_LANTERN_COSTUME, 0, "yellowLanternHead");
+	public static Item yellowLanternChest = new ItemYellowLanternCostume(YELLOW_LANTERN_COSTUME, 1, "yellowLanternChest");
+	public static Item yellowLanternPants = new ItemYellowLanternCostume(YELLOW_LANTERN_COSTUME, 2, "yellowLanternPants");
+	public static Item yellowLanternBoots = new ItemYellowLanternCostume(YELLOW_LANTERN_COSTUME, 3, "yellowLanternBoots");
 	
 	//STAR SAPPHIRE COSTUME SET
 	
@@ -294,14 +314,12 @@ public class ModDCCostumes
 	public static Item cyborgPants = new ItemCyborgCostume(CYBORG_COSTUME, 2, "cyborgPants");
 	public static Item cyborgBoots = new ItemCyborgCostume(CYBORG_COSTUME, 3, "cyborgBoots");
 
-/*	
 	//ATOM COSTUME SET
 	
 	public static Item ATOMHead = new ItemATOMCostume(ATOM_COSTUME, 0, "ATOMHead");
 	public static Item ATOMChest = new ItemATOMCostume(ATOM_COSTUME, 1, "ATOMChest");
 	public static Item ATOMPants = new ItemATOMCostume(ATOM_COSTUME, 2, "ATOMPants");
-	public static Item ATOMBoots = new ItemATOmCostume(ATOM_COSTUME, 3, "ATOMBoots");
-*/	
+	public static Item ATOMBoots = new ItemATOMCostume(ATOM_COSTUME, 3, "ATOMBoots");
 	
 	//DEADMAN COSTUME SET
 	
@@ -358,18 +376,39 @@ public class ModDCCostumes
 	public static Item spawnChest = new ItemSpawnCostume(SPAWN_COSTUME, 1, "spawnChest");
 	public static Item spawnPants = new ItemSpawnCostume(SPAWN_COSTUME, 2, "spawnPants");
 	public static Item spawnBoots = new ItemSpawnCostume(SPAWN_COSTUME, 3, "spawnBoots");
+	
+	//DEADSHOT COSTUME SET
+	
+	public static Item deadshotHead = new ItemDeadshotCostume(DEADSHOT_COSTUME, 0, "deadshotHead");
+	public static Item deadshotChest = new ItemDeadshotCostume(DEADSHOT_COSTUME, 1, "deadshotChest");
+	public static Item deadshotPants = new ItemDeadshotCostume(DEADSHOT_COSTUME, 2, "deadshotPants");
+	public static Item deadshotBoots = new ItemDeadshotCostume(DEADSHOT_COSTUME, 3, "deadshotBoots");
+	
+	//PROFESSOR ZOOM COSTUME SET
+	
+	public static Item professorZoomHead = new ItemProfessorZoomCostume(PROFESSOR_ZOOM_COSTUME, 0, "professorZoomHead");
+	public static Item professorZoomChest = new ItemProfessorZoomCostume(PROFESSOR_ZOOM_COSTUME, 1, "professorZoomChest");
+	public static Item professorZoomPants = new ItemProfessorZoomCostume(PROFESSOR_ZOOM_COSTUME, 2, "professorZoomPants");
+	public static Item professorZoomBoots = new ItemProfessorZoomCostume(PROFESSOR_ZOOM_COSTUME, 3, "professorZoomBoots");
 
+	//RED HOOD COSTUME SET
+	
+	public static Item redHoodHead = new ItemRedHoodCostume(RED_HOOD_COSTUME, 0, "redHoodHead");
+	public static Item redHoodChest = new ItemRedHoodCostume(RED_HOOD_COSTUME, 1, "redHoodChest");
+	public static Item redHoodPants = new ItemRedHoodCostume(RED_HOOD_COSTUME, 2, "redHoodPants");
+	public static Item redHoodBoots = new ItemRedHoodCostume(RED_HOOD_COSTUME, 3, "redHoodBoots");
+	
+	//BLACK ADAM COSTUME SET
+	
+	public static Item blackAdamHead = new ItemBlackAdamCostume(BLACK_ADAM_COSTUME, 0, "blackAdamHead");
+	public static Item blackAdamChest = new ItemBlackAdamCostume(BLACK_ADAM_COSTUME, 1, "blackAdamChest");
+	public static Item blackAdamPants = new ItemBlackAdamCostume(BLACK_ADAM_COSTUME, 2, "blackAdamPants");
+	public static Item blackAdamBoots = new ItemBlackAdamCostume(BLACK_ADAM_COSTUME, 3, "blackAdamBoots");
+	
 public static void init()
 {
 //HERO COSTUME REGISTRY
-	
-	//BATMAN COSTUME SET
-	
-		RegisterHelper.registerItem(batmanHead);
-		RegisterHelper.registerItem(batmanChest);
-		RegisterHelper.registerItem(batmanPants);
-		RegisterHelper.registerItem(batmanBoots);
-			
+
 	//BATMAN (1960's) COSTUME SET
 		
 		RegisterHelper.registerItem(batman1960Head);
@@ -452,6 +491,14 @@ public static void init()
 		RegisterHelper.registerItem(redLanternPants);
 		RegisterHelper.registerItem(redLanternBoots);
 		
+		
+	//YELLOW LANTERN COSTUME SET
+		
+		RegisterHelper.registerItem(yellowLanternHead);
+		RegisterHelper.registerItem(yellowLanternChest);
+		RegisterHelper.registerItem(yellowLanternPants);
+		RegisterHelper.registerItem(yellowLanternBoots);
+		
 	//STAR SAPPHIRE COSTUME SET
 		
 		RegisterHelper.registerItem(starSapphireHead);
@@ -500,15 +547,13 @@ public static void init()
 		RegisterHelper.registerItem(cyborgChest);
 		RegisterHelper.registerItem(cyborgPants);
 		RegisterHelper.registerItem(cyborgBoots);
-
-/*		
+	
 	//ATOM COSTUME SET
 		
 		RegisterHelper.registerItem(ATOMHead);
 		RegisterHelper.registerItem(ATOMChest);
 		RegisterHelper.registerItem(ATOMPants);
 		RegisterHelper.registerItem(ATOMBoots);
-*/
 		
 	//DEADMAN COSTUME SET
 		
@@ -565,5 +610,33 @@ public static void init()
 		RegisterHelper.registerItem(spawnChest);
 		RegisterHelper.registerItem(spawnPants);
 		RegisterHelper.registerItem(spawnBoots);
+		
+	//DEADSHOT COSTUME SET
+		
+		RegisterHelper.registerItem(deadshotHead);
+		RegisterHelper.registerItem(deadshotChest);
+		RegisterHelper.registerItem(deadshotPants);
+		RegisterHelper.registerItem(deadshotBoots);
+		
+	//PROFESSOR ZOOM COSTUME SET
+		
+		RegisterHelper.registerItem(professorZoomHead);
+		RegisterHelper.registerItem(professorZoomChest);
+		RegisterHelper.registerItem(professorZoomPants);
+		RegisterHelper.registerItem(professorZoomBoots);
+		
+	//RED HOOD COSTUME SET
+		
+		RegisterHelper.registerItem(redHoodHead);
+		RegisterHelper.registerItem(redHoodChest);
+		RegisterHelper.registerItem(redHoodPants);
+		RegisterHelper.registerItem(redHoodBoots);
+		
+	//BLACK ADAM COSTUME SET
+		
+		RegisterHelper.registerItem(blackAdamHead);
+		RegisterHelper.registerItem(blackAdamChest);
+		RegisterHelper.registerItem(blackAdamPants);
+		RegisterHelper.registerItem(blackAdamBoots);	
 	}
 }

@@ -1,12 +1,17 @@
 package com.zseltzer.zevadditions.superheroes.costumes;
 
 import com.zseltzer.zevadditions.Reference;
+import com.zseltzer.zevadditions.init.ModItems;
 import com.zseltzer.zevadditions.superheroes.ModDCCostumes;
 import com.zseltzer.zevadditions.tabs.ModTabs;
 
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
+import net.minecraft.potion.Potion;
+import net.minecraft.potion.PotionEffect;
+import net.minecraft.world.World;
 
 public class ItemFlashCostume extends ItemArmor 
 {
@@ -35,4 +40,24 @@ public class ItemFlashCostume extends ItemArmor
 				return null;
 			}	
 		}
+		
+	@Override
+	public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack) 
+	{
+		if (itemStack.getItem().equals(ModDCCostumes.flashPants))
+			player.fallDistance = 0.5F;
+		//player.addPotionEffect(new PotionEffect(Potion.moveSpeed.id, 75));	
+		if (player.isSprinting()) 
+		{
+			player.capabilities.setPlayerWalkSpeed(0.4F);
+			player.stepHeight = 1.1F;
+			player.jumpMovementFactor = 0.2F;
+		}
+		else 
+		{
+			player.capabilities.setPlayerWalkSpeed(0.1f);
+			player.stepHeight = 0.6F;
+			player.jumpMovementFactor = 0.1F;
+		}
+	}
 }

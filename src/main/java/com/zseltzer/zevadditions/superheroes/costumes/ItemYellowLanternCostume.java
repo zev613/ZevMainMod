@@ -8,11 +8,11 @@ import net.minecraft.entity.Entity;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
 
-public class ItemATOMCostume extends ItemArmor 
+public class ItemYellowLanternCostume extends ItemArmor 
 {
-	public String textureName = "ATOM";
+	public String textureName = "yellowLantern";
 
-	 public ItemATOMCostume( ArmorMaterial material, int ArmorType, String unlocalizedName) 
+	 public ItemYellowLanternCostume( ArmorMaterial material, int ArmorType, String unlocalizedName) 
 		{
 			super(material, 0, ArmorType);
 			setUnlocalizedName(unlocalizedName);
@@ -22,13 +22,13 @@ public class ItemATOMCostume extends ItemArmor
 	 
 		public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type)
 		{
-			if (stack.getItem() == ModDCCostumes.ATOMHead || stack.getItem() == ModDCCostumes.ATOMChest || stack.getItem() == ModDCCostumes.ATOMBoots)
+			if (stack.getItem() == ModDCCostumes.yellowLanternHead || stack.getItem() == ModDCCostumes.yellowLanternChest || stack.getItem() == ModDCCostumes.yellowLanternBoots)
 			{
-				return Reference.MODID + ":textures/models/ATOM_1.png";
+				return Reference.MODID + ":textures/models/yellowLantern_1.png";
 			}
-			else if (stack.getItem() == ModDCCostumes.ATOMPants)
+			else if (stack.getItem() == ModDCCostumes.yellowLanternPants)
 			{
-				return Reference.MODID + ":textures/models/ATOM_2.png";
+				return Reference.MODID + ":textures/models/yellowLantern_2.png";
 			}
 			else
 			{
@@ -36,4 +36,3 @@ public class ItemATOMCostume extends ItemArmor
 			}	
 		}
 }
-

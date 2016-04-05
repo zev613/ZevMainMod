@@ -13,11 +13,11 @@ import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.world.World;
 
-public class ItemAntmanCostume extends ItemArmor 
+public class ItemAntmanClassicCostume extends ItemArmor 
 {
-	public String textureName = "antman";
+	public String textureName = "antmanClassic";
 
-	 public ItemAntmanCostume( ArmorMaterial material, int ArmorType, String unlocalizedName) 
+	 public ItemAntmanClassicCostume( ArmorMaterial material, int ArmorType, String unlocalizedName) 
 		{
 			super(material, 0, ArmorType);
 			setUnlocalizedName(unlocalizedName);
@@ -27,13 +27,13 @@ public class ItemAntmanCostume extends ItemArmor
 	 
 		public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type)
 		{
-			if (stack.getItem() == ModMarvelCostumes.antmanHead || stack.getItem() == ModMarvelCostumes.antmanChest || stack.getItem() == ModMarvelCostumes.antmanBoots)
+			if (stack.getItem() == ModMarvelCostumes.antmanClassicHead || stack.getItem() == ModMarvelCostumes.antmanClassicChest || stack.getItem() == ModMarvelCostumes.antmanClassicBoots)
 			{
-				return Reference.MODID + ":textures/models/antman_1.png";
+				return Reference.MODID + ":textures/models/antmanClassic_1.png";
 			}
-			else if (stack.getItem() == ModMarvelCostumes.antmanPants)
+			else if (stack.getItem() == ModMarvelCostumes.antmanClassicPants)
 			{
-				return Reference.MODID + ":textures/models/antman_2.png";
+				return Reference.MODID + ":textures/models/antmanClassic_2.png";
 			}
 			else
 			{
@@ -44,7 +44,7 @@ public class ItemAntmanCostume extends ItemArmor
 	@Override
 	public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack) 
 	{
-		if (itemStack.getItem().equals(ModMarvelCostumes.antmanChest))
+		if (itemStack.getItem().equals(ModMarvelCostumes.antmanClassicChest))
 			player.addPotionEffect(new PotionEffect(Potion.moveSpeed.id, 100, 100));	
 		player.jumpMovementFactor = 0.2F;
 		//player.jumpMovementFactor = player.jumpMovementFactor / 2;

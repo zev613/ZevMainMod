@@ -27,6 +27,7 @@ public class CommandChangeSuit implements ICommand
     { 
         aliases = new ArrayList(); 
         aliases.add("changeSuit"); 
+        aliases.add("setSuit");
         aliases.add("changeCostume");
         aliases.add("costumeChange");
         aliases.add("suitChange");

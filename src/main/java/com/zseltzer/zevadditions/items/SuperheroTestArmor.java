@@ -17,8 +17,8 @@ import net.minecraft.world.World;
 public class SuperheroTestArmor extends ItemArmor
 {
 	
-	public static String simpleHeroName = "flash"; 
-	
+	//public static String simpleHeroName = "flash"; 
+	public static String SIMPLENAME = CommandChangeSuit.suitName;
 	private static String NAME;
 	
 	//public static String suitName = "superSuitDefault";
@@ -49,13 +49,14 @@ public class SuperheroTestArmor extends ItemArmor
 				return null;
 			}	
 		}
-
+/*
 public static void getSimpleHeroName()
 {
 	if (CommandChangeSuit.suitName == "antman" ||CommandChangeSuit.suitName == "antman2" || CommandChangeSuit.suitName == "antman3" || CommandChangeSuit.suitName == "antmanClassic")
 	{
 		simpleHeroName = "antman";
 	}
+*/
 		/*
 	switch (CommandChangeSuit.suitName)
 	{
@@ -125,19 +126,35 @@ public static void getSimpleHeroName()
 		case "ironManStarboost": simpleHeroName = "ironMan"; break;
 		default: simpleHeroName = "genericHero"; break;
 	}
-*/
 }
+*/
 
-@Override
-public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack)
-{
-	if (CommandChangeSuit.suitName == "flash2")
+	@Override
+	public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack)
 	{
-		if (itemStack.getItem().equals(ModArmory.superheroBoots))
-		{    
-			player.addPotionEffect(new PotionEffect(Potion.moveSpeed.id, 100, 100));	
-			player.stepHeight = 1.1F;
-			player.jumpMovementFactor = 0.2F;
+		ItemStack head = player.getCurrentArmor(3);
+		ItemStack chest = player.getCurrentArmor(2);
+		ItemStack pants = player.getCurrentArmor(1);
+		ItemStack boots = player.getCurrentArmor(0);
+		
+		if(SIMPLENAME == "flash" && boots.getItem() == ModArmory.superheroBoots)
+			player.fallDistance = 0.5F;
+			if (player.isSprinting()) 
+			{
+				player.capabilities.setPlayerWalkSpeed(0.3F);
+				player.stepHeight = 1.1F;
+				player.jumpMovementFactor = 0.2F;
+			}
+			else 
+			{
+				player.capabilities.setPlayerWalkSpeed(0.1f);
+				player.stepHeight = 0.6F;
+				player.jumpMovementFactor = 0.1F;
+			}
+			//SuperPowerEffects.flash();	
+	//player.addPotionEffect(new PotionEffect(Potion.moveSpeed.id, 100, 100));	
+	//player.stepHeight = 1.1F;
+	//player.jumpMovementFactor = 0.2F;
 			/*
 			if (player.posY == player.prevPosY)
 			{
@@ -148,20 +165,23 @@ public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack)
 				player.noClip = false;
 			}
 			*/
-		}
-	}
-	else if (CommandChangeSuit.suitName == "antman")
-	{
-		if (itemStack.getItem().equals(ModArmory.superheroChest))
-		{    
-			player.jumpMovementFactor = player.jumpMovementFactor / 2;
+	/*
+	if (CommandChangeSuit.suitName == "antman" && itemStack.getItem().equals(ModArmory.superheroChest))    
+		//SuperPowerEffects.antman();
+			player.addPotionEffect(new PotionEffect(Potion.moveSpeed.id, 100, 100));	
+			player.jumpMovementFactor = 0.2F;
+			//player.jumpMovementFactor = player.jumpMovementFactor / 2;
 			player.stepHeight = 0.26F;
-			player.height = 0.5F;
-			player.width = 0.5F;
-			player.boundingBox.maxY = player.boundingBox.minY + (player.height);
+			//player.height = 0.5F;
+			//player.width = 0.5F;
+			player.height = player.height / 2;
+			player.width = player.width / 2;
+			player.boundingBox.maxY = player.getBoundingBox().maxY /2;
+			//player.boundingBox.maxY = player.getBoundingBox().minY + (player.height);
 			player.eyeHeight = player.getDefaultEyeHeight() / 2;
 			player.noClip = false;
-		/*	
+			player.fallDistance = player.fallDistance * 2;
+
 			player.height = player.height / 2;
 			player.width = player.width / 2;
 			player.boundingBox.maxY = player.boundingBox.minY + (player.height);
@@ -169,9 +189,7 @@ public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack)
 			player.jumpMovementFactor = player.jumpMovementFactor / 2;
 			player.stepHeight = ((player.stepHeight - 0.1F) / 2) + 0.1F;
 		*/
-		}
-	}
-		 /*
+/*
 	switch (simpleHeroName)
 	{
 		case "flash":  
@@ -189,5 +207,5 @@ public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack)
 	if (itemStack.getItem().equals(ModArmory.superheroBoots))
 	    player.addPotionEffect(new PotionEffect(Potion.moveSpeed.id, 70));
  	*/     
-}
+	}
 }
