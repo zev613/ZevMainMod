@@ -51,11 +51,11 @@
 /src/main/resources/assets/zevadditions/textures/blocks/Unused/*
 !/src/main/resources/assets/zevadditions/textures/entity/*
 !/src/main/resources/assets/zevadditions/textures/environment/*
-/src/main/resources/assets/zevadditions/textures/items/*
+!/src/main/resources/assets/zevadditions/textures/items/*
 /src/main/resources/assets/zevadditions/textures/items/Unused/*
 /src/main/resources/assets/zevadditions/textures/models/*
 /src/main/resources/assets/zevadditions/textures/models/superheroSuits/*
-/src/main/resources/assets/zevadditions/textures/models/armor/*
+!/src/main/resources/assets/zevadditions/textures/models/armor/*
 /src/main/resources/assets/zevadditions/textures/models/Unused/*
 !/src/main/resources/assets/zevadditions/lang/en_US.lang
 
