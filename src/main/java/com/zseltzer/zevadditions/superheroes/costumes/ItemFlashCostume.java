@@ -45,13 +45,13 @@ public class ItemFlashCostume extends ItemArmor
 	public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack) 
 	{
 		if (itemStack.getItem().equals(ModDCCostumes.flashPants))
-			player.fallDistance = 0.5F;
+			player.fallDistance = 1.5F;
 		//player.addPotionEffect(new PotionEffect(Potion.moveSpeed.id, 75));	
 		if (player.isSprinting()) 
 		{
 			player.capabilities.setPlayerWalkSpeed(0.4F);
 			player.stepHeight = 1.1F;
-			player.jumpMovementFactor = 0.2F;
+			player.jumpMovementFactor = 0.3F;
 		}
 		else 
 		{

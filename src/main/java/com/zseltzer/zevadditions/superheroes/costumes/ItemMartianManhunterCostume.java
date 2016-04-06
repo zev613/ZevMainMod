@@ -20,19 +20,13 @@ public class ItemMartianManhunterCostume extends ItemArmor
 			setCreativeTab(ModTabs.tabHeroCostumes);
 		}
 	 
-		public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type)
-		{
-			if (stack.getItem() == ModDCCostumes.martianManhunterHead || stack.getItem() == ModDCCostumes.martianManhunterChest || stack.getItem() == ModDCCostumes.martianManhunterBoots)
-			{
+		public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type) {
+			if (stack.getItem() == ModDCCostumes.martianManhunterHead || stack.getItem() == ModDCCostumes.martianManhunterChest || stack.getItem() == ModDCCostumes.martianManhunterBoots) {
 				return Reference.MODID + ":textures/models/martianManhunter_1.png";
-			}
-			else if (stack.getItem() == ModDCCostumes.martianManhunterPants)
-			{
+			} else if (stack.getItem() == ModDCCostumes.martianManhunterPants) {
 				return Reference.MODID + ":textures/models/martianManhunter_2.png";
-			}
-			else
-			{
+			} else {
 				return null;
-			}	
+			}
 		}
 }

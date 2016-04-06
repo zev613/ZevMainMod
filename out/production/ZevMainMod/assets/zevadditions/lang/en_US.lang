@@ -1,0 +1,98 @@
+item.rubyIngot.name=Ruby Ingot
+item.amethystIngot.name=Amethyst Ingot
+item.sapphireIngot.name=Sapphire Ingot
+
+item.amethystSword.name=Amethyst Sword
+item.amethystEnchantedSword.name=Poisoned Amethyst Sword
+item.amethystPickaxe.name=Amethyst Pickaxe
+item.amethystShovel.name=Amethyst Shovel
+item.amethystAxe.name=Amethyst Axe
+item.amethystHoe.name=Amethyst Hoe
+item.amethystHelmet.name=Amethyst Helmet
+item.amethystChestplate.name=Amethyst Chestplate
+item.amethystLeggings.name=Amethyst Leggings
+item.amethystBoots.name=Amethyst Boots
+
+item.rubySword.name=Ruby Sword
+item.rubyEnchantedSword.name=Poisoned Ruby Sword
+item.rubyPickaxe.name=Ruby Pickaxe
+item.rubyShovel.name=Ruby Shovel
+item.rubyAxe.name=Ruby Axe
+item.rubyHoe.name=Ruby Hoe
+item.rubyHelmet.name=Ruby Helmet
+item.rubyChestplate.name=Ruby Chestplate
+item.rubyLeggings.name=Ruby Leggings
+item.rubyBoots.name=Ruby Boots
+
+item.emeraldSword.name=Emerald Sword
+item.emeraldEnchantedSword.name=Poisoned Emerald Sword
+item.emeraldPickaxe.name=Emerald Pickaxe
+item.emeraldShovel.name=Emerald Shovel
+item.emeraldAxe.name=Emerald Axe
+item.emeraldHoe.name=Emerald Hoe
+item.emeraldHelmet.name=Emerald Helmet
+item.emeraldChestplate.name=Emerald Chestplate
+item.emeraldLeggings.name=Emerald Leggings
+item.emeraldBoots.name=Emerald Boots
+
+item.sapphireSword.name=Sapphire Sword
+item.sapphireEnchantedSword.name=Poisoned Sapphire Sword
+item.esapphirePickaxe.name=Sapphire Pickaxe
+item.sapphireShovel.name=Sapphire Shovel
+item.sapphireAxe.name=Sapphire Axe
+item.sapphireHoe.name=Sapphire Hoe
+item.sapphireHelmet.name=Sapphire Helmet
+item.sapphireChestplate.name=Sapphire Chestplate
+item.sapphireLeggings.name=Sapphire Leggings
+item.sapphireBoots.name=Sapphire Boots
+
+itemGroup.tabNewBlocks=Mod New Blocks
+itemGroup.tabNewItems=Mod New Items
+itemGroup.tabNewSlabs=Mod New Slabs
+
+tile.amethystBlock.name=Amethyst Block
+tile.amethystOre.name=Amethyst Ore
+tile.aquaStone.name=Aquastone
+tile.aquaStone_smooth.name=Aquastone (Smooth)
+tile.basalt.name=Basalt
+tile.basalt_smooth=Basalt (Smooth)
+tile.blueStone.name=Bluestone
+tile.blueStone_smooth.name=Bluestone (Smooth)
+tile.bonemealBlock.name=Block of Bonemeal
+tile.brownStone.name=Brownstone
+tile.brownStone_smooth.name=Brownstone (Smooth)
+tile.flintBlock.name=Block of Flint
+tile.gunpowderBlock.name=Block of Gunpowder 
+tile.limeStone.name=Limestone
+tile.limeStone_smooth.name=Limestone (Smooth)
+tile.pinkStone.name=Pinkstone
+tile.pinkStone_smooth.name=Pinkstone (Smooth)
+tile.rubyBlock.name=Ruby Block
+tile.rubyOre.name=Ruby Ore
+tile.sapphireBlock.name=Sapphire Block
+tile.sapphireOre.name=Sapphire Ore
+tile.shale.name=Shale
+tile.shale_smooth.name=Shale (Smooth)
+tile.siltStone.name=Siltstone
+tile.siltStone_smooth.name=Siltstone (Smooth)
+tile.sugarBlock.name=Block of Sugar
+tile.yellowStone.name=Yellowstone
+tile.yellowStone_smooth.name=Yellowstone (Smooth)
+
+tile.lightForestGrass.name=Light Forest Grass
+tile.lightForestDirt.name=Light Forest Dirt
+tile.lightStone.name=Light Stone
+tile.lightPortal.name=Light Forest Portal
+tile.lightFire.name=Light Forest Fire
+tile.lightLog.name=Light Oak Log
+tile.lightLeaves.name=Light Leaves
+tile.lightSapling.name=Light Sapling
+tile.cherry_log.name=Cherry Log
+tile.cherry_leaves.name=Cherry Leaves
+tile.cherry_sapling.name=Cherry Sapling
+tile.cherry_planks.name=Cherry Wood Planks
+
+generator.TUTORIAL=Tut Type
+generator.TUTORIAL.info=Notice: Testing Custom World Type, Uses Mega Taiga Biome.
+
+entity.entityBear.name=Bear

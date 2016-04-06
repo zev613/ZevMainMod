@@ -3,10 +3,11 @@ package com.zseltzer.zevadditions.superheroes.costumes;
 import com.zseltzer.zevadditions.Reference;
 import com.zseltzer.zevadditions.superheroes.ModDCCostumes;
 import com.zseltzer.zevadditions.tabs.ModTabs;
-
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
+import net.minecraft.world.World;
 
 public class ItemDrFateCostume extends ItemArmor 
 {
@@ -35,4 +36,15 @@ public class ItemDrFateCostume extends ItemArmor
 				return null;
 			}	
 		}
+
+	@Override
+	public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack)
+	{
+		if (itemStack.getItem().equals(ModDCCostumes.drFateHead))
+				player.fallDistance = 1.1F;
+		player.capabilities.allowFlying = true;
+		player.capabilities.setFlySpeed(0.6F);
+		player.setHealth(player.getMaxHealth() + player.getMaxHealth() / 4.0F);
+		//player.addPotionEffect(new PotionEffect(Potion.moveSpeed.id, 75));
+	}
 }
