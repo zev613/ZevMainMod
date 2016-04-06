@@ -1,0 +1,7 @@
+package com.zseltzer.zevadditions.superheroes.costumes;
+
+import net.minecraft.item.Item;
+
+public class ItemBatmanBeyondCostume extends Item {
+
+}

@@ -2,13 +2,13 @@
 
 /config/*
 
-/.gradle/*
+!/.gradle/*
 
 /crash-reports/*
 
 /OtherAssets/*
 
-/eclipse/*
+!/eclipse/*
 
 /jars/*
 
@@ -16,11 +16,11 @@
 
 !/gradle/*
 
-/.settings/*
+!/.settings/*
 
-/.metadata/*
+!/.metadata/*
 
-/build/*
+!/build/*
 
 /logs/*
 
@@ -30,9 +30,9 @@
 
 /resourcepacks/*
 /classes/*
-/.classpath
+!/.classpath
 
-/.project
+!/.project
 
 
 !build.gradle
@@ -43,7 +43,7 @@
 
 !*.java
 !*.class
-*.bat
+!*.bat
 /src/main/resources/assets/zevadditions/textures/superheroes
 *.sh
 
@@ -59,13 +59,10 @@
 /src/main/resources/assets/zevadditions/textures/models/Unused/*
 !/src/main/resources/assets/zevadditions/lang/en_US.lang
 
-/usernamecache.text
+/usernamecache.txt
 
-/options.text
+/options.txt
 
-/nativelog.text
+/nativelog.txt
 
 *.lnk
-
-
-

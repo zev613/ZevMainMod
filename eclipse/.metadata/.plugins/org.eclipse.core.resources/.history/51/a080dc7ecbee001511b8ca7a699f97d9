@@ -1,0 +1,267 @@
+package com.zseltzer.zevadditions.init;
+
+import com.zseltzer.zevadditions.RegisterHelper;
+import com.zseltzer.zevadditions.food.GenericFood;
+import com.zseltzer.zevadditions.food.ItemBean;
+import com.zseltzer.zevadditions.food.ItemBeet;
+import com.zseltzer.zevadditions.food.ItemBellpepper;
+import com.zseltzer.zevadditions.food.ItemBlackberry;
+import com.zseltzer.zevadditions.food.ItemBlueberry;
+import com.zseltzer.zevadditions.food.ItemCelery;
+import com.zseltzer.zevadditions.food.ItemCheese;
+import com.zseltzer.zevadditions.food.ItemCorn;
+import com.zseltzer.zevadditions.food.ItemCranberry;
+import com.zseltzer.zevadditions.food.ItemCucumber;
+import com.zseltzer.zevadditions.food.ItemGrape;
+import com.zseltzer.zevadditions.food.ItemKiwi;
+import com.zseltzer.zevadditions.food.ItemLettuce;
+import com.zseltzer.zevadditions.food.ItemParsnip;
+import com.zseltzer.zevadditions.food.ItemPineapple;
+import com.zseltzer.zevadditions.food.ItemRadish;
+import com.zseltzer.zevadditions.food.ItemRaspberry;
+import com.zseltzer.zevadditions.food.ItemRhubarb;
+import com.zseltzer.zevadditions.food.ItemStrawberry;
+import com.zseltzer.zevadditions.food.ItemSweetPotato;
+import com.zseltzer.zevadditions.items.GenericItem;
+import com.zseltzer.zevadditions.items.ItemBarley;
+import com.zseltzer.zevadditions.items.ItemRice;
+import com.zseltzer.zevadditions.items.ItemTomatoSeed;
+import com.zseltzer.zevadditions.items.ItemTurnipSeed;
+
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraftforge.common.MinecraftForge;
+
+public class ModItems
+{
+	
+	public static Item rubyIngot = new GenericItem().setUnlocalizedName("rubyIngot");
+	
+	public static Item amethystIngot = new GenericItem().setUnlocalizedName("amethystIngot");
+	
+	public static Item sapphireIngot = new GenericItem().setUnlocalizedName("sapphireIngot");
+	
+	public static Item tomatoSeed = new ItemTomatoSeed().setUnlocalizedName("tomatoSeed");
+
+	public static Item cheese = new ItemCheese().setUnlocalizedName("cheese");
+	
+	public static Item cranberry = new ItemCranberry().setUnlocalizedName("cranberry");
+	
+	public static Item strawberry = new ItemStrawberry().setUnlocalizedName("strawberry");
+	
+	public static Item blueberry = new ItemBlueberry().setUnlocalizedName("blueberry");
+	
+	public static Item blackberry = new ItemBlackberry().setUnlocalizedName("blackberry");
+	
+	public static Item banana = new GenericFood(4, 0.4F, false).setUnlocalizedName("banana");
+	
+	public static Item corn = new ItemCorn().setUnlocalizedName("corn");
+	
+	public static Item corn2 = new GenericFood(3, 0.3F, false).setUnlocalizedName("corn2");
+
+	public static Item greenApple = new GenericFood(4, 0.4F, false).setUnlocalizedName("greenApple");
+	
+	public static Item mango = new GenericFood(4, 0.4F, false).setUnlocalizedName("mango");
+	
+	public static Item orange = new GenericFood(4, 0.3F, false).setUnlocalizedName("orange");
+	
+	public static Item pineapple = new ItemPineapple().setUnlocalizedName("pineapple");
+	
+	public static Item tomato = new GenericFood(4, 0.4F, false).setUnlocalizedName("tomato");
+	
+	public static Item lettuce = new ItemLettuce().setUnlocalizedName("lettuce");
+	
+	public static Item peach = new GenericFood(4, 0.3F, false).setUnlocalizedName("peach");
+	
+	public static Item pear = new GenericFood(4, 0.3F, false).setUnlocalizedName("pear");
+	
+	public static Item pizza = new GenericFood(9, 0.9F, false).setUnlocalizedName("pizza");
+	
+	public static Item pizza2 = new GenericFood(9, 0.9F, false).setUnlocalizedName("pizza2");
+	
+	public static Item rice = new ItemRice().setUnlocalizedName("rice");
+	
+	public static Item barley = new ItemBarley().setUnlocalizedName("barley");
+
+	public static Item radish = new ItemRadish().setUnlocalizedName("radish");
+	
+	public static Item beet = new ItemBeet().setUnlocalizedName("beet");
+
+	public static Item kiwi = new ItemKiwi().setUnlocalizedName("kiwi");
+	
+	public static Item grape = new ItemGrape().setUnlocalizedName("grape");
+	
+	public static Item turnip = new GenericFood(2, 0.3F, false).setUnlocalizedName("turnip");
+
+	public static Item turnipSeed = new ItemTurnipSeed().setUnlocalizedName("turnipSeed");
+	
+	public static Item celery = new ItemCelery().setUnlocalizedName("celery");
+	
+	public static Item dough = new GenericItem().setUnlocalizedName("dough");
+	
+	public static Item flour = new GenericItem().setUnlocalizedName("flour");
+	
+	public static Item tomatoSauce = new GenericItem().setUnlocalizedName("tomatoSauce");
+
+	public static Item coffeebean = new GenericItem().setUnlocalizedName("coffeebean");
+
+	public static Item rye = new GenericItem().setUnlocalizedName("rye");
+
+	public static Item bean = new ItemBean().setUnlocalizedName("bean");
+
+	public static Item bellpepper = new ItemBellpepper().setUnlocalizedName("bellpepper");
+
+	public static Item cucumber = new ItemCucumber().setUnlocalizedName("cucumber");
+
+	public static Item parsnip = new ItemParsnip().setUnlocalizedName("parsnip");
+
+	public static Item sweetPotato = new ItemSweetPotato().setUnlocalizedName("sweetPotato");
+
+	public static Item raspberry = new ItemRaspberry().setUnlocalizedName("raspberry");
+
+	public static Item rhubarb = new ItemRhubarb().setUnlocalizedName("rhubarb");
+
+	public static Item applePie = new GenericItem().setUnlocalizedName("rye");
+
+	//public static Item carrotCake = new GenericItem().setUnlocalizedName("rye");
+
+	public static Item strawberryPie = new GenericItem().setUnlocalizedName("rye");
+
+	public static Item cheeseCake = new GenericItem().setUnlocalizedName("rye");
+
+	public static Item pumpkinCheeseCake = new GenericItem().setUnlocalizedName("rye");
+
+	public static Item blueberryPie = new GenericItem().setUnlocalizedName("rye");
+
+	public static Item pumpkinSoup = new GenericItem().setUnlocalizedName("rye");
+
+	public static Item turnipSoup = new GenericItem().setUnlocalizedName("rye");
+
+	
+        public static void init()
+        {
+
+        RegisterHelper.registerItem(rubyIngot);
+        
+        RegisterHelper.registerItem(amethystIngot);
+        
+        RegisterHelper.registerItem(sapphireIngot);
+        
+		RegisterHelper.registerItem(tomato);
+
+        RegisterHelper.registerItem(tomatoSeed);
+        
+        RegisterHelper.registerItem(cheese);
+                
+        RegisterHelper.registerItem(cranberry);
+        
+		RegisterHelper.registerItem(strawberry);
+		
+		RegisterHelper.registerItem(blueberry);
+		
+		RegisterHelper.registerItem(blackberry);
+		
+		RegisterHelper.registerItem(banana);
+		
+		RegisterHelper.registerItem(corn);
+		
+		RegisterHelper.registerItem(corn2);
+		
+		RegisterHelper.registerItem(greenApple);
+		
+		RegisterHelper.registerItem(mango);
+		
+		RegisterHelper.registerItem(orange);
+		
+		RegisterHelper.registerItem(pineapple);
+				
+		RegisterHelper.registerItem(lettuce);
+		
+		RegisterHelper.registerItem(peach);
+		
+		RegisterHelper.registerItem(pear);
+		
+		RegisterHelper.registerItem(pizza);
+		
+		RegisterHelper.registerItem(pizza2);
+		
+		RegisterHelper.registerItem(rice);
+		
+		RegisterHelper.registerItem(barley);
+
+		RegisterHelper.registerItem(radish);
+		
+		RegisterHelper.registerItem(beet);
+		
+		RegisterHelper.registerItem(kiwi);
+		
+		RegisterHelper.registerItem(grape);
+
+		RegisterHelper.registerItem(turnip);
+
+        RegisterHelper.registerItem(turnipSeed);
+        
+        RegisterHelper.registerItem(celery);
+        
+        RegisterHelper.registerItem(dough);
+        
+        RegisterHelper.registerItem(flour);
+        
+        RegisterHelper.registerItem(tomatoSauce);
+        
+        RegisterHelper.registerItem(coffeebean);
+
+        RegisterHelper.registerItem(rye);
+
+        RegisterHelper.registerItem(bean);
+
+        RegisterHelper.registerItem(bellpepper);
+
+        RegisterHelper.registerItem(cucumber);
+
+        RegisterHelper.registerItem(parsnip);
+
+        RegisterHelper.registerItem(raspberry);
+
+        RegisterHelper.registerItem(rhubarb);
+        
+        RegisterHelper.registerItem(sweetPotato);
+
+        
+        
+//Seed Spawning        
+        
+        MinecraftForge.addGrassSeed(new ItemStack(rice), 4);
+        
+        MinecraftForge.addGrassSeed(new ItemStack(turnipSeed), 4);
+
+        MinecraftForge.addGrassSeed(new ItemStack(tomatoSeed), 4);
+
+        MinecraftForge.addGrassSeed(new ItemStack(barley), 4);
+
+        
+        MinecraftForge.addGrassSeed(new ItemStack(corn), 2);
+
+        MinecraftForge.addGrassSeed(new ItemStack(radish), 2);
+
+        MinecraftForge.addGrassSeed(new ItemStack(beet), 2);
+
+        MinecraftForge.addGrassSeed(new ItemStack(lettuce), 2);
+        
+        MinecraftForge.addGrassSeed(new ItemStack(cranberry), 2);
+
+        MinecraftForge.addGrassSeed(new ItemStack(strawberry), 2);
+
+        MinecraftForge.addGrassSeed(new ItemStack(blueberry), 2);
+
+        MinecraftForge.addGrassSeed(new ItemStack(blackberry), 2);
+
+        MinecraftForge.addGrassSeed(new ItemStack(pineapple), 2);
+
+        MinecraftForge.addGrassSeed(new ItemStack(kiwi), 2);
+
+        MinecraftForge.addGrassSeed(new ItemStack(grape), 2);
+
+        }
+        
+}

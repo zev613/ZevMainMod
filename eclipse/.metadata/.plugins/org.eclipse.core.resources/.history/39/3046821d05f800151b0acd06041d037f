@@ -1,0 +1,39 @@
+package com.zseltzer.zevadditions.util;
+
+import com.zseltzer.zevadditions.Reference;
+import com.zseltzer.zevadditions.init.ModArmory;
+
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.item.ItemArmor;
+import net.minecraft.item.ItemStack;
+import net.minecraft.potion.Potion;
+import net.minecraft.potion.PotionEffect;
+import net.minecraft.world.World;
+
+public class SetSuitTexture
+{
+	
+	public static void init(String suitName)
+	{
+		
+		for(int i = 0; i < 5; i++)
+		{
+		static String getArmorTexture(Entity entity, ItemStack armor, String _default, int slot, String type)
+	        {
+	            String result = armor.getItem().getArmorTexture(armor, entity, slot, "SUPERHERO_ARMOR");
+	        }
+		}
+	
+	}
+
+	
+	/*
+	public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack) 
+	{
+	if (player.getCurrentArmor(1) != null && player.getCurrentArmor(1).getItem().equals(ModArmory.superheroPants))
+	    player.addPotionEffect(new PotionEffect(Potion.moveSpeed.id, 40));
+	}
+	*/
+}
+

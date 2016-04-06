@@ -1,0 +1,215 @@
+package com.zseltzer.zevadditions.init;
+
+import com.zseltzer.zevadditions.Reference;
+import com.zseltzer.zevadditions.blocks.ZevBlockStairs;
+
+import net.minecraft.block.Block;
+import net.minecraft.init.Blocks;
+
+public class ModStairs 
+{
+	
+	public static Block adobeBlockStairs = new ZevBlockStairs(ModBlocks.adobeBlock, "adobeBlockStairs");
+	public static Block adobeBricksStairs = new ZevBlockStairs(ModBlocks.adobe_bricks, "adobeBricksStairs");
+	public static Block adobeTileStairs = new ZevBlockStairs(ModBlocks.adobeTile, "adobeTileStairs");
+	public static Block amethystBlockStairs = new ZevBlockStairs(ModBlocks.amethystBlock, "amethystBlockStairs");
+	public static Block amethystOreStairs = new ZevBlockStairs(ModBlocks.amethystOre, "amethystOreStairs");
+	public static Block andesiteStairs = new ZevBlockStairs(ModBlocks.andesite, "andesiteStairs");
+	public static Block andesite_smoothStairs = new ZevBlockStairs(ModBlocks.andesite_smooth, "name");
+	public static Block aquaStoneStairs = new ZevBlockStairs(ModBlocks.aquaStone, "name");
+	public static Block aquaStone_smoothStairs = new ZevBlockStairs(ModBlocks.aquaStone_smooth, "name");
+	public static Block basaltStairs = new ZevBlockStairs(ModBlocks.basalt, "name");
+	public static Block basalt_bricksStairs = new ZevBlockStairs(ModBlocks.basalt_bricks, "name");
+	public static Block basalt_smoothStairs = new ZevBlockStairs(ModBlocks.basalt_bricks, "name");
+	public static Block bedrockStairs = new ZevBlockStairs(Blocks.bedrock, "name");
+	public static Block blazeBlockStairs = new ZevBlockStairs(ModBlocks.blazeBlock, "name");
+	public static Block blueStoneStairs = new ZevBlockStairs(ModBlocks.blueStone, "name");
+	public static Block blueStone_smoothStairs = new ZevBlockStairs(ModBlocks.blueStone_smooth, "name");
+	public static Block bonemealBlockStairs = new ZevBlockStairs(ModBlocks.bonemealBlock, "name");
+	public static Block brownStoneStairs = new ZevBlockStairs(ModBlocks.brownStone, "name");
+	public static Block brownStone_smoothStairs = new ZevBlockStairs(ModBlocks.brownStone_smooth, "name");
+	public static Block cementBlockStairs = new ZevBlockStairs(ModBlocks.cementBlock, "name");
+	public static Block cherry_planksStairs = new ZevBlockStairs(ModBlocks.cherryTreePlank, "name");
+	public static Block clayStairs = new ZevBlockStairs(Blocks.clay, "name");
+	public static Block coalBlockStairs = new ZevBlockStairs(Blocks.coal_block, "name");
+	public static Block coarseDirtStairs = new ZevBlockStairs(ModBlocks.coarseDirt, "name");
+	public static Block darkPrismarineStairs = new ZevBlockStairs(ModBlocks.darkPrismarine, "name");
+	public static Block diamondBlockStairs = new ZevBlockStairs(Blocks.diamond_block, "name");
+	public static Block diamondOreStairs = new ZevBlockStairs(Blocks.diamond_ore, "name");
+	public static Block dioriteStairs = new ZevBlockStairs(ModBlocks.diorite, "name");
+	public static Block diorite_smoothStairs = new ZevBlockStairs(ModBlocks.diorite_smooth, "name");
+	public static Block dirtStairs = new ZevBlockStairs(Blocks.dirt, "name");
+	public static Block emeraldBlockStairs = new ZevBlockStairs(Blocks.emerald_block, "name");
+	public static Block emeraldOreStairs = new ZevBlockStairs(Blocks.emerald_ore, "name");
+	public static Block enderPearlBlockStairs = new ZevBlockStairs(ModBlocks.enderPearlBlock, "name");
+	public static Block endStoneStairs = new ZevBlockStairs(Blocks.end_stone, "name");
+	public static Block endStoneBricksStairs = new ZevBlockStairs(ModBlocks.endStoneBricks, "name");
+	public static Block flintBlockStairs = new ZevBlockStairs(ModBlocks.flintBlock, "name");
+	public static Block glowstoneStairs = new ZevBlockStairs(Blocks.glowstone, "name");
+	public static Block goldBlockStairs = new ZevBlockStairs(Blocks.gold_block, "name");
+	public static Block goldOreStairs = new ZevBlockStairs(Blocks.gold_ore, "name");
+	public static Block graniteStairs = new ZevBlockStairs(ModBlocks.granite, "name");
+	public static Block granite_smoothStairs = new ZevBlockStairs(ModBlocks.granite_smooth, "name");
+	public static Block gravelStairs = new ZevBlockStairs(Blocks.gravel, "name");
+	public static Block gunpowderBlockStairs = new ZevBlockStairs(ModBlocks.gunpowderBlock, "name");
+	public static Block hardenedClayStairs = new ZevBlockStairs(Blocks.hardened_clay, "name");
+	public static Block hardenedClay_blackStairs = new ZevBlockStairs(Blocks.stained_hardened_clay, "black_hardenedClay").setBlockTextureName(Reference.MODID + ":hardenedClay_black");
+	public static Block hardenedClay_blueStairs = new ZevBlockStairs(Blocks.stained_hardened_clay, "blue_hardenedClay").setBlockTextureName(Reference.MODID + ":hardenedClay_blue");
+	public static Block hardenedClay_brownStairs = new ZevBlockStairs(Blocks.stained_hardened_clay, "brown_hardenedClay").setBlockTextureName(Reference.MODID + ":hardenedClay_brown");
+	public static Block hardenedClay_cyanStairs = new ZevBlockStairs(Blocks.stained_hardened_clay, "cyan_hardenedClay").setBlockTextureName(Reference.MODID + ":hardenedClay_cyan");
+	public static Block hardenedClay_grayStairs = new ZevBlockStairs(Blocks.stained_hardened_clay, "gray_hardenedClay").setBlockTextureName(Reference.MODID + ":hardenedClay_gray");
+	public static Block hardenedClay_greenStairs = new ZevBlockStairs(Blocks.stained_hardened_clay, "green_hardenedClay").setBlockTextureName(Reference.MODID + ":hardenedClay_green");
+	public static Block hardenedClay_lightBlueStairs = new ZevBlockStairs(Blocks.stained_hardened_clay, "lightBlue_hardenedClay").setBlockTextureName(Reference.MODID + ":hardenedClay_lightBlue");
+	public static Block hardenedClay_lightGrayStairs = new ZevBlockStairs(Blocks.stained_hardened_clay, "lightGray_hardenedClay").setBlockTextureName(Reference.MODID + ":hardenedClay_lightGray");
+	public static Block hardenedClay_limeStairs = new ZevBlockStairs(Blocks.stained_hardened_clay, "lime_hardenedClay").setBlockTextureName(Reference.MODID + ":hardenedClay_lime");
+	public static Block hardenedClay_magentaStairs = new ZevBlockStairs(Blocks.stained_hardened_clay, "magenta_hardenedClay").setBlockTextureName(Reference.MODID + ":hardenedClay_magenta");
+	public static Block hardenedClay_orangeStairs = new ZevBlockStairs(Blocks.stained_hardened_clay, "orange_hardenedClay").setBlockTextureName(Reference.MODID + ":hardenedClay_orange");
+	public static Block hardenedClay_pinkStairs = new ZevBlockStairs(Blocks.stained_hardened_clay, "pink_hardenedClay").setBlockTextureName(Reference.MODID + ":hardenedClay_pink");
+	public static Block hardenedClay_purpleStairs = new ZevBlockStairs(Blocks.stained_hardened_clay, "purple_hardenedClay").setBlockTextureName(Reference.MODID + ":hardenedClay_purple");
+	public static Block hardenedClay_redStairs = new ZevBlockStairs(Blocks.stained_hardened_clay, "red_hardenedClay").setBlockTextureName(Reference.MODID + ":hardenedClay_red");
+	public static Block hardenedClay_whiteStairs = new ZevBlockStairs(Blocks.stained_hardened_clay, "white_hardenedClay").setBlockTextureName(Reference.MODID + ":hardenedClay_white");
+	public static Block hardenedClay_yellowStairs = new ZevBlockStairs(Blocks.stained_hardened_clay, "yellow_hardenedClay").setBlockTextureName(Reference.MODID + ":hardenedClay_yellow");
+	public static Block hardenedDirtStairs = new ZevBlockStairs(ModBlocks.hardenedDirt, "hardenedDirt");
+	public static Block hardenedSandStairs = new ZevBlockStairs(ModBlocks.hardenedSand, "hardenedSand");
+	public static Block hayVariant1Stairs = new ZevBlockStairs(ModBlocks.hayVariant1, "hayVariant1");
+	public static Block ironBlockStairs = new ZevBlockStairs(Blocks.iron_block, "ironBlock");
+	public static Block ironOreStairs = new ZevBlockStairs(Blocks.iron_ore, "ironOre");
+	public static Block lapisBlockStairs = new ZevBlockStairs(Blocks.lapis_block, "lapisBlock");
+	public static Block lapisOreStairs = new ZevBlockStairs(Blocks.lapis_ore, "lapisOre");
+	public static Block lightForestDirtStairs = new ZevBlockStairs(ModBlocks.lightForestDirt, "lightForestDirt");
+	public static Block lightStoneStairs = new ZevBlockStairs(ModBlocks.lightStone, "lightStone");
+	public static Block limeStoneStairs = new ZevBlockStairs(ModBlocks.limeStone, "limeStone");
+	public static Block limeStone_smoothStairs = new ZevBlockStairs(ModBlocks.limeStone_smooth, "limeStone_smooth");
+	public static Block marbleStairs = new ZevBlockStairs(ModBlocks.marble, "marble");
+	public static Block marbleBricksStairs = new ZevBlockStairs(ModBlocks.marble_bricks, "marble_bricks");
+	public static Block melonBlockStairs = new ZevBlockStairs(Blocks.melon_block, "melon_block");
+	public static Block mudBlockStairs = new ZevBlockStairs(ModBlocks.mudBlock, "mudBlock");
+	public static Block mudBricksStairs = new ZevBlockStairs(ModBlocks.mud_bricks, "mud_bricks");
+	public static Block mushroomBlock1Stairs = new ZevBlockStairs(Blocks.brown_mushroom_block, "mushroomBlock1").setBlockTextureName(Reference.MODID + ":mushroomBlock1");
+	public static Block mushroomBlock2Stairs = new ZevBlockStairs(Blocks.brown_mushroom_block, "mushroomBlock2").setBlockTextureName(Reference.MODID + ":mushroomBlock2");
+	public static Block mushroomBlock3Stairs = new ZevBlockStairs(Blocks.red_mushroom_block, "mushroomBlock3").setBlockTextureName(Reference.MODID + ":mushroomBlock3");
+	public static Block mushroomBlock4Stairs = new ZevBlockStairs(Blocks.red_mushroom_block, "mushroomBlock4").setBlockTextureName(Reference.MODID + ":mushroomBlock4");
+	public static Block netherrackStairs = new ZevBlockStairs(Blocks.netherrack, "netherrack");
+	public static Block obsidianStairs = new ZevBlockStairs(Blocks.obsidian, "obsidian");
+	public static Block packedIceStairs = new ZevBlockStairs(Blocks.packed_ice, "packedIce");
+	public static Block pine_planksStairs = new ZevBlockStairs(ModBlocks.pine_planks, "pine_planks");
+	public static Block pinkStoneStairs = new ZevBlockStairs(ModBlocks.pinkStone, "pinkStone");
+	public static Block pinkStone_smoothStairs = new ZevBlockStairs(ModBlocks.pinkStone_smooth, "pinkStone_smooth");
+	public static Block prismarine_bricksStairs = new ZevBlockStairs(ModBlocks.prismarine_bricks, "prismarine_bricks");
+	public static Block redRockStairs = new ZevBlockStairs(ModBlocks.redRock, "redRock");
+	public static Block redRock_bricksStairs = new ZevBlockStairs(ModBlocks.redRock_bricks, "redRock_bricks");
+	public static Block redRockCobbleStairs = new ZevBlockStairs(ModBlocks.redRockCobble, "name");
+	public static Block redRockTileStairs = new ZevBlockStairs(ModBlocks.redRockTile, "name");
+	public static Block redstoneBlockStairs = new ZevBlockStairs(Blocks.redstone_block, "redstone_block");
+	public static Block rubyBlockStairs = new ZevBlockStairs(ModBlocks.rubyBlock, "rubyBlock");
+	public static Block rubyOreStairs = new ZevBlockStairs(ModBlocks.rubyOre, "rubyOre");
+	public static Block sapphireBlockStairs = new ZevBlockStairs(ModBlocks.sapphireBlock, "sapphireBlock");
+	public static Block sapphireOreStairs = new ZevBlockStairs(ModBlocks.sapphireOre, "sapphireOre");
+	public static Block shaleStairs = new ZevBlockStairs(ModBlocks.shale, "name");
+	public static Block shale_bricksStairs = new ZevBlockStairs(ModBlocks.shale_bricks, "shale_bricks");
+	public static Block shale_smoothStairs = new ZevBlockStairs(ModBlocks.shale_smooth, "shale_smooth");
+	public static Block siltStoneStairs = new ZevBlockStairs(ModBlocks.siltStone, "siltStone");
+	public static Block siltStone_smoothStairs = new ZevBlockStairs(ModBlocks.siltStone_smooth, "siltStone_smooth");
+	public static Block silverBlockStairs = new ZevBlockStairs(ModBlocks.silverBlock, "silverBlock");
+	public static Block silverOreStairs = new ZevBlockStairs(ModBlocks.silverOre, "silverOre");
+	public static Block smoothStoneStairs = new ZevBlockStairs(Blocks.stone, "smoothStone");
+	public static Block snowStairs = new ZevBlockStairs(Blocks.snow, "snow");
+	public static Block soulSandStairs = new ZevBlockStairs(Blocks.soul_sand, "soul_sand");
+	public static Block spongeStairs = new ZevBlockStairs(Blocks.sponge, "sponge");
+	public static Block stoneChalkStairs = new ZevBlockStairs(ModBlocks.stoneChalk, "stoneChalk");
+	public static Block stoneChalk_bricksStairs = new ZevBlockStairs(ModBlocks.stoneChalk_bricks, "stoneChalk_bricks");
+	public static Block sugarBlockStairs = new ZevBlockStairs(ModBlocks.sugarBlock, "sugarBlock");
+	public static Block thatchStairs = new ZevBlockStairs(ModBlocks.thatch, "thatch");
+	public static Block willow_planksStairs = new ZevBlockStairs(ModBlocks.willow_planks, "willow_planks");
+	public static Block wool_blackStairs = new ZevBlockStairs(Blocks.wool, "black_Wool").setBlockTextureName(Reference.MODID + ":wool_black");
+	public static Block wool_blueStairs = new ZevBlockStairs(Blocks.wool, "blue_Wool").setBlockTextureName(Reference.MODID + ":wool_blue");
+	public static Block wool_brownStairs = new ZevBlockStairs(Blocks.wool, "brown_Wool").setBlockTextureName(Reference.MODID + ":wool_brown");
+	public static Block wool_cyanStairs = new ZevBlockStairs(Blocks.wool, "cyan_Wool").setBlockTextureName(Reference.MODID + ":wool_cyan");
+	public static Block wool_grayStairs = new ZevBlockStairs(Blocks.wool, "gray_Wool").setBlockTextureName(Reference.MODID + ":wool_gray");
+	public static Block wool_greenStairs = new ZevBlockStairs(Blocks.wool, "green_Wool").setBlockTextureName(Reference.MODID + ":wool_green");
+	public static Block  wool_lightBlueStairs = new ZevBlockStairs(Blocks.wool, "lightBlue_Wool").setBlockTextureName(Reference.MODID + ":wool_lightBlue");
+	public static Block wool_lightGrayStairs = new ZevBlockStairs(Blocks.wool, "lightGray_Wool").setBlockTextureName(Reference.MODID + ":wool_lightGray");
+	public static Block wool_limeStairs = new ZevBlockStairs(Blocks.wool, "lime_Wool").setBlockTextureName(Reference.MODID + ":wool_lime");
+	public static Block wool_magentaStairs = new ZevBlockStairs(Blocks.wool, "magenta_Wool").setBlockTextureName(Reference.MODID + ":wool_magenta");
+	public static Block wool_orangeStairs = new ZevBlockStairs(Blocks.wool, "orange_Wool").setBlockTextureName(Reference.MODID + ":wool_orange");
+	public static Block wool_pinkStairs = new ZevBlockStairs(Blocks.wool, "pink_Wool").setBlockTextureName(Reference.MODID + ":wool_pink");
+	public static Block wool_purpleStairs = new ZevBlockStairs(Blocks.wool, "purple_Wool").setBlockTextureName(Reference.MODID + ":wool_purple");
+	public static Block wool_redStairs = new ZevBlockStairs(Blocks.wool, "red_Wool").setBlockTextureName(Reference.MODID + ":wool_red");
+	public static Block wool_whiteStairs = new ZevBlockStairs(Blocks.wool, "white_Wool").setBlockTextureName(Reference.MODID + ":wool_white");
+	public static Block wool_yellowStairs = new ZevBlockStairs(Blocks.wool, "yelllow_Wool").setBlockTextureName(Reference.MODID + ":wool_yellow");
+	public static Block yellowStoneStairs = new ZevBlockStairs(ModBlocks.yellowStone, "yellowStone");
+	public static Block yellowStone_smoothStairs = new ZevBlockStairs(ModBlocks.yellowStone_smooth, "yellowStone_smooth");
+	
+	/*
+	public static String[] stairNames = new String[] {"adobeBlock", "adobeBricks", "adobeTile", "amethystBlock", "amethystOre", "andesite", "andesite_smooth", "aquaStone", 
+			"aquaStone_smooth", "basalt", "basalt_bricks", "basalt_smooth", "bedrock", "blazeBlock", "blueStone", "blueStone_smooth", "bonemealBlock", "brownStone", "brownStone_smooth",
+			"cementBlock", "cherry_planks", "clay", "coalBlock", "coarseDirt", "darkPrismarine", "diamondBlock", "diorite", "diorite_smooth", "dirt", "emeraldBlock", "enderPearlBlock", 
+			"endStone", "endStoneBrick", "flintBlock", "glowstone", "goldBlock", "granite", "granite_smooth", "gravel", "gunpowderBlock", "hardenedClay", "hardenedClay_black", "hardenedClay_blue", 
+			"hardenedClay_brown", "hardenedClay_cyan", "hardenedClay_gray", "hardenedClay_green", "hardenedClay_lightBlue", "hardenedClay_lightGray", "hardenedClay_lime", "hardenedClay_magenta", 
+			"hardenedClay_orange", "hardenedClay_pink", "hardenedClay_purple", "hardenedClay_red", "hardenedClay_white", "hardenedDirt", "hardenedSand", "ironBlock", "lapisBlock", "lightForestDirt", 
+			"lightStone", "limeStone", "limeStone_smooth", "marble", "marbleBricks", "melonBlock", "mudBlock", "mudBricks", "mushroomBlock1", "mushroomBlock2", "mushroomBlock3", "mushroomBlock4", 
+			"netherrack", "obsidian", "packedIce", "pine_planks", "pinkStone", "pinkStone_smooth", "prismarineBricks", "redRock", "redRockBrick", "redRockCobble", "redRockSlab", "redstoneBlock", 
+			"rubyBlock", "rubyOre", "sapphireBlock", "sapphireOre", "shale", "shale_bricks", "shale_smooth", "siltStone", "siltStone_smooth", "silverBlock", "silverOre", "slimeBlock", "smoothStone", 
+			"snow", "soulSand", "sponge", "stoneChalk", "stoneChalk_bricks", "sugarBlock", "thatch", "willow_planks", "wool_black", "wool_blue", "wool_brown", "wool_cyan", "wool_gray", "wool_green", 
+			"wool_lightBlue", "wool_lightGray", "wool_lime", "wool_magenta", "wool_orange", "wool_pink", "wool_purple", "wool_red", "wool_white", "wool_yellow", "yellowStone", "yellowStone_smooth"};
+	
+		public static Block[] stairBlockTypes = new Block[] {adobeBlock, adobeBricks, adobeTile, amethystBlock, amethystOre, andesite, andesite_smooth, aquaStone, 
+			aquaStone_smooth, basalt, basalt_bricks, basalt_smooth, bedrock, blazeBlock, blueStone, blueStone_smooth, bonemealBlock, brownStone, brownStone_smooth,
+			cementBlock, cherry_planks, clay, coalBlock, coarseDirt, darkPrismarine, diamondBlock, diorite, diorite_smooth, dirt, emeraldBlock, enderPearlBlock, 
+			endStone, endStoneBrick, flintBlock, glowstone, goldBlock, granite, granite_smooth, gravel, gunpowderBlock, hardenedClay, hardenedClay_black, hardenedClay_blue, 
+			hardenedClay_brown, hardenedClay_cyan, hardenedClay_gray, hardenedClay_green, hardenedClay_lightBlue, hardenedClay_lightGray, hardenedClay_lime, hardenedClay_magenta, 
+			hardenedClay_orange, hardenedClay_pink, hardenedClay_purple, hardenedClay_red, hardenedClay_white, hardenedDirt, hardenedSand, ironBlock, lapisBlock, lightForestDirt, 
+			lightStone, limeStone, limeStone_smooth, marble, marbleBricks, melonBlock, mudBlock, mudBricks, mushroomBlock1, mushroomBlock2, mushroomBlock3, mushroomBlock4, 
+			netherrack, obsidian, packedIce, pine_planks, pinkStone, pinkStone_smooth, prismarineBricks, redRock, redRockBrick, redRockCobble, redRockSlab, redstoneBlock, 
+			rubyBlock, rubyOre, sapphireBlock, sapphireOre, shale, shale_bricks, shale_smooth, siltStone, siltStone_smooth, silverBlock, silverOre, slimeBlock, smoothStone, 
+			snow, soulSand, sponge, stoneChalk, stoneChalk_bricks, sugarBlock, thatch, willow_planks, wool_black, wool_blue, wool_brown, wool_cyan, wool_gray, wool_green, 
+			wool_lightBlue, wool_lightGray, wool_lime, wool_magenta, wool_orange, wool_pink, wool_purple, wool_red, wool_white, wool_yellow, yellowStone, yellowStone_smooth};
+	
+	
+	//public static Material[] stairMaterialTypes = new Material[] {Material.rock, Material.rock, Material.rock, Material.rock, Material.rock, Material.rock, Material.rock, 
+			//Material.rock, Material.rock, Material.rock, Material.rock, Material.rock, Material.rock, Material.rock, Material.rock, Material.rock, Material.rock, Material.rock, 
+			//Material.rock, Material.ground, Material.wood, Material.clay, Material.rock, Material.ground, Material.rock, Material.rock, Material.rock, Material.rock, Material.ground, 
+			//Material.rock, Material.ground, Material.rock, Material.rock, Material.ground, Material.rock, Material.rock, Material.rock, Material.rock, Material.ground, Material.ground, 
+			//Material.clay, Material.clay, Material.clay, Material.clay, Material.clay, Material.clay, Material.clay, Material.clay, Material.clay, Material.clay, Material.clay, 
+			//Material.clay, Material.clay, Material.clay, Material.clay, Material.clay, Material.rock, Material.rock, Material.rock, Material.rock, Material.ground, Material.rock, 
+			//Material.rock, Material.rock, Material.rock, Material.rock, Material.ground, Material.ground, Material.ground, Material.cloth, Material.cloth, Material.cloth, 
+			//Material.cloth, Material.ground, Material.rock, Material.packedIce, Material.wood, Material.rock, Material.rock, Material.rock, Material.rock, Material.rock, 
+			//Material.rock, Material.rock, Material.rock, Material.rock, Material.rock, Material.rock, Material.rock, Material.rock, Material.rock, Material.rock, Material.rock, 
+			//Material.rock, Material.rock, Material.rock, Material.ground, Material.rock, Material.snow, Material.ground, Material.sponge, Material.rock, Material.rock, Material.ground, 
+			//Material.ground, Material.wood, Material.cloth, Material.cloth, Material.cloth, Material.cloth, Material.cloth, Material.cloth, Material.cloth, Material.cloth, Material.cloth, 
+			//Material.cloth, Material.cloth, Material.cloth, Material.cloth, Material.cloth, Material.cloth, Material.cloth, Material.rock, Material.rock};
+	
+	
+	public static void init()
+	{
+		
+		ZevBlockStairs[] allStairBlocks;
+
+		allStairBlocks =
+	            new ZevBlockStairs[2 * stairNames.length];
+		
+		for (int j = 0; j < stairNames.length; j++)
+		{
+		
+		 ZevBlockStairs stairs = new ZevBlockStairs(stairBlockTypes[j], 0, stairNames[j]);
+         	allStairBlocks[2 * j] = stairs;      
+		 
+		 GameRegistry.registerBlock(stairs, stairNames[j]);
+		}
+		
+		ZevBlockStairs[] stairBlocks;
+
+	    	stairBlocks =
+	            new ZevBlockStairs[2 * stairNames.length];
+	    	
+		 for (int j = 0; j < stairNames.length; j++) 
+		 {
+			 ZevBlockStairs blocks = new ZevBlockStairs(stairBlockTypes[j], 0, stairNames[j], Reference.MODID + ":" + stairNames[j]);
+	            stairBlocks[2 * j] = blocks;
+	            
+	            RegisterHelper.registerBlock(blocks);
+		}
+		
+	}
+	*/
+}

@@ -1,0 +1,433 @@
+package com.zseltzer.zevadditions.init;
+
+import com.zseltzer.zevadditions.RegisterHelper;
+import com.zseltzer.zevadditions.blocks.BlockBasic;
+import com.zseltzer.zevadditions.blocks.BlockCherryTreeLeaves;
+import com.zseltzer.zevadditions.blocks.BlockCherryTreeLog;
+import com.zseltzer.zevadditions.blocks.BlockCherryTreePlank;
+import com.zseltzer.zevadditions.blocks.BlockCherryTreeSapling;
+import com.zseltzer.zevadditions.blocks.BlockModLightGrass;
+import com.zseltzer.zevadditions.blocks.BlockModLightLeaves;
+import com.zseltzer.zevadditions.blocks.BlockModLightLog;
+import com.zseltzer.zevadditions.blocks.BlockModLightSapling;
+import com.zseltzer.zevadditions.blocks.BlockModPortal;
+import com.zseltzer.zevadditions.blocks.BlockVerticalSlab;
+import com.zseltzer.zevadditions.blocks.GenericBaseBlock;
+import com.zseltzer.zevadditions.blocks.StorageBlock;
+import com.zseltzer.zevadditions.tabs.ModTabs;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.init.Items;
+
+public class ModBlocks 
+{
+	
+//STANDARD BLOCKS
+		
+	public static Block amethystOre = new GenericBaseBlock("amethystOre", Material.rock);
+	
+	public static Block aquaStone = new GenericBaseBlock("aquaStone", Material.rock);
+	
+	public static Block aquaStone_smooth = new GenericBaseBlock("aquaStone_smooth", Material.rock);
+	
+	public static Block basalt = new GenericBaseBlock("basalt", Material.rock);
+	
+	public static Block basalt_bricks = new GenericBaseBlock("basalt_bricks", Material.rock);
+	
+	public static Block basalt_smooth = new GenericBaseBlock("basalt_smooth", Material.rock);
+	
+	public static Block blueStone = new GenericBaseBlock("blueStone", Material.rock);
+	
+	public static Block blueStone_smooth = new GenericBaseBlock("blueStone_smooth", Material.rock);
+	
+	public static Block brownStone = new GenericBaseBlock("brownStone", Material.rock);
+	
+	public static Block brownStone_smooth = new GenericBaseBlock("brownStone_smooth", Material.rock);
+	
+	public static Block limeStone = new GenericBaseBlock("limeStone", Material.rock);
+	
+	public static Block limeStone_smooth = new GenericBaseBlock("limeStone_smooth", Material.rock);
+	
+	public static Block pine_planks = new GenericBaseBlock("pine_planks", Material.wood);
+	
+	public static Block pinkStone = new GenericBaseBlock("pinkStone", Material.rock);
+	
+	public static Block pinkStone_smooth = new GenericBaseBlock("pinkStone_smooth", Material.rock);
+		
+	public static Block rubyOre = new GenericBaseBlock("rubyOre", Material.rock);
+	
+	public static Block sapphireOre = new GenericBaseBlock("sapphireOre", Material.rock);
+	
+	public static Block shale = new GenericBaseBlock("shale", Material.rock);
+	
+	public static Block shale_bricks = new GenericBaseBlock("shale_bricks", Material.rock);
+	
+	public static Block shale_smooth = new GenericBaseBlock("shale_smooth", Material.rock);
+	
+	public static Block siltStone = new GenericBaseBlock("siltStone", Material.rock);
+	
+	public static Block siltStone_smooth = new GenericBaseBlock("siltStone_smooth", Material.rock);
+	
+	public static Block silverOre = new GenericBaseBlock("silverOre", Material.rock);
+	
+	public static Block thatch	= new GenericBaseBlock("thatch", Material.cloth);
+	
+	public static Block willow_planks = new GenericBaseBlock("willow_planks", Material.wood);
+	
+	public static Block yellowStone = new GenericBaseBlock("yellowStone", Material.rock);
+	
+	public static Block yellowStone_smooth = new GenericBaseBlock("yellowStone_smooth", Material.rock);
+
+
+	public static Block hardenedDirt = new GenericBaseBlock("hardenedDirt", Material.ground);
+
+	public static Block hardenedSand = new GenericBaseBlock("hardenedSand", Material.sand);
+
+	public static Block hayVariant1 = new GenericBaseBlock("hayVariant1", Material.cloth);
+	
+	public static Block mudBlock = new GenericBaseBlock("mudBlock", Material.clay);
+
+	public static Block mud_bricks = new GenericBaseBlock("mud_bricks", Material.clay);
+
+	public static Block marble = new GenericBaseBlock("marble", Material.rock);
+
+	public static Block marble_bricks = new GenericBaseBlock("marble_bricks", Material.rock);
+	
+	public static Block adobeBlock = new GenericBaseBlock("adobeBlock", Material.rock);
+
+	public static Block adobe_bricks = new GenericBaseBlock("adobe_bricks", Material.rock);
+
+	public static Block adobeTile = new GenericBaseBlock("adobeTile", Material.rock);
+
+	public static Block andesite = new GenericBaseBlock("andesite", Material.rock);
+
+	public static Block andesite_smooth = new GenericBaseBlock("andesite_smooth", Material.rock);
+
+	public static Block cementBlock = new GenericBaseBlock("cementBlock", Material.rock);
+
+	public static Block coarseDirt = new GenericBaseBlock("coarseDirt", Material.ground);
+
+	public static Block prismarine_dark = new GenericBaseBlock("prismarine_dark", Material.rock);
+
+	public static Block diorite = new GenericBaseBlock("diorite", Material.rock);
+
+	public static Block diorite_smooth = new GenericBaseBlock("diorite_smooth", Material.rock);
+
+	public static Block endStoneBricks = new GenericBaseBlock("endStoneBricks", Material.rock);
+
+	public static Block granite = new GenericBaseBlock("granite", Material.rock);
+
+	public static Block granite_smooth = new GenericBaseBlock("granite_smooth", Material.rock);
+
+	public static Block prismarine_bricks = new GenericBaseBlock("prismarine_bricks", Material.rock);
+
+	public static Block redRock = new GenericBaseBlock("redRock", Material.rock);
+
+	public static Block redRock_bricks = new GenericBaseBlock("redRock_bricks", Material.rock);
+
+	public static Block redRockCobble = new GenericBaseBlock("redRockCobble", Material.rock);
+
+	public static Block redRockTile = new GenericBaseBlock("redRockTile", Material.rock);
+
+	public static Block stoneChalk = new GenericBaseBlock("stoneChalk", Material.rock);
+
+	public static Block stoneChalk_bricks = new GenericBaseBlock("stoneChalk_bricks", Material.rock);
+	
+	
+//STORAGE BLOCKS	
+	
+	public static Block amethystBlock = new StorageBlock("amethystBlock", Material.rock, ModItems.amethystIngot);
+	
+	public static Block bonemealBlock = new StorageBlock("bonemealBlock", Material.cloth, Items.dye);
+	
+	public static Block blazeBlock = new StorageBlock("blazeBlock", Material.cloth, Items.blaze_powder);
+	
+	public static Block rottenFleshBlock = new StorageBlock("rottenFleshBlock", Material.cloth, Items.rotten_flesh); 
+	
+	public static Block enderPearlBlock = new StorageBlock("enderPearlBlock", Material.rock, Items.ender_pearl);
+	
+	public static Block flintBlock = new StorageBlock("flintBlock", Material.rock, Items.flint);
+	
+	public static Block gunpowderBlock = new StorageBlock("gunpowderBlock", Material.cloth, Items.gunpowder);
+	
+	public static Block rubyBlock = new StorageBlock("rubyBlock", Material.rock, ModItems.rubyIngot);
+
+	public static Block sapphireBlock = new StorageBlock("sapphireBlock", Material.rock, ModItems.sapphireIngot);
+
+	public static Block sugarBlock = new StorageBlock("sugarBlock", Material.cloth, Items.sugar);
+
+	public static Block silverBlock = new StorageBlock("silverBlock", Material.rock, ModItems.silverIngot);
+
+
+	
+//RANDOM BLOCKS (ADOBE, LOGOS, ETC)
+	
+	
+	public static Block adobeIncAfterEffects = new GenericBaseBlock("adobeIncAfterEffects", Material.rock).setCreativeTab(ModTabs.tabMassBlocks);;
+	public static Block adobeIncAudition = new GenericBaseBlock("adobeIncAudition", Material.rock).setCreativeTab(ModTabs.tabMassBlocks);
+	public static Block adobeIncBridge = new GenericBaseBlock("adobeIncBridge", Material.rock).setCreativeTab(ModTabs.tabMassBlocks);;
+	public static Block adobeIncDreamweaver = new GenericBaseBlock("adobeIncDreamweaver", Material.rock).setCreativeTab(ModTabs.tabMassBlocks);
+	public static Block adobeIncEncore = new GenericBaseBlock("adobeIncEncore", Material.rock).setCreativeTab(ModTabs.tabMassBlocks);
+	public static Block adobeIncFireworks = new GenericBaseBlock("adobeIncFireworks", Material.rock).setCreativeTab(ModTabs.tabMassBlocks);
+	public static Block adobeIncFlash = new GenericBaseBlock("adobeIncFlash", Material.rock).setCreativeTab(ModTabs.tabMassBlocks);
+	public static Block adobeIncIllustrator = new GenericBaseBlock("adobeIncIllustrator", Material.rock).setCreativeTab(ModTabs.tabMassBlocks);
+	public static Block adobeIncInDesign = new GenericBaseBlock("adobeIncInDesign", Material.rock).setCreativeTab(ModTabs.tabMassBlocks);
+	public static Block adobeIncLightroom = new GenericBaseBlock("adobeIncLightroom", Material.rock).setCreativeTab(ModTabs.tabMassBlocks);
+	public static Block adobeIncPhotoshop = new GenericBaseBlock("adobeIncPhotoshop", Material.rock).setCreativeTab(ModTabs.tabMassBlocks);
+	public static Block adobeIncPrelude = new GenericBaseBlock("adobeIncPrelude", Material.rock).setCreativeTab(ModTabs.tabMassBlocks);
+	public static Block adobeIncPremierPro = new GenericBaseBlock("adobeIncPremierPro", Material.rock).setCreativeTab(ModTabs.tabMassBlocks);
+	public static Block adobeIncSpeedgrade = new GenericBaseBlock("adobeIncSpeedgrade", Material.rock).setCreativeTab(ModTabs.tabMassBlocks);
+
+	public static Block deadpoolBlock = new GenericBaseBlock("deadpoolBlock", Material.rock).setCreativeTab(ModTabs.tabMassBlocks);
+	
+	public static Block verticalSlabTest = new BlockVerticalSlab("verticalSlabTest");
+	
+	
+//SLAB BLOCKS	
+
+
+//STAIR BLOCKS
+	/*
+	public static String[] stairTypeNames = {"bedrock", "sponge", "dirt", "smoothStone", "basalt", "shale", "obsidian", "iron_Block", "aquaStone", "endStone"};
+	
+
+	
+	public static Block[] stairBlockNames = {Blocks.bedrock, Blocks.sponge, Blocks.dirt, Blocks.stone, ModBlocks.basalt, ModBlocks.shale, Blocks.obsidian, Blocks.iron_block, ModBlocks.aquaStone, Blocks.end_stone,};
+	{
+	
+	for (int i = 0; i > stairTypeNames.length; i++)
+		{
+			Block stairBlockNames[i] = new ZevBlockStairs(stairBlockNames[i]);
+		}
+	}
+	*/
+	
+	
+//OTHER PLANTS
+	
+//TREES
+		
+	public static Block cherryTreeLog = new BlockCherryTreeLog("cherry");
+
+	public static Block cherryTreeLeaves = new BlockCherryTreeLeaves("cherry");
+
+	public static Block cherryTreeSapling = new BlockCherryTreeSapling("cherry");
+
+	public static Block cherryTreePlank = new BlockCherryTreePlank("cherry");
+	
+//BIOMES BLOCKS	
+	
+	public static Block lightStone = new BlockBasic(Material.rock, "lightStone", "lightStone", Block.soundTypeStone);
+	
+	public static Block lightForestGrass = new BlockModLightGrass(Material.rock, "lightForestGrass", Block.soundTypeGrass);
+	
+	public static Block lightForestDirt = new BlockBasic(Material.rock, "lightForestDirt", "lightForestDirt", Block.soundTypeGrass);
+	
+	public static Block lightLog = new BlockModLightLog("lightLog", "log");
+	
+	public static Block lightLeaves = new BlockModLightLeaves("lightLeaves", "light");
+	
+	public static Block lightSapling = new BlockModLightSapling("lightSapling", "light");
+	
+	//public static Block effectLeaves = new BlockModEffectLeaves("effectLeaves", "effect");
+	
+	public static Block lightPortal = new BlockModPortal("lightPortal");
+
+	//public static Block lightFire  = new BlockModFire("lightFire");
+	
+	
+public static void init()
+{
+
+	//STANDARD BLOCKS
+		
+		RegisterHelper.registerBlock(amethystOre);
+	
+		RegisterHelper.registerBlock(aquaStone);
+	
+		RegisterHelper.registerBlock(aquaStone_smooth);
+	
+		RegisterHelper.registerBlock(basalt);
+	
+		RegisterHelper.registerBlock(basalt_bricks);
+	
+		RegisterHelper.registerBlock(basalt_smooth);
+	
+		RegisterHelper.registerBlock(blueStone);
+	
+		RegisterHelper.registerBlock(blueStone_smooth);
+	
+		RegisterHelper.registerBlock(brownStone);
+	
+		RegisterHelper.registerBlock(brownStone_smooth);
+	
+		RegisterHelper.registerBlock(limeStone);
+
+	 	RegisterHelper.registerBlock(limeStone_smooth);
+	 
+	 	RegisterHelper.registerBlock(pine_planks);
+	
+	 	RegisterHelper.registerBlock(pinkStone);
+	
+	 	RegisterHelper.registerBlock(pinkStone_smooth);
+		
+	 	RegisterHelper.registerBlock(rubyOre);
+	
+	 	RegisterHelper.registerBlock(sapphireOre);
+	
+	 	RegisterHelper.registerBlock(shale);
+	
+	 	RegisterHelper.registerBlock(shale_bricks);
+	
+	 	RegisterHelper.registerBlock(shale_smooth);
+	
+	 	RegisterHelper.registerBlock(siltStone);
+	
+	 	RegisterHelper.registerBlock(siltStone_smooth);
+	
+	 	RegisterHelper.registerBlock(silverOre);
+	
+	 	RegisterHelper.registerBlock(thatch);
+	
+	 	RegisterHelper.registerBlock(willow_planks);
+	
+	 	RegisterHelper.registerBlock(yellowStone);
+	
+	 	RegisterHelper.registerBlock(yellowStone_smooth);
+
+	 	RegisterHelper.registerBlock(hardenedDirt);
+
+	 	RegisterHelper.registerBlock(hardenedSand);
+
+	 	RegisterHelper.registerBlock(hayVariant1);
+
+	 	RegisterHelper.registerBlock(mudBlock);
+
+	 	RegisterHelper.registerBlock(mud_bricks);
+
+	 	RegisterHelper.registerBlock(marble);
+	 	
+	 	RegisterHelper.registerBlock(marble_bricks);
+
+	 	RegisterHelper.registerBlock(adobeBlock);
+
+	 	RegisterHelper.registerBlock(adobe_bricks);
+
+	 	RegisterHelper.registerBlock(adobeTile);
+
+	 	RegisterHelper.registerBlock(andesite);
+
+	 	RegisterHelper.registerBlock(andesite_smooth);
+
+	 	RegisterHelper.registerBlock(cementBlock);
+
+	 	RegisterHelper.registerBlock(coarseDirt);
+
+	 	RegisterHelper.registerBlock(prismarine_dark);
+
+	 	RegisterHelper.registerBlock(diorite);
+
+	 	RegisterHelper.registerBlock(diorite_smooth);
+
+	 	RegisterHelper.registerBlock(endStoneBricks);
+
+	 	RegisterHelper.registerBlock(granite);
+	 
+	 	RegisterHelper.registerBlock(granite_smooth);
+
+	 	RegisterHelper.registerBlock(prismarine_bricks);
+
+	 	RegisterHelper.registerBlock(redRock);
+
+	 	RegisterHelper.registerBlock(redRock_bricks);
+
+	 	RegisterHelper.registerBlock(redRockCobble);
+
+	 	RegisterHelper.registerBlock(redRockTile);
+
+	 	RegisterHelper.registerBlock(stoneChalk);
+
+	 	RegisterHelper.registerBlock(stoneChalk_bricks);
+	
+	
+//STORAGE BLOCKS	
+	
+	 	RegisterHelper.registerBlock(amethystBlock);
+	
+	 	RegisterHelper.registerBlock(bonemealBlock);
+	
+	 	RegisterHelper.registerBlock(blazeBlock);
+	
+	 	RegisterHelper.registerBlock(rottenFleshBlock);
+	
+	 	RegisterHelper.registerBlock(enderPearlBlock);
+	
+	 	RegisterHelper.registerBlock(flintBlock);
+	
+	 	RegisterHelper.registerBlock(gunpowderBlock);
+	
+	 	RegisterHelper.registerBlock(rubyBlock);
+
+	 	RegisterHelper.registerBlock(sapphireBlock);
+
+	 	RegisterHelper.registerBlock(sugarBlock);
+
+	 	RegisterHelper.registerBlock(silverBlock);	
+		
+		RegisterHelper.registerBlock(adobeIncAfterEffects);
+		RegisterHelper.registerBlock(adobeIncAudition);
+		RegisterHelper.registerBlock(adobeIncBridge);
+		RegisterHelper.registerBlock(adobeIncDreamweaver);
+		RegisterHelper.registerBlock(adobeIncEncore);
+		RegisterHelper.registerBlock(adobeIncFireworks);
+		RegisterHelper.registerBlock(adobeIncFlash);
+		RegisterHelper.registerBlock(adobeIncIllustrator);
+		RegisterHelper.registerBlock(adobeIncInDesign);
+		RegisterHelper.registerBlock(adobeIncLightroom);
+		RegisterHelper.registerBlock(adobeIncPhotoshop);
+		RegisterHelper.registerBlock(adobeIncPrelude);
+		RegisterHelper.registerBlock(adobeIncPremierPro);
+		RegisterHelper.registerBlock(adobeIncSpeedgrade);
+		
+		RegisterHelper.registerBlock(deadpoolBlock);
+		
+		RegisterHelper.registerBlock(verticalSlabTest);
+		
+//SLAB BLOCKS	
+		
+//OTHER PLANTS
+		
+//TREES		
+		
+		RegisterHelper.registerBlock(cherryTreeLog);
+		
+		RegisterHelper.registerBlock(cherryTreeLeaves);
+
+		RegisterHelper.registerBlock(cherryTreeSapling);
+
+		RegisterHelper.registerBlock(cherryTreePlank);
+		
+//BIOME BLOCKS	
+		
+		RegisterHelper.registerBlock(lightForestDirt);
+		
+		RegisterHelper.registerBlock(lightForestGrass);
+		
+		RegisterHelper.registerBlock(lightStone);
+		
+		RegisterHelper.registerBlock(lightPortal);
+		
+		//RegisterHelper.registerBlock(lightFire);
+		
+		RegisterHelper.registerBlock(lightLog);
+		
+		RegisterHelper.registerBlock(lightLeaves);
+		
+		//RegisterHelper.registerBlock(effectLeaves);
+		
+		RegisterHelper.registerBlock(lightSapling);
+		
+	}
+	
+}

@@ -1,0 +1,7 @@
+package com.zseltzer.zevadditions.superheroes.costumes.marvel;
+
+import net.minecraft.item.Item;
+
+public class ItemCaptainBritainCostume extends Item {
+
+}

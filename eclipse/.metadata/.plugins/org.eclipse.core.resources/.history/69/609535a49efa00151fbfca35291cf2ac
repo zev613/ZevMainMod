@@ -1,0 +1,49 @@
+package com.zseltzer.zevadditions.items;
+
+import net.minecraft.potion.Potion;
+import net.minecraft.potion.PotionEffect;
+
+public class SuperPowerEffects 
+{
+	/*
+	public static void init(String simpleHeroName)
+	{
+		
+		
+		
+	}
+	*/
+	public static void flash()
+	{
+		
+	}
+
+	public static void antman()
+	{
+		player.addPotionEffect(new PotionEffect(Potion.moveSpeed.id, 100, 100));	
+		player.jumpMovementFactor = 0.2F;
+		//player.jumpMovementFactor = player.jumpMovementFactor / 2;
+		player.stepHeight = 0.26F;
+		//player.height = 0.5F;
+		//player.width = 0.5F;
+		player.height = player.height / 2;
+		player.width = player.width / 2;
+		player.boundingBox.maxY = player.getBoundingBox().minY + (player.height);
+		player.eyeHeight = player.getDefaultEyeHeight() / 2;
+		player.noClip = false;
+		player.fallDistance = player.fallDistance * 2;
+	/*	
+		player.height = player.height / 2;
+		player.width = player.width / 2;
+		player.boundingBox.maxY = player.boundingBox.minY + (player.height);
+		player.eyeHeight = player.getEyeHeight() / 2; 
+		player.jumpMovementFactor = player.jumpMovementFactor / 2;
+		player.stepHeight = ((player.stepHeight - 0.1F) / 2) + 0.1F;
+	*/
+	}
+	
+	public static void superman()
+	{
+		
+	}
+}

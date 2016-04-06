@@ -1,0 +1,96 @@
+package com.zseltzer.zevadditions.superheroes.costumes;
+
+import com.zseltzer.zevadditions.Reference;
+import com.zseltzer.zevadditions.superheroes.ModDCCostumes;
+import com.zseltzer.zevadditions.tabs.ModTabs;
+
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.item.ItemArmor;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.DamageSource;
+import net.minecraft.world.World;
+import net.minecraftforge.common.ISpecialArmor;
+
+public class ItemFlashCostume extends ItemArmor implements ISpecialArmor
+{
+	public String textureName = "flash";
+
+	 public ItemFlashCostume( ArmorMaterial material, int ArmorType, String unlocalizedName) 
+		{
+			super(material, 0, ArmorType);
+			setUnlocalizedName(unlocalizedName);
+			setTextureName(Reference.MODID + ":" + getUnlocalizedName().substring(5));
+			setCreativeTab(ModTabs.tabHeroCostumes);
+		}
+	 
+		public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type)
+		{
+			if (stack.getItem() == ModDCCostumes.flashHead || stack.getItem() == ModDCCostumes.flashChest || stack.getItem() == ModDCCostumes.flashBoots)
+			{
+				return Reference.MODID + ":textures/models/flash_1.png";
+			}
+			else if (stack.getItem() == ModDCCostumes.flashPants)
+			{
+				return Reference.MODID + ":textures/models/flash_2.png";
+			}
+			else
+			{
+				return null;
+			}	
+		}
+	
+		@Override
+		public void addInformation(ItemStack stack, EntityPlayer player,
+				List infoList, boolean par4) {
+			if (stack.getMaxDamage() == 0) {
+				infoList.add(EnumChatFormatting.BLUE + "Infinite Uses");
+			} else {
+				infoList.add(EnumChatFormatting.GREEN + ""
+						+ (stack.getMaxDamage() - stack.getItemDamage())
+						+ " Uses Remaining");
+			}
+			infoList.add(EnumChatFormatting.GOLD + "" + damageReduction
+					+ "% Damage Reduction");
+		}	
+		
+	@Override
+	public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack) 
+	{
+		if (itemStack.getItem().equals(ModDCCostumes.flashPants))
+			player.fallDistance = 0.5F;
+		//player.addPotionEffect(new PotionEffect(Potion.moveSpeed.id, 75));	
+		if (player.isSprinting()) 
+		{
+			player.capabilities.setPlayerWalkSpeed(0.4F);
+			player.stepHeight = 1.1F;
+			player.jumpMovementFactor = 0.2F;
+		}
+		else 
+		{
+			player.capabilities.setPlayerWalkSpeed(0.1f);
+			player.stepHeight = 0.6F;
+			player.jumpMovementFactor = 0.1F;
+		}
+	}
+	
+	@Override
+	public ArmorProperties getProperties(EntityLivingBase player,
+			ItemStack armor, DamageSource source, double damage, int slot) {
+		return new ISpecialArmor.ArmorProperties(0, damageReduction / 100,
+				50000);
+	}
+
+	@Override
+	public int getArmorDisplay(EntityPlayer player, ItemStack armor, int slot) {
+		return slot = (int) Math.round((damageReduction * 100) / 4);
+	}
+
+	@Override
+	public void damageArmor(EntityLivingBase entity, ItemStack stack,
+			DamageSource source, int damage, int slot) {
+		if (!source.isFireDamage() && !source.isMagicDamage())
+			stack.damageItem(1, entity);
+	}
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1459518548423_1" label="resources" name="resources">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Minecraft" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1459518566542_2" label="java" name="java">
+<item elementID="=Minecraft" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1458055875603_0" label="Window Working Set" name="Aggregate for window 1458055875602"/>
+<mruList name="java"/>
+<mruList name="resources"/>
+</workingSetManager>

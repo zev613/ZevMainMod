@@ -1,0 +1,30 @@
+package com.zseltzer.zevadditions.items;
+
+import com.zseltzer.zevadditions.commands.CommandChangeSuit;
+import com.zseltzer.zevadditions.init.ModArmory;
+
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.item.ItemStack;
+import net.minecraft.potion.Potion;
+import net.minecraft.potion.PotionEffect;
+import net.minecraft.world.World;
+
+public class SuperPowerEffects 
+{
+	
+	@Override
+	public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack) 
+	{
+		if (CommandChangeSuit.suitName == "theFlash" || CommandChangeSuit.suitName == "theFlash6" || CommandChangeSuit.suitName == "theFlashShaded" || CommandChangeSuit.suitName == "theFlashShaded2" || CommandChangeSuit.suitName == "theFlashShaded")
+		if (itemStack.getItem().equals(ModArmory.superheroBoots))
+		    player.addPotionEffect(new PotionEffect(Potion.moveSpeed.id, 70));
+	}
+
+	public static void init(String simpleHeroName)
+	{
+		
+		
+		
+	}
+	
+}

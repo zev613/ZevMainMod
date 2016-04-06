@@ -1,0 +1,42 @@
+package com.zseltzer.zevadditions.util;
+
+import com.zseltzer.zevadditions.init.ModArmory;
+
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.item.ItemStack;
+import net.minecraft.potion.Potion;
+import net.minecraft.potion.PotionEffect;
+import net.minecraft.world.World;
+
+public class SetSuitTexture //extends SuperheroTestArmor
+{
+	/*
+	public SetSuitTexture(ArmorMaterial material, int ArmorType, String name) 
+	{
+		super(material, ArmorType, name);
+		
+	}
+*/
+	
+	
+	public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack) 
+	{
+	if (player.getCurrentArmor(1) != null && player.getCurrentArmor(1).getItem().equals(ModArmory.superheroPants))
+	    player.addPotionEffect(new PotionEffect(Potion.moveSpeed.id, 40));
+	}	
+	getArmorTexture(ItemStack stack, Entity player, int slot, String type)
+	{
+		if (stack.getItem() == ModArmory.superheroHead || stack.getItem() == ModArmory.superheroChest || stack.getItem() == ModArmory.superheroBoots)
+		{
+			return Reference.MODID + ":textures/models/superheroSuits/" + suitName + "_layer_1.png";
+		}
+		else if (stack.getItem() == ModArmory.superheroPants)
+		{
+			return Reference.MODID + ":textures/models/superheroSuits/" + suitName + "_layer_2.png";
+		}
+		else
+		{
+			return null;
+		}	
+	}
+}
