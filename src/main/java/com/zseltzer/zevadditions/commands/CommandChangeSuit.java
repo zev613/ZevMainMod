@@ -134,4 +134,3 @@ public class CommandChangeSuit implements ICommand
         return false;
     } 
 }
-

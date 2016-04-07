@@ -41,10 +41,26 @@ public class ItemDrFateCostume extends ItemArmor
 	public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack)
 	{
 		if (itemStack.getItem().equals(ModDCCostumes.drFateHead))
-				player.fallDistance = 1.1F;
-		player.capabilities.allowFlying = true;
-		player.capabilities.setFlySpeed(0.6F);
-		player.setHealth(player.getMaxHealth() + player.getMaxHealth() / 4.0F);
-		//player.addPotionEffect(new PotionEffect(Potion.moveSpeed.id, 75));
+		{
+			player.capabilities.allowFlying = true;
+			player.capabilities.setFlySpeed(0.6F);
+			player.setHealth(player.getMaxHealth() + player.getMaxHealth() / 4.0F);
+			//player.addPotionEffect(new PotionEffect(Potion.moveSpeed.id, 75));
+		}
+		else
+		{
+			player.capabilities.setFlySpeed(0.1F);
+			player.capabilities.allowFlying = false;
+			player.fallDistance = 1.2F;
+
+		}
+		if (player.capabilities.isFlying == true)
+		{
+			player.fallDistance = 2.5F;
+		}
+		else
+		{
+			player.fallDistance = 2.0F;
+		}
 	}
 }

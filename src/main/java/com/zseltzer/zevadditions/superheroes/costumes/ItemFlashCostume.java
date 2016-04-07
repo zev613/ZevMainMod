@@ -1,5 +1,6 @@
 package com.zseltzer.zevadditions.superheroes.costumes;
 
+import com.zseltzer.zevadditions.Main;
 import com.zseltzer.zevadditions.Reference;
 import com.zseltzer.zevadditions.init.ModItems;
 import com.zseltzer.zevadditions.superheroes.ModDCCostumes;
@@ -40,24 +41,36 @@ public class ItemFlashCostume extends ItemArmor
 				return null;
 			}	
 		}
-		
+
+
+
 	@Override
 	public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack) 
 	{
-		if (itemStack.getItem().equals(ModDCCostumes.flashPants))
-			player.fallDistance = 1.5F;
-		//player.addPotionEffect(new PotionEffect(Potion.moveSpeed.id, 75));	
-		if (player.isSprinting()) 
+		if (itemStack.getItem().equals(ModDCCostumes.flashPants) && itemStack.getItem().equals(ModDCCostumes.flashHead) && itemStack.getItem().equals(ModDCCostumes.flashChest) && itemStack.getItem().equals(ModDCCostumes.flashBoots))
 		{
-			player.capabilities.setPlayerWalkSpeed(0.4F);
-			player.stepHeight = 1.1F;
-			player.jumpMovementFactor = 0.3F;
+			//player.func_70690_d(new PotionEffect(Main.speedForcePotion.field_76415_H, 10, 10));
+			//player.field_70143_R = 0.0F;
+			//player.func_70690_d(new PotionEffect(Main.strengthPotion.field_76415_H, 10, 6));
 		}
-		else 
+		else
 		{
-			player.capabilities.setPlayerWalkSpeed(0.1f);
-			player.stepHeight = 0.6F;
-			player.jumpMovementFactor = 0.1F;
+			//player.func_70690_d(new PotionEffect(Main.strengthPotion.field_76415_H, 10, 44));
+			player.fallDistance = 1.5F;
+			//player.addPotionEffect(new PotionEffect(Potion.moveSpeed.id, 75));
+				if (player.isSprinting())
+				{
+					player.capabilities.setPlayerWalkSpeed(0.4F);
+					player.stepHeight = 1.1F;
+					player.jumpMovementFactor = 0.3F;
+				}
+				else
+
+				{
+					player.capabilities.setPlayerWalkSpeed(0.1f);
+					player.stepHeight = 0.6F;
+					player.jumpMovementFactor = 0.1F;
+				}
 		}
 	}
 }

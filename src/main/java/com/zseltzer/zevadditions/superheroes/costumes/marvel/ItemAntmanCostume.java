@@ -40,7 +40,7 @@ public class ItemAntmanCostume extends ItemArmor
 				return null;
 			}	
 		}
-/*
+
 	@Override
 	public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack) 
 	{
@@ -58,5 +58,5 @@ public class ItemAntmanCostume extends ItemArmor
 		player.noClip = false;
 		player.fallDistance = player.fallDistance * 2;
 	}	
-*/
+
 }
