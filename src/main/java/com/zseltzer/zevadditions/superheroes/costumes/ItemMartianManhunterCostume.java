@@ -114,13 +114,5 @@ public class ItemMartianManhunterCostume extends ItemArmor
                 player.removePotionEffect(Potion.harm.id);
 
             }
-
-        else if (!itemStack.getItem().equals(ModDCCostumes.martianManhunterHead) && !itemStack.getItem().equals(ModDCCostumes.martianManhunterChest) && !itemStack.getItem().equals(ModDCCostumes.martianManhunterPants) && !itemStack.getItem().equals(ModDCCostumes.martianManhunterBoots))
-        {
-            isPlayerMartian = false;
-            player.capabilities.allowFlying = false;
-            player.jumpMovementFactor = 0.1F;
-            player.fallDistance = 2.0F;
-        }
     }
 }

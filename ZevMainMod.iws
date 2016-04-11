@@ -2,175 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="874db64b-89d2-40f0-b380-62096396e79f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/abilities/PotionCloak.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/abilities/PotionGrow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/abilities/PotionIntangibility.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/abilities/PotionInvisibility.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/abilities/PotionMagic.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/abilities/PotionNegSpeedForce.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/abilities/PotionShrink.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/abilities/PotionSpeedForce.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/abilities/PotionTeleport.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/events/KeyInputHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/events/PotionEventHooks.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/events/SpeedForceEventHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/keybindings/KeyBindings.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemBatmanBlueCostume.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/items/supergirlBoots.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/items/supergirlChest.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/items/supergirlPants.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/models/aquaman_1_SU.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/models/aquaman_2_SU.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/models/batmanArkhamOrigins_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/commands/CommandShazam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemSupergirlCostume.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/abilities/Abilities.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/abilities/PotionHealthIncrease.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/abilities/PotionInvsibility.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/commands/CommandShazam.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemSupergirlCostume.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/items/supergirlBoots.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/items/supergirlChest.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/items/supergirlPants.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/models/aquaman_1_SU.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/models/aquaman_2_SU.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/models/batmanArkhamOrigins_1.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/items/baronZemoChest.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/items/baronZemoChest.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/items/batman1960Boots.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/items/batman1960Boots.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/items/batman1960Chest.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/items/batman1960Chest.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/items/batman1960Head.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/items/batman1960Head.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/items/batman1960Pants.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/items/batman1960Pants.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/items/supermanBoots.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/items/supermanBoots.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/items/supermanChest.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/items/supermanChest.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/items/supermanPants.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/items/supermanPants.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/models/batman1960_1.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/models/batman1960_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/models/batman1960_2.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/models/batman1960_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/models/batmanBlue_1.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/models/batmanBlue_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/models/batmanBlue_2.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/models/batmanBlue_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/models/superheroSuits/supermanDawnOfJustice_layer_1.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/models/superheroSuits/supermanDawnOfJustice_layer_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/Main.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/abilities/PotionFlight.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/abilities/PotionFlight.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/commands/CommandBlackAdam.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/commands/CommandBlackAdam.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/commands/CommandNewShazam.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/commands/CommandNewShazam.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/events/ModEventHandler.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/events/ModEventHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/proxies/ClientProxy.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/proxies/ClientProxy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/ModDCCostumes.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/ModDCCostumes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemATOMCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemATOMCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemAquamanCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemAquamanCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemBatgirlCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemBatgirlCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemBatman1960Costume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemBatman1960Costume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemBatmanBeyondCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemBatmanBeyondCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemBlackAdamCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemBlackAdamCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemBlueBeetleCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemBlueBeetleCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemBlueLanternCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemBlueLanternCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemBoosterGoldCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemBoosterGoldCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemCyborgCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemCyborgCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemDeadmanCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemDeadmanCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemDeadshotCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemDeadshotCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemDrFateCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemDrFateCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemFlashCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemFlashCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemGreenArrowCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemGreenArrowCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemGreenLanternCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemGreenLanternCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemKidFlashCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemKidFlashCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemMartianManhunterCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemMartianManhunterCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemNightwingCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemNightwingCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemProfessorZoomCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemProfessorZoomCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemRedHoodCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemRedHoodCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemRedLanternCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemRedLanternCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemRobinCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemRobinCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemShazamCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemShazamCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemSpawnCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemSpawnCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemSpectreCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemSpectreCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemSpeedyCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemSpeedyCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemStarSapphireCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemStarSapphireCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemSupermanCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemSupermanCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemWonderWomanCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemWonderWomanCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemYellowLanternCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/ItemYellowLanternCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemAntmanClassicCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemAntmanClassicCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemAntmanCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemAntmanCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemBaronZemoCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemBaronZemoCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemBlackPantherCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemBlackPantherCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemCaptainAmericaCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemCaptainAmericaCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemCaptainBritainCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemCaptainBritainCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemCaptainMarvelCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemCaptainMarvelCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemDaredevilCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemDaredevilCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemDeadpoolCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemDeadpoolCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemDoctorStrangeCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemDoctorStrangeCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemMsMarvelCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemMsMarvelCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemSpidermanCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemSpidermanCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemVisionCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemVisionCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemWolverineCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemWolverineCostume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/items/baronZemoChest.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/items/baronZemoChest.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/items/batman1960Boots.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/items/batman1960Boots.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/items/batman1960Chest.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/items/batman1960Chest.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/items/batman1960Head.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/items/batman1960Head.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/items/batman1960Pants.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/items/batman1960Pants.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/items/supermanBoots.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/items/supermanBoots.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/items/supermanChest.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/items/supermanChest.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/items/supermanPants.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/items/supermanPants.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/models/batman1960_1.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/models/batman1960_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/models/batman1960_2.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/models/batman1960_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/models/batmanBlue_1.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/models/batmanBlue_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/models/batmanBlue_2.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/models/batmanBlue_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/models/superheroSuits/supermanDawnOfJustice_layer_1.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/models/superheroSuits/supermanDawnOfJustice_layer_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZevMainMod.iws" afterPath="$PROJECT_DIR$/ZevMainMod.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/abilities/PotionFlight.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/abilities/PotionFlight.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/abilities/PotionJump.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/abilities/PotionJump.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/abilities/PotionRegen.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/abilities/PotionRegen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/abilities/PotionSpeed.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/abilities/PotionSpeed.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/abilities/PotionStrength.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/abilities/PotionStrength.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/abilities/PotionWaterBreathing.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/abilities/PotionWaterBreathing.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/commands/CommandBlackAdam.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/commands/CommandBlackAdam.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/events/ModEventHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/events/ModEventHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/proxies/ClientProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/proxies/ClientProxy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/ModDCCostumes.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/ModDCCostumes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemATOMCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemATOMCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemAquamanCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemAquamanCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemBatgirlCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemBatgirlCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemBatman1960Costume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemBatman1960Costume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemBatmanBeyondCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemBatmanBeyondCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemBatmanNew52Costume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemBatmanNew52Costume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemBlackAdamCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemBlackAdamCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemBlueBeetleCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemBlueBeetleCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemBlueLanternCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemBlueLanternCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemBoosterGoldCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemBoosterGoldCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemCyborgCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemCyborgCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemDeadmanCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemDeadmanCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemDeadshotCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemDeadshotCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemDrFateCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemDrFateCostume.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemFlashCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemFlashCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemGreenArrowCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemGreenArrowCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemGreenLanternCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemGreenLanternCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemKidFlashCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemKidFlashCostume.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemMartianManhunterCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemMartianManhunterCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemNightwingCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemNightwingCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemProfessorZoomCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemProfessorZoomCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemRedHoodCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemRedHoodCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemRedLanternCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemRedLanternCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemRobinCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemRobinCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemShazamCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemShazamCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemSpawnCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemSpawnCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemSpectreCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemSpectreCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemSpeedyCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemSpeedyCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemStarSapphireCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemStarSapphireCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemSupermanCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemSupermanCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemWonderWomanCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemWonderWomanCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemYellowLanternCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemYellowLanternCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemAntmanClassicCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemAntmanClassicCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemAntmanCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemAntmanCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemBaronZemoCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemBaronZemoCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemBlackPantherCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemBlackPantherCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemCaptainAmericaCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemCaptainAmericaCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemCaptainBritainCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemCaptainBritainCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemCaptainMarvelCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemCaptainMarvelCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemDaredevilCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemDaredevilCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemDeadpoolCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemDeadpoolCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemDoctorStrangeCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemDoctorStrangeCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemMsMarvelCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemMsMarvelCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemSpidermanCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemSpidermanCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemVisionCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemVisionCostume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemWolverineCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemWolverineCostume.java" />
     </list>
     <ignored path="ZevMainMod.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -230,34 +63,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ItemBaronZemoCostume.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemBaronZemoCostume.java">
+      <file leaf-file-name="ItemMartianManhunterCostume.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemMartianManhunterCostume.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="605">
+              <caret line="115" column="13" selection-start-line="115" selection-start-column="13" selection-end-line="115" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemSupermanCostume.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemSupermanCostume.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemNightwingCostume.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemNightwingCostume.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="552">
-              <caret line="50" column="62" selection-start-line="50" selection-start-column="62" selection-end-line="50" selection-end-column="62" />
-              <caret line="50" column="117" selection-start-line="50" selection-start-column="117" selection-end-line="50" selection-end-column="117" />
-              <caret line="50" column="172" selection-start-line="50" selection-start-column="172" selection-end-line="50" selection-end-column="172" />
-              <caret line="50" column="226" selection-start-line="50" selection-start-column="226" selection-end-line="50" selection-end-column="226" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemAntmanCostume.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemAntmanCostume.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="66" column="5" selection-start-line="43" selection-start-column="4" selection-end-line="66" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemAntmanClassicCostume.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemAntmanClassicCostume.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+              <caret line="49" column="58" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
+              <caret line="49" column="109" selection-start-line="49" selection-start-column="109" selection-end-line="49" selection-end-column="109" />
+              <caret line="49" column="160" selection-start-line="49" selection-start-column="160" selection-end-line="49" selection-end-column="160" />
+              <caret line="49" column="210" selection-start-line="49" selection-start-column="210" selection-end-line="49" selection-end-column="210" />
               <folding />
             </state>
           </provider>
@@ -278,8 +113,28 @@
       <file leaf-file-name="ItemBoosterGoldCostume.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemBoosterGoldCostume.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
+            <state relative-caret-position="269">
               <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemFlashCostume.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemFlashCostume.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="World.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1558-1.7.10/forgeSrc-1.7.10-10.13.4.1558-1.7.10-sources.jar!/net/minecraft/world/World.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="3931" column="0" selection-start-line="3931" selection-start-column="0" selection-end-line="3931" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -305,17 +160,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ModDCCostumes.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/ModDCCostumes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="359" column="66" selection-start-line="359" selection-start-column="66" selection-end-line="359" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemWonderWomanCostume.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ItemWonderWomanCostume.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemWonderWomanCostume.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
@@ -363,7 +208,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemCyborgCostume.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemBlackAdamCostume.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemBatmanNew52Costume.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemFlashCostume.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemBatmanBlueCostume.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemBatmanBeyondCostume.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemBatman1960Costume.java" />
@@ -377,7 +221,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemAntmanClassicCostume.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemBlackPantherCostume.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemAquamanCostume.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemMartianManhunterCostume.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemProfessorZoomCostume.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemSupermanCostume.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemWonderWomanCostume.java" />
@@ -397,6 +240,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemCaptainMarvelCostume.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/marvel/ItemCaptainBritainCostume.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemBoosterGoldCostume.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemFlashCostume.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemMartianManhunterCostume.java" />
       </list>
     </option>
   </component>
@@ -937,17 +782,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="0" width="1932" height="1048" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32844242" sideWeight="0.4955654" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10730594" sideWeight="0.1555794" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.05643341" sideWeight="0.15877287" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992464" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.261851" sideWeight="0.8444206" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.05643341" sideWeight="0.8412271" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4085779" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1017,17 +862,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemRobinCostume.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="49" column="54" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
-          <caret line="49" column="101" selection-start-line="49" selection-start-column="101" selection-end-line="49" selection-end-column="101" />
-          <caret line="49" column="148" selection-start-line="49" selection-start-column="148" selection-end-line="49" selection-end-column="148" />
-          <caret line="49" column="194" selection-start-line="49" selection-start-column="194" selection-end-line="49" selection-end-column="194" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemRedHoodCostume.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
@@ -1035,17 +869,6 @@
           <caret line="49" column="105" selection-start-line="49" selection-start-column="105" selection-end-line="49" selection-end-column="105" />
           <caret line="49" column="154" selection-start-line="49" selection-start-column="154" selection-end-line="49" selection-end-column="154" />
           <caret line="49" column="202" selection-start-line="49" selection-start-column="202" selection-end-line="49" selection-end-column="202" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemNightwingCostume.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="49" column="58" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
-          <caret line="49" column="109" selection-start-line="49" selection-start-column="109" selection-end-line="49" selection-end-column="109" />
-          <caret line="49" column="160" selection-start-line="49" selection-start-column="160" selection-end-line="49" selection-end-column="160" />
-          <caret line="49" column="210" selection-start-line="49" selection-start-column="210" selection-end-line="49" selection-end-column="210" />
           <folding />
         </state>
       </provider>
@@ -1149,16 +972,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemMartianManhunterCostume.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="124" column="5" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemProfessorZoomCostume.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -1167,26 +980,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemFlashCostume.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="64" column="34" selection-start-line="64" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemBatman1960Costume.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemSupermanCostume.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1359,7 +1156,7 @@
         <state relative-caret-position="495">
           <caret line="60" column="83" selection-start-line="60" selection-start-column="83" selection-end-line="60" selection-end-column="83" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1387,24 +1184,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
           <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemBatmanBlueCostume.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemBoosterGoldCostume.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -1446,6 +1225,69 @@
         <state relative-caret-position="286">
           <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemBoosterGoldCostume.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemBatmanBlueCostume.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemFlashCostume.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1558-1.7.10/forgeSrc-1.7.10-10.13.4.1558-1.7.10-sources.jar!/net/minecraft/world/World.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="3931" column="0" selection-start-line="3931" selection-start-column="0" selection-end-line="3931" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemSupermanCostume.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemNightwingCostume.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="49" column="58" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
+          <caret line="49" column="109" selection-start-line="49" selection-start-column="109" selection-end-line="49" selection-end-column="109" />
+          <caret line="49" column="160" selection-start-line="49" selection-start-column="160" selection-end-line="49" selection-end-column="160" />
+          <caret line="49" column="210" selection-start-line="49" selection-start-column="210" selection-end-line="49" selection-end-column="210" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/superheroes/costumes/ItemMartianManhunterCostume.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="115" column="13" selection-start-line="115" selection-start-column="13" selection-end-line="115" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

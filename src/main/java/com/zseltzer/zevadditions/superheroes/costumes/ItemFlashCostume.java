@@ -56,15 +56,15 @@ public class ItemFlashCostume extends ItemArmor
         if (boots != null && pants != null && chest != null)
             if (boots.getItem() == ModDCCostumes.flashBoots && pants.getItem() == ModDCCostumes.flashPants && chest.getItem() == ModDCCostumes.flashChest && head.getItem() == ModDCCostumes.flashHead)
             {
-                player.fallDistance = 1.5F;
-			    player.addPotionEffect(new PotionEffect(Potion.regeneration.id, 10, 2));
-			    player.addPotionEffect(new PotionEffect(Potion.jump.id, 10, 2));
+                player.fallDistance = 0.5F;
+			    player.addPotionEffect(new PotionEffect(Potion.regeneration.id, 10, 1));
+			    player.addPotionEffect(new PotionEffect(Potion.jump.id, 10, 1));
 
 			if (player.isSprinting())
             {
                 player.capabilities.setPlayerWalkSpeed(0.6F);
                 player.stepHeight = 1.1F;
-                player.jumpMovementFactor = 0.3F;
+                player.jumpMovementFactor = 0.2F;
             } else
 
             {
