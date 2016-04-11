@@ -1,39 +1,7 @@
 package com.zseltzer.zevadditions.superheroes;
 
 import com.zseltzer.zevadditions.RegisterHelper;
-import com.zseltzer.zevadditions.superheroes.costumes.ItemATOMCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.ItemAquamanCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.ItemBatgirlCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.ItemBatman1960Costume;
-import com.zseltzer.zevadditions.superheroes.costumes.ItemBatmanBeyondCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.ItemBatmanNew52Costume;
-import com.zseltzer.zevadditions.superheroes.costumes.ItemBlackAdamCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.ItemBlueBeetleCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.ItemBlueLanternCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.ItemBoosterGoldCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.ItemCyborgCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.ItemDeadmanCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.ItemDeadshotCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.ItemDrFateCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.ItemFlashCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.ItemGreenArrowCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.ItemGreenLanternCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.ItemKidFlashCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.ItemMartianManhunterCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.ItemNightwingCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.ItemProfessorZoomCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.ItemRedHoodCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.ItemRedLanternCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.ItemRobinCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.ItemShazamCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.ItemSpawnCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.ItemSpectreCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.ItemSpeedyCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.ItemStarSapphireCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.ItemSupergirlCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.ItemSupermanCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.ItemWonderWomanCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.ItemYellowLanternCostume;
+import com.zseltzer.zevadditions.superheroes.costumes.*;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
@@ -45,7 +13,11 @@ public class ModDCCostumes
 //BATMAN 1960s COSTUME	
 	static ArmorMaterial BATMAN_1960_COSTUME = EnumHelper.addArmorMaterial
 		("BATMAN_1960_COSTUME", 20, new int[]{3, 7, 5, 2}, 14);
-		
+
+    //BATMAN BLUE COSTUME
+    static ArmorMaterial BATMAN_BLUE_COSTUME = EnumHelper.addArmorMaterial
+            ("BATMAN_BLUE_COSTUME", 20, new int[]{3, 7, 5, 2}, 14);
+
 //BATMAN NEW 52 COSTUME	
 	static ArmorMaterial BATMAN_NEW_52_COSTUME = EnumHelper.addArmorMaterial
 		("BATMAN_NEW_52_COSTUME", 20, new int[]{3, 7, 5, 2}, 14);
@@ -64,11 +36,7 @@ public class ModDCCostumes
 
 //SUPERMAN COSTUME	
 	static ArmorMaterial SUPERMAN_COSTUME = EnumHelper.addArmorMaterial
-		("SUPERMAN_COSTUME", 20, new int[]{3, 7, 5}, 14);
-		
-//SUPEGIRL COSTUME	
-	static ArmorMaterial SUPERGIRL_COSTUME = EnumHelper.addArmorMaterial
-		("SUPERGIRL_COSTUME", 20, new int[]{3, 7, 5}, 14);
+		("SUPERMAN_COSTUME", 20, new int[]{3, 7, 5, 2}, 14);
 	
 //FLASH COSTUME 	
 	static ArmorMaterial FLASH_COSTUME = EnumHelper.addArmorMaterial
@@ -146,7 +114,7 @@ public class ModDCCostumes
 		static ArmorMaterial BLUE_BEETLE_COSTUME = EnumHelper.addArmorMaterial
 				("BLUE_BEETLE_COSTUME", 20, new int[]{3, 7, 5, 2}, 14);
 		
-//BOOSTER GOLD COSTUME	
+//BOOSTER GOLD COSbaTUME
 		static ArmorMaterial BOOSTER_GOLD_COSTUME = EnumHelper.addArmorMaterial
 				("BOOSTER_GOLD_COSTUME", 20, new int[]{3, 7, 5, 2}, 14);
 		
@@ -182,7 +150,15 @@ public class ModDCCostumes
 	public static Item batman1960Chest = new ItemBatman1960Costume(BATMAN_1960_COSTUME, 1, "batman1960Chest");
 	public static Item batman1960Pants = new ItemBatman1960Costume(BATMAN_1960_COSTUME, 2, "batman1960Pants");
 	public static Item batman1960Boots = new ItemBatman1960Costume(BATMAN_1960_COSTUME, 3, "batman1960Boots");
-			
+
+//BATMAN BLUE COSTUME SET
+
+	public static Item batmanBlueHead = new ItemBatmanBlueCostume(BATMAN_BLUE_COSTUME, 0, "batmanBlueHead");
+	public static Item batmanBlueChest = new ItemBatmanBlueCostume(BATMAN_BLUE_COSTUME, 1, "batmanBlueChest");
+	public static Item batmanBluePants = new ItemBatmanBlueCostume(BATMAN_BLUE_COSTUME, 2, "batmanBluePants");
+	public static Item batmanBlueBoots = new ItemBatmanBlueCostume(BATMAN_BLUE_COSTUME, 3, "batmanBlueBoots");
+
+
 	//BATMAN NEW 52 COSTUME SET
 			
 	public static Item batmanNew52Head = new ItemBatmanNew52Costume(BATMAN_NEW_52_COSTUME, 0, "batmanNew52Head");
@@ -205,10 +181,11 @@ public class ModDCCostumes
 	public static Item batgirlBoots = new ItemBatgirlCostume(BATGIRL_COSTUME, 3, "batgirlBoots");
 	
 	//SUPERMAN COSTUME SET
-	
-	public static Item supermanChest = new ItemSupermanCostume(SUPERMAN_COSTUME, 0, "supermanChest");
-	public static Item supermanPants = new ItemSupermanCostume(SUPERMAN_COSTUME, 1, "supermanPants");
-	public static Item supermanBoots = new ItemSupermanCostume(SUPERMAN_COSTUME, 2, "supermanBoots");
+
+	public static Item supermanHead = new ItemSupermanCostume(SUPERMAN_COSTUME, 0, "supermanHead");
+	public static Item supermanChest = new ItemSupermanCostume(SUPERMAN_COSTUME, 1, "supermanChest");
+	public static Item supermanPants = new ItemSupermanCostume(SUPERMAN_COSTUME, 2, "supermanPants");
+	public static Item supermanBoots = new ItemSupermanCostume(SUPERMAN_COSTUME, 3, "supermanBoots");
 			
 	//WONDER WOMAN COSTUME SET
 	
@@ -216,13 +193,7 @@ public class ModDCCostumes
 	public static Item wonderWomanChest = new ItemWonderWomanCostume(WONDER_WOMAN_COSTUME, 1, "wonderWomanChest");
 	public static Item wonderWomanPants = new ItemWonderWomanCostume(WONDER_WOMAN_COSTUME, 2, "wonderWomanPants");
 	public static Item wonderWomanBoots = new ItemWonderWomanCostume(WONDER_WOMAN_COSTUME, 3, "wonderWomanBoots");	
-	
-	//SUPERGIRL COSTUME SET
-			
-	public static Item supergirlChest = new ItemSupergirlCostume(SUPERGIRL_COSTUME, 0, "supergirlChest");
-	public static Item supergirlPants = new ItemSupergirlCostume(SUPERGIRL_COSTUME, 1, "supergirlPants");
-	public static Item supergirlBoots = new ItemSupergirlCostume(SUPERGIRL_COSTUME, 2, "supergirlBoots");
-	
+
 	//FLASH COSTUME SET	
 		
 	public static Item flashHead = new ItemFlashCostume(FLASH_COSTUME, 0, "flashHead");
@@ -415,7 +386,14 @@ public static void init()
 		RegisterHelper.registerItem(batman1960Chest);
 		RegisterHelper.registerItem(batman1960Pants);
 		RegisterHelper.registerItem(batman1960Boots);
-			
+
+    //BATMAN (BLUE) COSTUME SET
+
+    RegisterHelper.registerItem(batmanBlueHead);
+    RegisterHelper.registerItem(batmanBlueChest);
+    RegisterHelper.registerItem(batmanBluePants);
+    RegisterHelper.registerItem(batmanBlueBoots);
+
 	//BATMAN (NEW 52) COSTUME SET
 			
 		RegisterHelper.registerItem(batmanNew52Head);
@@ -438,16 +416,11 @@ public static void init()
 		RegisterHelper.registerItem(batgirlBoots);	
 		
 	//SUPERMAN COSTUME SET
-			
+
+		RegisterHelper.registerItem(supermanHead);
 		RegisterHelper.registerItem(supermanChest);
 		RegisterHelper.registerItem(supermanPants);
 		RegisterHelper.registerItem(supermanBoots);
-			
-	//SUPERGIRL COSTUME SET
-			
-		RegisterHelper.registerItem(supergirlChest);
-		RegisterHelper.registerItem(supergirlPants);
-		RegisterHelper.registerItem(supergirlBoots);
 			
 	//WONDER WOMAN COSTUME SET
 			

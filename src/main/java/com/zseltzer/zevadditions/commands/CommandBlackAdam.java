@@ -24,16 +24,10 @@ public class CommandBlackAdam implements ICommand
 {
     private final List aliases;
 
-    //When Shazam has his powers powers.
-    //public static boolean isPlayerShazam = false;
     //When Black Adam has his suit on, and therefore has his powers, but has not said Shazam yet, so has not died.
     public static boolean isPlayerBlackAdam = false;
     //When Black Adam has said Shazam (for the first time, soon will die)
     public static boolean blackAdamChangeActivated = false;
-    //When Shazam has been activated (toggle ON), and now has his powers.
-    //public static boolean shazamCommandActivated = false;
-    //When says Shazam for the second time (toggle OFF) and does not have his powers anymore.
-    //public static boolean shazamCommandDeactivated = false;
 
     public CommandBlackAdam()
     {

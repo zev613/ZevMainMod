@@ -2,7 +2,6 @@ package com.zseltzer.zevadditions.superheroes.costumes;
 
 import com.zseltzer.zevadditions.Reference;
 import com.zseltzer.zevadditions.commands.CommandNewShazam;
-import com.zseltzer.zevadditions.commands.CommandShazam;
 import com.zseltzer.zevadditions.superheroes.ModDCCostumes;
 import com.zseltzer.zevadditions.tabs.ModTabs;
 
@@ -45,19 +44,26 @@ public class ItemShazamCostume extends ItemArmor
     @Override
     public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack)
     {
-        if (CommandNewShazam.isPlayerShazam && CommandNewShazam.shazamCommandActivated)
-        {
-            player.capabilities.allowFlying = true;
-			//player.fallDistance = 0.0F;
-            //player.capabilities.setFlySpeed(0.3F);
-            //player.capabilities.setPlayerWalkSpeed(0.2F);
-            //player.setHealth(player.getMaxHealth() + 3.0F);
-                player.addPotionEffect(new PotionEffect(Potion.damageBoost.id, 15, 1, false));
-                player.addPotionEffect(new PotionEffect(Potion.fireResistance.id, 15, 1, false));
-                player.addPotionEffect(new PotionEffect(Potion.regeneration.id, 15, 1, false));
-                player.addPotionEffect(new PotionEffect(Potion.waterBreathing.id, 15, 1, false));
-                player.addPotionEffect(new PotionEffect(Potion.resistance.id, 15, 1, false));
-            //player.jumpMovementFactor = 0.2F;
-        }
+        super.onArmorTick(world, player, itemStack);
+        ItemStack boots = player.inventory.armorInventory[0];
+        ItemStack pants = player.inventory.armorInventory[1];
+        ItemStack chest = player.inventory.armorInventory[2];
+        ItemStack head = player.inventory.armorInventory[3];
+
+        if (boots != null && pants != null && chest != null)
+            if (CommandNewShazam.isPlayerShazam && CommandNewShazam.shazamCommandActivated && boots.getItem() == ModDCCostumes.supermanBoots && pants.getItem() == ModDCCostumes.supermanPants && chest.getItem() == ModDCCostumes.supermanChest && head.getItem() == ModDCCostumes.supermanHead)
+            {
+                player.capabilities.allowFlying = true;
+			    //player.fallDistance = 0.0F;
+                //player.capabilities.setFlySpeed(0.3F);
+                //player.capabilities.setPlayerWalkSpeed(0.2F);
+                //player.setHealth(player.getMaxHealth() + 3.0F);
+                    player.addPotionEffect(new PotionEffect(Potion.damageBoost.id, 15, 1, false));
+                    player.addPotionEffect(new PotionEffect(Potion.fireResistance.id, 15, 1, false));
+                    player.addPotionEffect(new PotionEffect(Potion.regeneration.id, 15, 1, false));
+                    player.addPotionEffect(new PotionEffect(Potion.waterBreathing.id, 15, 1, false));
+                    player.addPotionEffect(new PotionEffect(Potion.resistance.id, 15, 1, false));
+                //player.jumpMovementFactor = 0.2F;
+            }
     }
 }

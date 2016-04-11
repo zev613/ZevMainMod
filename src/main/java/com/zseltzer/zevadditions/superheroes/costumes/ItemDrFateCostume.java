@@ -40,27 +40,27 @@ public class ItemDrFateCostume extends ItemArmor
 	@Override
 	public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack)
 	{
-		if (itemStack.getItem().equals(ModDCCostumes.drFateHead))
-		{
-			player.capabilities.allowFlying = true;
-			player.capabilities.setFlySpeed(0.6F);
-			player.setHealth(player.getMaxHealth() + player.getMaxHealth() / 4.0F);
-			//player.addPotionEffect(new PotionEffect(Potion.moveSpeed.id, 75));
-		}
-		else
-		{
-			player.capabilities.setFlySpeed(0.1F);
-			player.capabilities.allowFlying = false;
-			player.fallDistance = 1.2F;
+		super.onArmorTick(world, player, itemStack);
+		ItemStack boots = player.inventory.armorInventory[0];
+		ItemStack pants = player.inventory.armorInventory[1];
+		ItemStack chest = player.inventory.armorInventory[2];
+		ItemStack head = player.inventory.armorInventory[3];
 
-		}
-		if (player.capabilities.isFlying == true)
-		{
-			player.fallDistance = 2.5F;
-		}
-		else
-		{
-			player.fallDistance = 2.0F;
-		}
+		if (boots != null && pants != null && chest != null)
+			if (boots.getItem() == ModDCCostumes.spawnBoots && pants.getItem() == ModDCCostumes.spawnPants && chest.getItem() == ModDCCostumes.spawnChest && head.getItem() == ModDCCostumes.spawnHead)
+            {
+                player.capabilities.allowFlying = true;
+                player.fallDistance = 0.0F;
+                player.capabilities.setFlySpeed(0.2F);
+                player.setHealth(player.getMaxHealth() + player.getMaxHealth() / 4.0F);
+                //player.addPotionEffect(new PotionEffect(Potion.moveSpeed.id, 75));
+            }
+            else
+            {
+                player.capabilities.allowFlying = false;
+                player.capabilities.setFlySpeed(0.1F);
+                player.fallDistance = 2.0F;
+                player.setHealth(player.getMaxHealth());
+            }
 	}
 }

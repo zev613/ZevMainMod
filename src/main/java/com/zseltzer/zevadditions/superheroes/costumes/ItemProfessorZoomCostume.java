@@ -41,20 +41,28 @@ public class ItemProfessorZoomCostume extends ItemArmor
 	@Override
 	public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack)
 	{
-		if (itemStack.getItem().equals(ModDCCostumes.professorZoomPants))
-			player.fallDistance = 1.6F;
-		//player.addPotionEffect(new PotionEffect(Potion.moveSpeed.id, 75));
-		if (player.isSprinting())
-		{
-			player.capabilities.setPlayerWalkSpeed(0.5F);
-			player.stepHeight = 1.2F;
-			player.jumpMovementFactor = 0.4F;
-		}
-		else
-		{
-			player.capabilities.setPlayerWalkSpeed(0.1f);
-			player.stepHeight = 0.6F;
-			player.jumpMovementFactor = 0.1F;
-		}
+		super.onArmorTick(world, player, itemStack);
+		ItemStack boots = player.inventory.armorInventory[0];
+		ItemStack pants = player.inventory.armorInventory[1];
+		ItemStack chest = player.inventory.armorInventory[2];
+		ItemStack head = player.inventory.armorInventory[3];
+
+		if (boots != null && pants != null && chest != null)
+			if (boots.getItem() == ModDCCostumes.professorZoomBoots && pants.getItem() == ModDCCostumes.professorZoomPants && chest.getItem() == ModDCCostumes.professorZoomChest && head.getItem() == ModDCCostumes.professorZoomHead)
+			{
+				player.fallDistance = 1.6F;
+				if (player.isSprinting())
+				{
+					player.capabilities.setPlayerWalkSpeed(0.6F);
+					player.stepHeight = 1.2F;
+					player.jumpMovementFactor = 0.4F;
+				}
+				else
+				{
+					player.capabilities.setPlayerWalkSpeed(0.1f);
+					player.stepHeight = 0.6F;
+					player.jumpMovementFactor = 0.1F;
+				}
+			}
 	}
 }

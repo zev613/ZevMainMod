@@ -2,7 +2,6 @@ package com.zseltzer.zevadditions.superheroes.costumes;
 
 import com.zseltzer.zevadditions.Reference;
 import com.zseltzer.zevadditions.commands.CommandBlackAdam;
-import com.zseltzer.zevadditions.commands.CommandShazam;
 import com.zseltzer.zevadditions.superheroes.ModDCCostumes;
 import com.zseltzer.zevadditions.tabs.ModTabs;
 
@@ -42,11 +41,19 @@ public class ItemBlackAdamCostume extends ItemArmor
 			}	
 		}
 
+
     @Override
     public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack)
     {
-        if (CommandBlackAdam.blackAdamChangeActivated== false && itemStack.getItem().equals(ModDCCostumes.blackAdamHead) && itemStack.getItem().equals(ModDCCostumes.blackAdamChest) && itemStack.getItem().equals(ModDCCostumes.blackAdamPants) && itemStack.getItem().equals(ModDCCostumes.blackAdamBoots))
-        {
+        super.onArmorTick(world, player, itemStack);
+        ItemStack boots = player.inventory.armorInventory[0];
+        ItemStack pants = player.inventory.armorInventory[1];
+        ItemStack chest = player.inventory.armorInventory[2];
+        ItemStack head = player.inventory.armorInventory[3];
+
+        if (boots != null && pants != null && chest != null)
+            if (CommandBlackAdam.blackAdamChangeActivated== false && boots.getItem() == ModDCCostumes.spawnBoots && pants.getItem() == ModDCCostumes.spawnPants && chest.getItem() == ModDCCostumes.spawnChest && head.getItem() == ModDCCostumes.spawnHead)
+            {
             CommandBlackAdam.isPlayerBlackAdam = true;
             player.capabilities.allowFlying = true;
             player.fallDistance = 0.0F;
@@ -63,7 +70,7 @@ public class ItemBlackAdamCostume extends ItemArmor
         }
         else
         {
-            CommandShazam.isPlayerBlackAdam = false;
+            CommandBlackAdam.isPlayerBlackAdam = false;
             player.capabilities.allowFlying = false;
             player.fallDistance = 2.0F;
             player.setHealth(player.getMaxHealth());

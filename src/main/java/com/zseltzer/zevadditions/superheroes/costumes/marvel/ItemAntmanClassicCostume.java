@@ -13,11 +13,11 @@ import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.world.World;
 
-public class ItemAntmanClassicCostume extends ItemArmor 
+public class ItemAntmanClassicCostume extends ItemArmor
 {
 	public String textureName = "antmanClassic";
 
-	 public ItemAntmanClassicCostume( ArmorMaterial material, int ArmorType, String unlocalizedName) 
+	 public ItemAntmanClassicCostume( ArmorMaterial material, int ArmorType, String unlocalizedName)
 		{
 			super(material, 0, ArmorType);
 			setUnlocalizedName(unlocalizedName);
@@ -40,23 +40,29 @@ public class ItemAntmanClassicCostume extends ItemArmor
 				return null;
 			}	
 		}
-/*
 	@Override
-	public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack) 
-	{
-		if (itemStack.getItem().equals(ModMarvelCostumes.antmanClassicChest))
-			player.addPotionEffect(new PotionEffect(Potion.moveSpeed.id, 100, 100));	
-		player.jumpMovementFactor = 0.2F;
-		//player.jumpMovementFactor = player.jumpMovementFactor / 2;
-		player.stepHeight = 0.26F;
-		//player.height = 0.5F;
-		//player.width = 0.5F;
-		player.height = player.height / 2;
-		player.width = player.width / 2;
-		//player.boundingBox.maxY = player.getBoundingBox().minY + (player.height);
-		player.eyeHeight = player.getDefaultEyeHeight() / 2;
-		player.noClip = false;
-		player.fallDistance = player.fallDistance * 2;
-	}	
-*/
+	public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack) {
+		super.onArmorTick(world, player, itemStack);
+		ItemStack boots = player.inventory.armorInventory[0];
+		ItemStack pants = player.inventory.armorInventory[1];
+		ItemStack chest = player.inventory.armorInventory[2];
+		ItemStack head = player.inventory.armorInventory[3];
+
+		if (boots != null && pants != null && chest != null)
+			if (boots.getItem() == ModMarvelCostumes.antmanClassicBoots && pants.getItem() == ModMarvelCostumes.antmanClassicPants && chest.getItem() == ModMarvelCostumes.antmanClassicChest && head.getItem() == ModMarvelCostumes.antmanClassicHead)
+			{
+				player.addPotionEffect(new PotionEffect(Potion.moveSpeed.id, 100, 100));
+				player.jumpMovementFactor = 0.2F;
+				//player.jumpMovementFactor = player.jumpMovementFactor / 2;
+				player.stepHeight = 0.26F;
+				//player.height = 0.5F;
+				//player.width = 0.5F;
+				player.height = player.height / 2;
+				player.width = player.width / 2;
+				//player.boundingBox.maxY = player.getBoundingBox().minY + (player.height);
+				player.eyeHeight = player.getDefaultEyeHeight() / 2;
+				player.noClip = false;
+				player.fallDistance = player.fallDistance * 2;
+			}
+	}
 }

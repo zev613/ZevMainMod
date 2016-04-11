@@ -5,8 +5,10 @@ import com.zseltzer.zevadditions.superheroes.ModDCCostumes;
 import com.zseltzer.zevadditions.tabs.ModTabs;
 
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
+import net.minecraft.world.World;
 
 public class ItemRedHoodCostume extends ItemArmor 
 {
@@ -35,4 +37,19 @@ public class ItemRedHoodCostume extends ItemArmor
 				return null;
 			}	
 		}
+	@Override
+	public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack)
+	{
+		super.onArmorTick(world, player, itemStack);
+		ItemStack boots = player.inventory.armorInventory[0];
+		ItemStack pants = player.inventory.armorInventory[1];
+		ItemStack chest = player.inventory.armorInventory[2];
+		ItemStack head = player.inventory.armorInventory[3];
+
+		if (boots != null && pants != null && chest != null)
+			if (boots.getItem() == ModDCCostumes.redHoodBoots && pants.getItem() == ModDCCostumes.redHoodPants && chest.getItem() == ModDCCostumes.redHoodChest && head.getItem() == ModDCCostumes.redHoodHead)
+			{
+
+			}
+	}
 }

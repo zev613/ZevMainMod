@@ -44,33 +44,34 @@ public class ItemFlashCostume extends ItemArmor
 
 
 
-	@Override
-	public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack) 
-	{
-		if (itemStack.getItem().equals(ModDCCostumes.flashPants) && itemStack.getItem().equals(ModDCCostumes.flashHead) && itemStack.getItem().equals(ModDCCostumes.flashChest) && itemStack.getItem().equals(ModDCCostumes.flashBoots))
-		{
-			//player.func_70690_d(new PotionEffect(Main.speedForcePotion.field_76415_H, 10, 10));
-			//player.field_70143_R = 0.0F;
-			//player.func_70690_d(new PotionEffect(Main.strengthPotion.field_76415_H, 10, 6));
-		}
-		else
-		{
-			//player.func_70690_d(new PotionEffect(Main.strengthPotion.field_76415_H, 10, 44));
-			player.fallDistance = 1.5F;
-			//player.addPotionEffect(new PotionEffect(Potion.moveSpeed.id, 75));
-				if (player.isSprinting())
-				{
-					player.capabilities.setPlayerWalkSpeed(0.4F);
-					player.stepHeight = 1.1F;
-					player.jumpMovementFactor = 0.3F;
-				}
-				else
+    @Override
+    public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack)
+    {
+        super.onArmorTick(world, player, itemStack);
+        ItemStack boots = player.inventory.armorInventory[0];
+        ItemStack pants = player.inventory.armorInventory[1];
+        ItemStack chest = player.inventory.armorInventory[2];
+        ItemStack head = player.inventory.armorInventory[3];
 
-				{
-					player.capabilities.setPlayerWalkSpeed(0.1f);
-					player.stepHeight = 0.6F;
-					player.jumpMovementFactor = 0.1F;
-				}
-		}
+        if (boots != null && pants != null && chest != null)
+            if (boots.getItem() == ModDCCostumes.flashBoots && pants.getItem() == ModDCCostumes.flashPants && chest.getItem() == ModDCCostumes.flashChest && head.getItem() == ModDCCostumes.flashHead)
+            {
+                player.fallDistance = 1.5F;
+			    player.addPotionEffect(new PotionEffect(Potion.regeneration.id, 10, 2));
+			    player.addPotionEffect(new PotionEffect(Potion.jump.id, 10, 2));
+
+			if (player.isSprinting())
+            {
+                player.capabilities.setPlayerWalkSpeed(0.6F);
+                player.stepHeight = 1.1F;
+                player.jumpMovementFactor = 0.3F;
+            } else
+
+            {
+                player.capabilities.setPlayerWalkSpeed(0.1f);
+                player.stepHeight = 0.6F;
+                player.jumpMovementFactor = 0.1F;
+            }
+        }
 	}
 }

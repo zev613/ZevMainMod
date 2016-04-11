@@ -1,7 +1,7 @@
 package com.zseltzer.zevadditions.abilities;
 
 import net.minecraft.potion.Potion;
- /*
+
  public class PotionSpeed extends Potion
  {
        public PotionSpeed(int par1, boolean par2, int par3)
@@ -9,10 +9,9 @@ import net.minecraft.potion.Potion;
        super(par1, par2, par3);
    }
 
-   public Potion func_76399_b(int par1, int par2)
-   {
-    super.func_76399_b(par1, par2);
-     return this;
-   }
+     public Potion setIconIndex(int par1, int par2)
+     {
+         super.setIconIndex(par1, par2);
+         return this;
+     }
  }
-*/

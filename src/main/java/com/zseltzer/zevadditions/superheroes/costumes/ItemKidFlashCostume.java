@@ -41,20 +41,17 @@ public class ItemKidFlashCostume extends ItemArmor
 	@Override
 	public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack)
 	{
-		if (itemStack.getItem().equals(ModDCCostumes.kidFlashPants))
-			player.fallDistance = 1.4F;
-		//player.addPotionEffect(new PotionEffect(Potion.moveSpeed.id, 75));
-		if (player.isSprinting())
-		{
-			player.capabilities.setPlayerWalkSpeed(0.3F);
-			player.stepHeight = 1.1F;
-			player.jumpMovementFactor = 0.3F;
-		}
-		else
-		{
-			player.capabilities.setPlayerWalkSpeed(0.1f);
-			player.stepHeight = 0.6F;
-			player.jumpMovementFactor = 0.1F;
-		}
+		super.onArmorTick(world, player, itemStack);
+		ItemStack boots = player.inventory.armorInventory[0];
+		ItemStack pants = player.inventory.armorInventory[1];
+		ItemStack chest = player.inventory.armorInventory[2];
+		ItemStack head = player.inventory.armorInventory[3];
+
+		if (boots != null && pants != null && chest != null)
+			if (boots.getItem() == ModDCCostumes.supermanBoots && pants.getItem() == ModDCCostumes.supermanPants && chest.getItem() == ModDCCostumes.supermanChest && head.getItem() == ModDCCostumes.supermanHead)
+			{
+
+			}
 	}
+
 }

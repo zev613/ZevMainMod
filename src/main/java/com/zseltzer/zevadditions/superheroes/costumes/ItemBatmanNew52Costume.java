@@ -35,4 +35,5 @@ public class ItemBatmanNew52Costume extends ItemArmor
 				return null;
 			}	
 		}
+
 }

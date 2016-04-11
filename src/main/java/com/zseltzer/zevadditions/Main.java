@@ -1,26 +1,28 @@
 package com.zseltzer.zevadditions;
 
-//import com.zseltzer.zevadditions.abilities.Abilities;
-//import com.zseltzer.zevadditions.abilities.PotionFireBreathing;
-//import com.zseltzer.zevadditions.abilities.PotionInvisibility;
-//import com.zseltzer.zevadditions.abilities.PotionRegen;
-//import com.zseltzer.zevadditions.abilities.PotionSpeed;
-//import com.zseltzer.zevadditions.abilities.PotionWaterBreathing;
-import com.zseltzer.zevadditions.abilities.PotionFlight;
+import com.zseltzer.zevadditions.abilities.PotionFireBreathing;
+import com.zseltzer.zevadditions.abilities.PotionInvisibility;
+import com.zseltzer.zevadditions.abilities.PotionRegen;
+import com.zseltzer.zevadditions.abilities.PotionSpeed;
+import com.zseltzer.zevadditions.abilities.PotionWaterBreathing;
+import com.zseltzer.zevadditions.abilities.*;
 import com.zseltzer.zevadditions.commands.CommandBlackAdam;
 import com.zseltzer.zevadditions.commands.CommandChangeSuit;
 import com.zseltzer.zevadditions.commands.CommandNewShazam;
-import com.zseltzer.zevadditions.commands.CommandShazam;
 import com.zseltzer.zevadditions.config.ModConfig;
 import com.zseltzer.zevadditions.crafting.ModRecipes;
 import com.zseltzer.zevadditions.events.EventHelper;
+import com.zseltzer.zevadditions.events.KeyInputHandler;
 import com.zseltzer.zevadditions.events.ModEventHandler;
+//import com.zseltzer.zevadditions.events.KeyInputHandler;
 import com.zseltzer.zevadditions.init.ModArmory;
 import com.zseltzer.zevadditions.init.ModBlocks;
 import com.zseltzer.zevadditions.init.ModEntities;
 import com.zseltzer.zevadditions.init.ModItems;
 import com.zseltzer.zevadditions.init.ModSlabs;
 import com.zseltzer.zevadditions.init.ModStairs;
+//import com.zseltzer.zevadditions.keybindings.KeyBindings;
+import com.zseltzer.zevadditions.keybindings.KeyBindings;
 import com.zseltzer.zevadditions.proxies.CommonProxy;
 import com.zseltzer.zevadditions.superheroes.ModDCCostumes;
 import com.zseltzer.zevadditions.superheroes.ModHeroBlocks;
@@ -43,10 +45,8 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.event.FMLServerStartingEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
-import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.potion.Potion;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.common.config.Configuration;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
@@ -78,38 +78,41 @@ public class Main
 	ModEventHandler events = new ModEventHandler();
 	
 GeneralWorldGeneration eventWorldGen = new GeneralWorldGeneration();
-	/*
-	public static Potion speedForcePotion;
-	public static int speedForcePotionID;
-	public static Potion negspeedForcePotion;
-	public static int negspeedForcePotionID;
-	public static Potion speedPotion;
-	public static int speedPotionID;
-	public static Potion strengthPotion;
-	public static int strengthPotionID;
-	public static Potion waterPotion;
-	public static int waterPotionID;
-	public static Potion firePotion;
-	public static int firePotionID;
-	public static Potion regenPotion;
-	public static int regenPotionID;
-	public static Potion magicPotion;
-	public static int magicPotionID;
-	public static Potion telePotion;
-	public static int telePotionID;
-	public static Potion shrinkPotion;
-	public static int shrinkPotionID;
-	public static Potion jumpPotion;
-	public static int jumpPotionID;
-	public static Potion flightPotion;
-	public static int flightPotionID;
-	public static Potion archeryPotion;
-	public static int archeryPotionID;
-	public static Potion invPotion;
-	public static int invPotionID;
-	public static Potion growPotion;
-	public static int growPotionID;
 
+	public static Potion speedForcePotion;
+	//public static int speedForcePotionID;
+	public static Potion negspeedForcePotion;
+	//public static int negspeedForcePotionID;
+	public static Potion speedPotion;
+	//public static int speedPotionID;
+	public static Potion strengthPotion;
+	//public static int strengthPotionID;
+	public static Potion waterPotion;
+	//public static int waterPotionID;
+	public static Potion firePotion;
+	//public static int firePotionID;
+	public static Potion regenPotion;
+	//public static int regenPotionID;
+	public static Potion magicPotion;
+	//public static int magicPotionID;
+	public static Potion telePotion;
+	//public static int telePotionID;
+	public static Potion shrinkPotion;
+	//public static int shrinkPotionID;
+	public static Potion jumpPotion;
+	//public static int jumpPotionID;
+	public static Potion flightPotion;
+	//public static int flightPotionID;
+	//public static Potion archeryPotion;
+	//public static int archeryPotionID;
+	public static Potion invPotion;
+	//public static int invPotionID;
+	public static Potion growPotion;
+	//public static int growPotionID;
+	public static Potion intangPotion;
+	//public static int intangPotionID;
+
+	/*
 	public void initConfiguration(FMLPreInitializationEvent preEvent) {
 		Configuration config = new Configuration(new java.io.File("config/SuperheroesUnlimitedMod.cfg"));
 		config.load();
@@ -162,6 +165,8 @@ GeneralWorldGeneration eventWorldGen = new GeneralWorldGeneration();
 		
 		ModConfig.createTutConfig();
 
+		FMLCommonHandler.instance().bus().register(new KeyInputHandler());
+		KeyBindings.init();
 
 		Potion[] potionTypes = null;
 
@@ -192,10 +197,10 @@ GeneralWorldGeneration eventWorldGen = new GeneralWorldGeneration();
 
 		MinecraftForge.EVENT_BUS.register(events);
 
-		/*
+	/*
 		MinecraftForge.EVENT_BUS.register(new com.zseltzer.zevadditions.handlers.PotionEventHooks());
 		MinecraftForge.EVENT_BUS.register(new com.zseltzer.zevadditions.handlers.SupermanEventHandler());
-		//MinecraftForge.EVENT_BUS.register(new SpeedForceEventHandler());
+		MinecraftForge.EVENT_BUS.register(new SpeedForceEventHandler());
 		MinecraftForge.EVENT_BUS.register(new com.zseltzer.zevadditions.handlers.NegativeSpeedForceEventHandler());
 		MinecraftForge.EVENT_BUS.register(new KidFlashSpeedForce());
 		MinecraftForge.EVENT_BUS.register(new com.zseltzer.zevadditions.handlers.AquamanEventHandler());
@@ -239,27 +244,21 @@ GeneralWorldGeneration eventWorldGen = new GeneralWorldGeneration();
 		
 		proxy.registerRenderers();
 
-
-        //flightPotion = new PotionFlight(80, false, 0).setIconIndex(0, 0).setPotionName("potion.flightPotion");
-
-
-		/*
-		speedPotion = new PotionSpeed(speedPotionID, false, 0).func_76399_b(0, 0).func_76390_b("potion.speedPotion").func_111184_a(SharedMonsterAttributes.field_111263_d, "91AEAA56-376B-4498-935B-2F7F68070635", 0.20000000298023224D, 2);
-		strengthPotion = new Abilities(strengthPotionID, false, 0).func_76399_b(4, 0).func_76390_b("potion.strengthPotion").func_111184_a(SharedMonsterAttributes.field_111264_e, "648D7064-6A60-4F59-8ABE-C2C23A6DD7A9", 3.0D, 1);
-		jumpPotion = new Abilities(jumpPotionID, false, 0).func_76399_b(0, 0).func_76390_b("potion.jumpPotion");
-		waterPotion = new PotionWaterBreathing(waterPotionID, false, 0).func_76399_b(0, 2).func_76390_b("potion.waterPotion");
-		firePotion = new PotionFireBreathing(firePotionID, false, 0).func_76399_b(7, 1).func_76390_b("potion.firePotion");
-		regenPotion = new PotionRegen(regenPotionID, false, 0).func_76399_b(7, 0).func_76390_b("potion.regenPotion");
-		speedForcePotion = new Abilities(speedForcePotionID, false, 0).func_76399_b(2, 0).func_76390_b("potion.speedForcePotion");
-		negspeedForcePotion = new Abilities(negspeedForcePotionID, false, 0).func_76399_b(2, 1).func_76390_b("potion.negspeedForcePotion");
-		flightPotion = new Abilities(flightPotionID, false, 0).func_76399_b(1, 0).func_76390_b("potion.flightPotion");
-		invPotion = new PotionInvisibility(invPotionID, false, 0).func_76399_b(0, 1).func_76390_b("potion.invPotion");
-		growPotion = new Abilities(growPotionID, false, 0).func_76399_b(1, 1).func_76390_b("potion.growPotion");
-		shrinkPotion = new Abilities(shrinkPotionID, false, 0).func_76399_b(0, 1).func_76390_b("potion.shrinkPotion");
-		magicPotion = new Abilities(magicPotionID, false, 0).func_76399_b(4, 1).func_76390_b("potion.magicPotion");
-		archeryPotion = new Abilities(archeryPotionID, false, 0).func_76399_b(3, 1).func_76390_b("potion.archeryPotion");
-		telePotion = new Abilities(telePotionID, false, 0).func_76399_b(0, 2).func_76390_b("potion.tele");
-		*/
+		speedPotion = new PotionSpeed(80, false, 0).setIconIndex(0, 0).setPotionName("potion.speedPotion");
+		strengthPotion = new PotionStrength(81, false, 0).setIconIndex(0, 0).setPotionName("potion.strengthPotion");
+		jumpPotion = new PotionJump(82, false, 0).setIconIndex(0, 0).setPotionName("potion.jumpPotion");
+		waterPotion = new PotionWaterBreathing(83, false, 0).setIconIndex(0, 0).setPotionName("potion.waterPotion");
+		firePotion = new PotionFireBreathing(84, false, 0).setIconIndex(0, 0).setPotionName("potion.firePotion");
+		regenPotion = new PotionRegen(85, false, 0).setIconIndex(0, 0).setPotionName("potion.regenPotion");
+		speedForcePotion = new PotionSpeedForce(86, false, 0).setIconIndex(0, 0).setPotionName("potion.speedForcePotion");
+		negspeedForcePotion = new PotionNegSpeedForce(87, false, 0).setIconIndex(0, 0).setPotionName("potion.negspeedForcePotion");
+		flightPotion = new PotionFlight(88, false, 0).setIconIndex(0, 0).setPotionName("potion.flightPotion");
+		invPotion = new PotionInvisibility(89, false, 0).setIconIndex(0, 0).setPotionName("potion.invPotion");
+		growPotion = new PotionGrow(90, false, 0).setIconIndex(0, 0).setPotionName("potion.growPotion");
+		shrinkPotion = new PotionShrink(91, false, 0).setIconIndex(0, 0).setPotionName("potion.shrinkPotion");
+		magicPotion = new PotionMagic(92, false, 0).setIconIndex(0, 0).setPotionName("potion.magicPotion");
+		telePotion = new PotionTeleport(94, false, 0).setIconIndex(0, 0).setPotionName("potion.telePotion");
+		intangPotion = new PotionIntangibility(95, false, 0).setIconIndex(0, 0).setPotionName("potion.intangPotion");
 	}
 	
 	@EventHandler

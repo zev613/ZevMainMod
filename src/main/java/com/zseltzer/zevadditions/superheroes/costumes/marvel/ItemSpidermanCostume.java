@@ -6,8 +6,10 @@ import com.zseltzer.zevadditions.superheroes.ModMarvelCostumes;
 import com.zseltzer.zevadditions.tabs.ModTabs;
 
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
+import net.minecraft.world.World;
 
 public class ItemSpidermanCostume extends ItemArmor 
 {
@@ -36,4 +38,19 @@ public class ItemSpidermanCostume extends ItemArmor
 				return null;
 			}	
 		}
+	@Override
+	public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack)
+	{
+		super.onArmorTick(world, player, itemStack);
+		ItemStack boots = player.inventory.armorInventory[0];
+		ItemStack pants = player.inventory.armorInventory[1];
+		ItemStack chest = player.inventory.armorInventory[2];
+		ItemStack head = player.inventory.armorInventory[3];
+
+		if (boots != null && pants != null && chest != null)
+			if (boots.getItem() == ModMarvelCostumes.spidermanBoots && pants.getItem() == ModMarvelCostumes.spidermanPants && chest.getItem() == ModMarvelCostumes.spidermanChest && head.getItem() == ModMarvelCostumes.spidermanHead)
+			{
+
+			}
+	}
 }
