@@ -23,7 +23,9 @@ public class ItemAquamanCostume extends ItemArmor
 			setTextureName(Reference.MODID + ":" + getUnlocalizedName().substring(5));
 			setCreativeTab(ModTabs.tabHeroCostumes);
 		}
-	 
+
+
+
 		public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type)
 		{
 			if (stack.getItem() == ModDCCostumes.aquamanHead || stack.getItem() == ModDCCostumes.aquamanChest || stack.getItem() == ModDCCostumes.aquamanBoots)

@@ -14,13 +14,6 @@ public class RegisterHelper
 	{
 		GameRegistry.registerBlock(block, Reference.MODID + block.getUnlocalizedName().substring(5));
 	}
-	
-	/*
-	public static void registerMetaBlock(Block block, Class itemclass)
-	{
-		GameRegistry.registerBlock(block, itemclass, Reference.MODID + block.getUnlocalizedName().substring(5));
-	}
-	*/
 
 	public static void registerItem(Item item)
 	{

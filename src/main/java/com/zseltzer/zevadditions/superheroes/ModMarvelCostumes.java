@@ -1,20 +1,7 @@
 package com.zseltzer.zevadditions.superheroes;
 
 import com.zseltzer.zevadditions.RegisterHelper;
-import com.zseltzer.zevadditions.superheroes.costumes.marvel.ItemAntmanClassicCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.marvel.ItemAntmanCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.marvel.ItemBaronZemoCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.marvel.ItemBlackPantherCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.marvel.ItemCaptainAmericaCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.marvel.ItemCaptainBritainCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.marvel.ItemCaptainMarvelCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.marvel.ItemDaredevilCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.marvel.ItemDeadpoolCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.marvel.ItemDoctorStrangeCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.marvel.ItemMsMarvelCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.marvel.ItemSpidermanCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.marvel.ItemVisionCostume;
-import com.zseltzer.zevadditions.superheroes.costumes.marvel.ItemWolverineCostume;
+import com.zseltzer.zevadditions.superheroes.costumes.marvel.*;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
@@ -51,9 +38,13 @@ public class ModMarvelCostumes
 	static ArmorMaterial DEADPOOL_COSTUME = EnumHelper.addArmorMaterial
 			("DEADPOOL_COSTUME", 20, new int[]{3, 7, 5, 2}, 14);	
 
-//DAREDEVIL COSTUME	
+//DAREDEVIL COSTUME
 	static ArmorMaterial DAREDEVIL_COSTUME = EnumHelper.addArmorMaterial
-			("DAREDEVIL_COSTUME", 20, new int[]{3, 7, 5, 2}, 14);		
+			("DAREDEVIL_COSTUME", 20, new int[]{3, 7, 5, 2}, 14);
+
+//DAREDEVIL CLASSIC COSTUME
+	static ArmorMaterial DAREDEVIL_CLASSIC_COSTUME = EnumHelper.addArmorMaterial
+			("DAREDEVIL_CLASSIC_COSTUME", 20, new int[]{3, 7, 5, 2}, 14);
 
 //DOCTOR STRANGE COSTUME	
 	static ArmorMaterial DOCTOR_STRANGE_COSTUME = EnumHelper.addArmorMaterial
@@ -86,7 +77,7 @@ public class ModMarvelCostumes
 //CYCLOPS COSTUME	
 	static ArmorMaterial CYCLOPS_COSTUME = EnumHelper.addArmorMaterial
 			("CYCLOPS_COSTUME", 20, new int[]{3, 7, 5, 2}, 14);	
-	
+
 //NICK FURY COSTUME	
 	static ArmorMaterial NICK_FURY_COSTUME = EnumHelper.addArmorMaterial
 			("NICK_FURY_COSTUME", 20, new int[]{3, 7, 5, 2}, 14);
@@ -149,10 +140,17 @@ public class ModMarvelCostumes
 	
 	//DAREDEVIL COSTUME SET
 	
-	public static Item daredevilHead = new ItemDaredevilCostume(DAREDEVIL_COSTUME, 0, "daredevilHead");
-	public static Item daredevilChest = new ItemDaredevilCostume(DAREDEVIL_COSTUME, 1, "daredevilChest");
-	public static Item daredevilPants = new ItemDaredevilCostume(DAREDEVIL_COSTUME, 2, "daredevilPants");
-	public static Item daredevilBoots = new ItemDaredevilCostume(DAREDEVIL_COSTUME, 3, "daredevilBoots");
+	public static Item daredevilHead = new ItemDaredevilClassicCostume(DAREDEVIL_CLASSIC_COSTUME, 0, "daredevilClassicHead");
+	public static Item daredevilChest = new ItemDaredevilClassicCostume(DAREDEVIL_CLASSIC_COSTUME, 1, "daredevilClassicChest");
+	public static Item daredevilPants = new ItemDaredevilClassicCostume(DAREDEVIL_CLASSIC_COSTUME, 2, "daredevilClassicPants");
+	public static Item daredevilBoots = new ItemDaredevilClassicCostume(DAREDEVIL_CLASSIC_COSTUME, 3, "daredevilClassicBoots");
+
+    //DAREDEVIL CLASSIC COSTUME SET
+
+    public static Item daredevilClassicHead = new ItemDaredevilCostume(DAREDEVIL_COSTUME, 0, "daredevilHead");
+    public static Item daredevilClassicChest = new ItemDaredevilCostume(DAREDEVIL_COSTUME, 1, "daredevilChest");
+    public static Item daredevilClassicPants = new ItemDaredevilCostume(DAREDEVIL_COSTUME, 2, "daredevilPants");
+    public static Item daredevilClassicBoots = new ItemDaredevilCostume(DAREDEVIL_COSTUME, 3, "daredevilBoots");
 
 	//DOCTOR STRANGE COSTUME SET
 	
@@ -255,6 +253,13 @@ public class ModMarvelCostumes
 		RegisterHelper.registerItem(daredevilChest);
 		RegisterHelper.registerItem(daredevilPants);
 		RegisterHelper.registerItem(daredevilBoots);
+
+    //DAREDEVIL CLASSIC COSTUME SET
+
+        RegisterHelper.registerItem(daredevilClassicHead);
+        RegisterHelper.registerItem(daredevilClassicChest);
+        RegisterHelper.registerItem(daredevilClassicPants);
+        RegisterHelper.registerItem(daredevilClassicBoots);
 		
 	//DOCTOR STRANGE COSTUME SET
 		

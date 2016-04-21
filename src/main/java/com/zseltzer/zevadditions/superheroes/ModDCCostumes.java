@@ -130,9 +130,9 @@ public class ModDCCostumes
 		static ArmorMaterial DEADSHOT_COSTUME = EnumHelper.addArmorMaterial
 				("DEADSHOT_COSTUME", 20, new int[]{3, 7, 5, 2}, 14);
 		
-//PROFESSOR ZOOM COSTUME
-		static ArmorMaterial PROFESSOR_ZOOM_COSTUME = EnumHelper.addArmorMaterial
-				("PROFESSOR_ZOOM_COSTUME", 20, new int[]{3, 7, 5, 2}, 14);
+//REVERSE FLASH COSTUME
+		static ArmorMaterial REVERSE_FLASH_COSTUME = EnumHelper.addArmorMaterial
+				("REVERSE_FLASH_COSTUME", 20, new int[]{3, 7, 5, 2}, 14);
 		
 //RED HOOD COSTUME
 		static ArmorMaterial RED_HOOD_COSTUME = EnumHelper.addArmorMaterial
@@ -355,12 +355,12 @@ public class ModDCCostumes
 	public static Item deadshotPants = new ItemDeadshotCostume(DEADSHOT_COSTUME, 2, "deadshotPants");
 	public static Item deadshotBoots = new ItemDeadshotCostume(DEADSHOT_COSTUME, 3, "deadshotBoots");
 	
-	//PROFESSOR ZOOM COSTUME SET
+	//REVERSE FLASH COSTUME SET
 	
-	public static Item professorZoomHead = new ItemProfessorZoomCostume(PROFESSOR_ZOOM_COSTUME, 0, "professorZoomHead");
-	public static Item professorZoomChest = new ItemProfessorZoomCostume(PROFESSOR_ZOOM_COSTUME, 1, "professorZoomChest");
-	public static Item professorZoomPants = new ItemProfessorZoomCostume(PROFESSOR_ZOOM_COSTUME, 2, "professorZoomPants");
-	public static Item professorZoomBoots = new ItemProfessorZoomCostume(PROFESSOR_ZOOM_COSTUME, 3, "professorZoomBoots");
+	public static Item reverseFlashHead = new ItemReverseFlashCostume(REVERSE_FLASH_COSTUME, 0, "reverseFlashHead");
+	public static Item reverseFlashChest = new ItemReverseFlashCostume(REVERSE_FLASH_COSTUME, 1, "reverseFlashChest");
+	public static Item reverseFlashPants = new ItemReverseFlashCostume(REVERSE_FLASH_COSTUME, 2, "reverseFlashPants");
+	public static Item reverseFlashBoots = new ItemReverseFlashCostume(REVERSE_FLASH_COSTUME, 3, "reverseFlashBoots");
 
 	//RED HOOD COSTUME SET
 	
@@ -591,12 +591,12 @@ public static void init()
 		RegisterHelper.registerItem(deadshotPants);
 		RegisterHelper.registerItem(deadshotBoots);
 		
-	//PROFESSOR ZOOM COSTUME SET
+	//REVERSE FLASH COSTUME SET
 		
-		RegisterHelper.registerItem(professorZoomHead);
-		RegisterHelper.registerItem(professorZoomChest);
-		RegisterHelper.registerItem(professorZoomPants);
-		RegisterHelper.registerItem(professorZoomBoots);
+		RegisterHelper.registerItem(reverseFlashHead);
+		RegisterHelper.registerItem(reverseFlashChest);
+		RegisterHelper.registerItem(reverseFlashPants);
+		RegisterHelper.registerItem(reverseFlashBoots);
 		
 	//RED HOOD COSTUME SET
 		

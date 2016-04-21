@@ -41,10 +41,10 @@ public class ItemBoosterGoldCostume extends ItemArmor
 	public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack)
 	{
 		super.onArmorTick(world, player, itemStack);
-		ItemStack boots = player.inventory.armorInventory[0];
-		ItemStack pants = player.inventory.armorInventory[1];
-		ItemStack chest = player.inventory.armorInventory[2];
-		ItemStack head = player.inventory.armorInventory[3];
+		ItemStack boots = player.inventory.armorInventory[3];
+		ItemStack pants = player.inventory.armorInventory[2];
+		ItemStack chest = player.inventory.armorInventory[1];
+		ItemStack head = player.inventory.armorInventory[0];
 
 		if (boots != null && pants != null && chest != null)
 			if (boots.getItem() == ModDCCostumes.boosterGoldBoots && pants.getItem() == ModDCCostumes.boosterGoldPants && chest.getItem() == ModDCCostumes.boosterGoldChest && head.getItem() == ModDCCostumes.boosterGoldHead)

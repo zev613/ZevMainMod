@@ -73,31 +73,35 @@ public class ItemMartianManhunterCostume extends ItemArmor
                 player.addPotionEffect(new PotionEffect(Potion.moveSpeed.id, 10, 2));
                 player.addPotionEffect(new PotionEffect(Potion.resistance.id, 10, 2));
             }
-
+            /*
             if (isPlayerMartian && keyInvisIsPressed)
             {
                 player.setInvisible(true);
                 INVISIBLE = true;
             }
-
+            */
+            /*
             if (isPlayerMartian && !keyInvisIsPressed)
             {
                 player.setInvisible(false);
                 INVISIBLE = false;
             }
-
+            */
+            /*
             if (isPlayerMartian && keyIntangIsPressed && INVISIBLE && keyInvisIsPressed)
             {
                 player.noClip = true;
                 INTANGIBLE = true;
             }
-
+            */
+            /*
             if (isPlayerMartian && !keyIntangIsPressed)
             {
                 player.noClip = false;
                 INTANGIBLE = false;
             }
-
+            */
+            /*
             if (isPlayerMartian && player.isBurning())
             {
                 martianOnFire = true;
@@ -105,7 +109,8 @@ public class ItemMartianManhunterCostume extends ItemArmor
                 player.addPotionEffect(new PotionEffect(Potion.weakness.id, 10, 1));
                 player.addPotionEffect(new PotionEffect(Potion.harm.id, 10, 1));
             }
-
+            */
+            /*
             if (isPlayerMartian && !player.isBurning())
             {
                 martianOnFire = false;
@@ -114,5 +119,6 @@ public class ItemMartianManhunterCostume extends ItemArmor
                 player.removePotionEffect(Potion.harm.id);
 
             }
+            */
     }
 }
