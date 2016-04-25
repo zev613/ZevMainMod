@@ -60,11 +60,10 @@ public class GameLogHelper
 		return gameLogger.getLogger();
 	}
 
-	/**
-	 * Writes to the log text file.
-	 * @param level
-	 * @param text
-	 */
+	 //Writes to the log text file.
+	 //@param level
+	 //@param text
+
 	public static void writeToLog(Level level, String text) 
 	{
 		gameLogger.writeToFile(level, text);

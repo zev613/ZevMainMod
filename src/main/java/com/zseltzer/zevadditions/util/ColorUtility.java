@@ -2,9 +2,9 @@ package com.zseltzer.zevadditions.util;
 /*
 public final class ColorUtility 
 {
-    //
+
      //Common color names (unlocalized) indexed by item damage.
-     //
+
     public static final String[] COLOR_NAMES = new String[] 
     		{
         "black",
@@ -25,14 +25,13 @@ public final class ColorUtility
         "white"
     };
 
-    //
-     // Count of total colors.
-     //
+
+    //Count of total colors.
+
     public static final int COLOR_COUNT = 16;
 
-    //
-     // Common color tags used for icon name lookup indexed by item damage.
-     //
+    //Common color tags used for icon name lookup indexed by item damage.
+
     public static final String[] COLOR_IDS = new String[] 
     		{
         "black",
@@ -53,9 +52,8 @@ public final class ColorUtility
         "white"
     };
 
-    //
-     // Prevent instantiation of the ColorUtility class.
-     //
+    //Prevent instantiation of the ColorUtility class.
+
     private ColorUtility() 
     {
     }

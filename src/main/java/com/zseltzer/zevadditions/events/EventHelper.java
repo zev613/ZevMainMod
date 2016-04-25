@@ -9,7 +9,7 @@ import net.minecraftforge.event.entity.player.BonemealEvent;
 
 public class EventHelper 
 {
-	/** Used to make the sapling grow the tree **/
+		//Used to make the sapling grow the tree
 	@SubscribeEvent
 	public void bonemealUsed(BonemealEvent event) 
 	{
@@ -19,9 +19,7 @@ public class EventHelper
 		}
 	}
 
-	/**
-	 * Register this event helper
-	 */
+		//Register this event helper
 	public static void registerEvents() 
 	{
 		 MinecraftForge.EVENT_BUS.register(new EventHelper());

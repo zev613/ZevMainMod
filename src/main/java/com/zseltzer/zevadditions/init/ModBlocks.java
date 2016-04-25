@@ -7,7 +7,6 @@ import com.zseltzer.zevadditions.blocks.BlockModLightLeaves;
 import com.zseltzer.zevadditions.blocks.BlockModLightLog;
 import com.zseltzer.zevadditions.blocks.BlockModLightSapling;
 import com.zseltzer.zevadditions.blocks.BlockModPortal;
-import com.zseltzer.zevadditions.blocks.BlockVerticalSlab;
 import com.zseltzer.zevadditions.blocks.GenericBaseBlock;
 import com.zseltzer.zevadditions.blocks.GenericSidedBlock;
 import com.zseltzer.zevadditions.blocks.GenericWoodBlock;
@@ -41,6 +40,7 @@ public class ModBlocks
 	public static Block basalt_smooth = new GenericBaseBlock("basalt_smooth", Material.rock);
 	public static Block blueStone = new GenericBaseBlock("blueStone", Material.rock);
 	public static Block blueStone_smooth = new GenericBaseBlock("blueStone_smooth", Material.rock);
+	public static Block bronzeOre = new GenericBaseBlock("bronzeOre", Material.rock);
 	public static Block brownStone = new GenericBaseBlock("brownStone", Material.rock);
 	public static Block brownStone_smooth = new GenericBaseBlock("brownStone_smooth", Material.rock);
 	public static Block cementBlock = new GenericBaseBlock("cementBlock", Material.rock);
@@ -162,10 +162,11 @@ public class ModBlocks
 //STORAGE BLOCKS	
 	
 	public static Block amethystBlock = new StorageBlock("amethystBlock", Material.rock, ModItems.amethystIngot);
+	public static Block blazeBlock = new StorageBlock("blazeBlock", Material.cloth, Items.blaze_powder);
 	public static Block boneBlock = new StorageBlock("boneBlock", Material.cloth, Items.bone);
 	public static Block bonemealBlock = new StorageBlock("bonemealBlock", Material.cloth, ModItems.whiteDye);
-	public static Block blazeBlock = new StorageBlock("blazeBlock", Material.cloth, Items.blaze_powder);
-	public static Block rottenFleshBlock = new StorageBlock("rottenFleshBlock", Material.cloth, Items.rotten_flesh); 
+	public static Block bronzeBlock = new StorageBlock("bronzeBlock", Material.rock, ModItems.bronzeIngot);
+	public static Block rottenFleshBlock = new StorageBlock("rottenFleshBlock", Material.cloth, Items.rotten_flesh);
 	public static Block enderPearlBlock = new StorageBlock("enderPearlBlock", Material.rock, Items.ender_pearl);
 	public static Block flintBlock = new StorageBlock("flintBlock", Material.rock, Items.flint);
 	public static Block gunpowderBlock = new StorageBlock("gunpowderBlock", Material.cloth, Items.gunpowder);
@@ -175,28 +176,10 @@ public class ModBlocks
 	public static Block silverBlock = new StorageBlock("silverBlock", Material.rock, ModItems.silverIngot);
 	public static Block topazBlock = new StorageBlock("topazBlock", Material.rock, ModItems.topazIngot);
 
-//RANDOM BLOCKS (ADOBE, LOGOS, ETC)
-	
-	public static Block adobeIncAfterEffects = new GenericBaseBlock("adobeIncAfterEffects", Material.rock).setCreativeTab(ModTabs.tabMassBlocks);;
-	public static Block adobeIncAudition = new GenericBaseBlock("adobeIncAudition", Material.rock).setCreativeTab(ModTabs.tabMassBlocks);
-	public static Block adobeIncBridge = new GenericBaseBlock("adobeIncBridge", Material.rock).setCreativeTab(ModTabs.tabMassBlocks);;
-	public static Block adobeIncDreamweaver = new GenericBaseBlock("adobeIncDreamweaver", Material.rock).setCreativeTab(ModTabs.tabMassBlocks);
-	public static Block adobeIncEncore = new GenericBaseBlock("adobeIncEncore", Material.rock).setCreativeTab(ModTabs.tabMassBlocks);
-	public static Block adobeIncFireworks = new GenericBaseBlock("adobeIncFireworks", Material.rock).setCreativeTab(ModTabs.tabMassBlocks);
-	public static Block adobeIncFlash = new GenericBaseBlock("adobeIncFlash", Material.rock).setCreativeTab(ModTabs.tabMassBlocks);
-	public static Block adobeIncIllustrator = new GenericBaseBlock("adobeIncIllustrator", Material.rock).setCreativeTab(ModTabs.tabMassBlocks);
-	public static Block adobeIncInDesign = new GenericBaseBlock("adobeIncInDesign", Material.rock).setCreativeTab(ModTabs.tabMassBlocks);
-	public static Block adobeIncLightroom = new GenericBaseBlock("adobeIncLightroom", Material.rock).setCreativeTab(ModTabs.tabMassBlocks);
-	public static Block adobeIncPhotoshop = new GenericBaseBlock("adobeIncPhotoshop", Material.rock).setCreativeTab(ModTabs.tabMassBlocks);
-	public static Block adobeIncPrelude = new GenericBaseBlock("adobeIncPrelude", Material.rock).setCreativeTab(ModTabs.tabMassBlocks);
-	public static Block adobeIncPremierPro = new GenericBaseBlock("adobeIncPremierPro", Material.rock).setCreativeTab(ModTabs.tabMassBlocks);
-	public static Block adobeIncSpeedgrade = new GenericBaseBlock("adobeIncSpeedgrade", Material.rock).setCreativeTab(ModTabs.tabMassBlocks);
-	public static Block deadpoolBlock = new GenericBaseBlock("deadpoolBlock", Material.rock).setCreativeTab(ModTabs.tabMassBlocks);
-	public static Block verticalSlabTest = new BlockVerticalSlab("verticalSlabTest");
-	
 //SLAB BLOCKS	
 
 //STAIR BLOCKS
+
 	/*
 	public static String[] stairTypeNames = {"bedrock", "sponge", "dirt", "smoothStone", "basalt", "shale", "obsidian", "iron_Block", "aquaStone", "endStone"};
 
@@ -289,9 +272,10 @@ public static void init()
 	 RegisterHelper.registerBlock(basalt_smooth);
 	 RegisterHelper.registerBlock(blueStone);
 	 RegisterHelper.registerBlock(blueStone_smooth);
+	 RegisterHelper.registerBlock(bronzeOre);
 	 RegisterHelper.registerBlock(brownStone);
 	 RegisterHelper.registerBlock(brownStone_smooth);
-	 RegisterHelper.registerBlock( cementBlock);
+	 RegisterHelper.registerBlock(cementBlock);
 	 RegisterHelper.registerBlock(charcoalBlock);
 	 RegisterHelper.registerBlock(chert);
 	 RegisterHelper.registerBlock(chert_bricks);
@@ -410,9 +394,10 @@ public static void init()
 //STORAGE BLOCKS	
 	
 	 	RegisterHelper.registerBlock(amethystBlock);
-	 	RegisterHelper.registerBlock(boneBlock);
+		RegisterHelper.registerBlock(blazeBlock);
+		RegisterHelper.registerBlock(boneBlock);
 	 	RegisterHelper.registerBlock(bonemealBlock);
-	 	RegisterHelper.registerBlock(blazeBlock);
+		RegisterHelper.registerBlock(bronzeBlock);
 	 	RegisterHelper.registerBlock(enderPearlBlock);
 		RegisterHelper.registerBlock(flintBlock);
 	 	RegisterHelper.registerBlock(gunpowderBlock);
@@ -422,25 +407,6 @@ public static void init()
 	 	RegisterHelper.registerBlock(silverBlock);	
 	 	RegisterHelper.registerBlock(sugarBlock);
 	 	RegisterHelper.registerBlock(topazBlock);
-		
-//RANDOM / OTHER BLOCKS
-	 	
-		RegisterHelper.registerBlock(adobeIncAfterEffects);
-		RegisterHelper.registerBlock(adobeIncAudition);
-		RegisterHelper.registerBlock(adobeIncBridge);
-		RegisterHelper.registerBlock(adobeIncDreamweaver);
-		RegisterHelper.registerBlock(adobeIncEncore);
-		RegisterHelper.registerBlock(adobeIncFireworks);
-		RegisterHelper.registerBlock(adobeIncFlash);
-		RegisterHelper.registerBlock(adobeIncIllustrator);
-		RegisterHelper.registerBlock(adobeIncInDesign);
-		RegisterHelper.registerBlock(adobeIncLightroom);
-		RegisterHelper.registerBlock(adobeIncPhotoshop);
-		RegisterHelper.registerBlock(adobeIncPrelude);
-		RegisterHelper.registerBlock(adobeIncPremierPro);
-		RegisterHelper.registerBlock(adobeIncSpeedgrade);
-		RegisterHelper.registerBlock(deadpoolBlock);
-		RegisterHelper.registerBlock(verticalSlabTest);
 		
 //SLAB BLOCKS	
 		
@@ -471,7 +437,5 @@ public static void init()
 		//RegisterHelper.registerBlock(lightLeaves);
 		//RegisterHelper.registerBlock(effectLeaves);
 		//RegisterHelper.registerBlock(lightSapling);
-		
 	}
-	
 }

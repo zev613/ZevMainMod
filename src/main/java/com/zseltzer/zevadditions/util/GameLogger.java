@@ -8,12 +8,10 @@ import java.util.logging.Logger;
 
 import com.zseltzer.zevadditions.Reference;
 
-/**
- * Custom logger to log all details from the mod to help with peoples issues.
- */
+	//Custom logger to log all details from the mod to help with peoples issues.
+
 public class GameLogger 
 {
-
 	public static GameLogger log = new GameLogger();
 
 	static File zevAdditionsFolder;
@@ -26,9 +24,8 @@ public class GameLogger
 
 	private Logger myLog;
 
-	/**
-	 * Configure the ZevAdditions logger
-	 */
+	//Configure the ZevAdditions logger
+
 	private static void configureLogging() 
 	{
 		log.myLog = Logger.getLogger("ZEVADDITIONS-DIMENSION");
@@ -73,29 +70,25 @@ public class GameLogger
 		log(Level.WARNING, msg);
 	}
 
-	/**
-	 * 
-	 * @param msg
-	 */
+		//@param msg
+
 	public static void info(String msg) 
 	{
 		log(Level.INFO, msg);
 	}
 
-	/**
-	 * Gets this ZevAdditions Logger.
-	 * 
-	 * @return
-	 */
+	//Gets this ZevAdditions Logger.
+
+	//@return
+
 	public Logger getLogger() 
 	{
 		return myLog;
 	}
 
-	/**
-	 * Creates ZevAdditions folder.
-	 * Creates Config folder in ZevAdditions folder.
-	 */
+	//Creates ZevAdditions folder.
+	//Creates Config folder in ZevAdditions folder.
+
 	public static void createFolders() 
 	{
 		zevAdditionsFolder = new File(dir, "ZevAdditions");
@@ -110,12 +103,11 @@ public class GameLogger
 		}
 	}
 
-	/**
-	 * Write text to the zevadditionsLog.log.
-	 * 
-	 * @param level
-	 * @param text
-	 */
+	//Write text to the zevadditionsLog.log.
+
+	//@param level
+	//@param text
+
 	public static void writeToFile(Level level, String text) 
 	{
 		File file;
@@ -134,9 +126,8 @@ public class GameLogger
 		}
 	}
 	
-	/**
-	 * Gets Base file path
-	 */
+	//Gets Base file path
+
 	public static String getFilePath()
 	{
 		return dir;

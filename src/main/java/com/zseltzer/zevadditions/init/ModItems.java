@@ -35,6 +35,8 @@ public class ModItems
 	public static Item ironNugget = new GenericItem("ironNugget");
 	
 	public static Item whiteDye = new GenericItem("whiteDye");
+
+    public static Item bronzeIngot = new GenericItem("bronzeIngot");
 	
 //OTHER ITEMS	
 	
@@ -52,5 +54,6 @@ public class ModItems
         RegisterHelper.registerItem(silverIngot);
         RegisterHelper.registerItem(topazIngot);
         RegisterHelper.registerItem(whiteDye);
+        RegisterHelper.registerItem(bronzeIngot);
         }
 }

@@ -17,6 +17,7 @@ public class ClientProxy extends CommonProxy
 
     public void init()
     {
+        /*
         // declare an array of key bindings
         keyBindings = new KeyBinding[2];
 
@@ -29,6 +30,7 @@ public class ClientProxy extends CommonProxy
         {
             ClientRegistry.registerKeyBinding(keyBindings[i]);
         }
+        */
     }
 
     @Override

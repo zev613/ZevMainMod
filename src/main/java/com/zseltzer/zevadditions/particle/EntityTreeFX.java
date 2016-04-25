@@ -7,7 +7,7 @@ import net.minecraft.world.World;
 public class EntityTreeFX extends EntityFX
 {
 	
-	//TODO: add abailty to change particle color in constructor.
+	//TODO: add ability to change particle color in constructor.
 
 	private float portalParticleScale;
 	private double portalPosX;

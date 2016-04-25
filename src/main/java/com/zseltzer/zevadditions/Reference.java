@@ -4,5 +4,5 @@ public class Reference
 {
 	public static final String MODID = "zevadditions";
 	public static final String NAME = "ZevAdditions";
-	public static final String VERSION = "0.3.1";
+	public static final String VERSION = "0.3.2";
 }

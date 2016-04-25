@@ -9,7 +9,7 @@ import net.minecraft.init.Blocks;
 
 public class ModStairs 
 {	
-		//I know I can do this much more easily with a for loop and an arry, but I couldn't get it to work so for now, I have this.
+		//I know I can do this much more easily with a for loop and an array, but I couldn't get it to work so for now, I have this.
 	
 	public static Block adobeBlockStairs = new ZevBlockStairs(ModBlocks.adobeBlock, "adobeBlock");
 	public static Block adobe_bricksStairs = new ZevBlockStairs(ModBlocks.adobe_bricks, "adobe_bricks");

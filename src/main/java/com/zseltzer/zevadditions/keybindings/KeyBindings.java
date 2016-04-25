@@ -6,12 +6,9 @@ import org.lwjgl.input.Keyboard;
 
 public class KeyBindings
 {
-
     // Declare two KeyBindings, ping and pong
     public static KeyBinding ping;
     public static KeyBinding pong;
-    public static KeyBinding invisibility;
-    public static KeyBinding intangibility;
 
     public static void init()
     {
@@ -23,15 +20,10 @@ public class KeyBindings
         // the category with (unlocalized) name "key.categories.mymod" and
         // key code 25 ("P", LWJGL constant: Keyboard.KEY_P)
         pong = new KeyBinding("key.pong", Keyboard.KEY_P, "key.categories.zevadditions");
-        invisibility = new KeyBinding("key.invisibility", Keyboard.KEY_I, "key.categories.zevadditions");
-        intangibility = new KeyBinding("key.intangibility", Keyboard.KEY_J, "key.categories.zevadditions");
 
         // Register both KeyBindings to the ClientRegistry
 
         ClientRegistry.registerKeyBinding(ping);
         ClientRegistry.registerKeyBinding(pong);
-        ClientRegistry.registerKeyBinding(invisibility);
-        ClientRegistry.registerKeyBinding(intangibility);
-
     }
 }

@@ -8,7 +8,6 @@ import java.io.IOException;
 
 public class ReadFile 
 {
-	
 	private static int[] fileData;
 	
 	private static int numberOfLinesInFile;
@@ -31,12 +30,11 @@ public class ReadFile
 		}
 	}
 
-	/**
-	 * Count the Nukber of Lnes in the file.
-	 * @param file
-	 * @return int numberOfLines
-	 * @throws IOException
-	 */
+	 //Count the Nukber of Lnes in the file.
+	 //@param file
+	 //@return int numberOfLines
+	 //@throws IOException
+
 	private static int countLines(File file) throws IOException
 	{
 		FileReader reader = new FileReader(file);
@@ -52,9 +50,8 @@ public class ReadFile
 		return numberOfLinesInFile;
 	}
 
-	/**
-	 * Reads a File as Strings.
-	 */
+	 //Reads a File as Strings.
+
 	public static void readFileStrings(File file)
 	{
 		try 
@@ -77,9 +74,8 @@ public class ReadFile
 		}
 	}
 	
-	/**
-	 * Reads a File as ints.
-	 */
+	 //Reads a File as ints.
+
 	public static void readFileInts(File file)
 	{
 		try 
@@ -104,7 +100,7 @@ public class ReadFile
 		}
 	}
 	
-	/** Get ints from the file **/
+	//Get ints from the file
 	public static int[] getIntList()
 	{
 		return fileData;

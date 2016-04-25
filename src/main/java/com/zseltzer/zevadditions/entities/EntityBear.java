@@ -41,21 +41,20 @@ import net.minecraft.world.World;
 
 public class EntityBear extends EntityAnimal 
 {
-
     private float field_70926_e;
     private float field_70924_f;
-    /** true if the bear is wet else false */
+    //true if the bear is wet else false
     private boolean isShaking;
     private boolean field_70928_h;
-    /**
-     * This time increases while bear is shaking and emitting water particles.
-     */
+
+    //This time increases while bear is shaking and emitting water particles.
+
     private float timeBearIsShaking;
     private float prevTimeBearIsShaking;
     private static final String __OBFID = "CL_00001654";
 
-	
-	public EntityBear(World par1World) 
+
+    public EntityBear(World par1World)
 	{
 		super(par1World);
         this.setSize(0.6F, 0.8F);
@@ -78,17 +77,15 @@ public class EntityBear extends EntityAnimal
         this.getEntityAttribute(SharedMonsterAttributes.maxHealth).setBaseValue(12.0D);
     }
 
-    /**
-     * Returns true if the newer Entity AI code should be run
-     */
+    //Returns true if the newer Entity AI code should be run
+
     public boolean isAIEnabled()
     {
         return true;
     }
 
-    /**
-     * Sets the active target the Task system uses for tracking
-     */
+    //Sets the active target the Task system uses for tracking
+
     public void setAttackTarget(EntityLivingBase par1EntityLivingBase)
     {
         super.setAttackTarget(par1EntityLivingBase);
@@ -103,9 +100,8 @@ public class EntityBear extends EntityAnimal
         }
     }
 
-    /**
-     * main AI tick function, replaces updateEntityActionState
-     */
+    //main AI tick function, replaces updateEntityActionState
+
     protected void updateAITick()
     {
         this.dataWatcher.updateObject(18, Float.valueOf(this.getHealth()));
@@ -124,51 +120,45 @@ public class EntityBear extends EntityAnimal
         this.playSound("mob.wolf.step", 0.15F, 1.0F);
     }
 
-    /**
-     * (abstract) Protected helper method to write subclass entity data to NBT.
-     */
+    //(abstract) Protected helper method to write subclass entity data to NBT.
+
     public void writeEntityToNBT(NBTTagCompound par1NBTTagCompound)
     {
         super.writeEntityToNBT(par1NBTTagCompound);
         par1NBTTagCompound.setBoolean("Angry", this.isAngry());
     }
 
-    /**
-     * (abstract) Protected helper method to read subclass entity data from NBT.
-     */
+    //(abstract) Protected helper method to read subclass entity data from NBT.
+
     public void readEntityFromNBT(NBTTagCompound par1NBTTagCompound)
     {
         super.readEntityFromNBT(par1NBTTagCompound);
         this.setAngry(par1NBTTagCompound.getBoolean("Angry"));
     }
 
-    /**
-     * Returns the sound this mob makes while it's alive.
-     */
+    //Returns the sound this mob makes while it's alive.
+
     protected String getLivingSound()
     {
         return this.isAngry() ? "mob.wolf.growl" : (this.rand.nextInt(3) == 0 ? (this.dataWatcher.getWatchableObjectFloat(18) < 10.0F ? "mob.wolf.whine" : "mob.wolf.panting") : "mob.wolf.bark");
     }
 
-    /**
-     * Returns the sound this mob makes when it is hurt.
-     */
+    //Returns the sound this mob makes when it is hurt.
+
     protected String getHurtSound()
     {
         return "mob.wolf.hurt";
     }
 
-    /**
-     * Returns the sound this mob makes on death.
-     */
+    //Returns the sound this mob makes on death.
+
     protected String getDeathSound()
     {
         return "mob.wolf.death";
     }
 
-    /**
-     * Returns the volume for the sounds this mob makes.
-     */
+    //Returns the volume for the sounds this mob makes.
+
     protected float getSoundVolume()
     {
         return 0.4F;
@@ -179,10 +169,9 @@ public class EntityBear extends EntityAnimal
         return Item.getItemById(-1);
     }
 
-    /**
-     * Called frequently so the entity can update its state every tick as required. For example, zombies and skeletons
-     * use this to react to sunlight and start to burn.
-     */
+    //Called frequently so the entity can update its state every tick as required. For example, zombies and skeletons
+    //use this to react to sunlight and start to burn.
+
     public void onLivingUpdate()
     {
         super.onLivingUpdate();
@@ -196,9 +185,8 @@ public class EntityBear extends EntityAnimal
         }
     }
 
-    /**
-     * Called to update the entity's position/logic.
-     */
+    //Called to update the entity's position/logic.
+
     public void onUpdate()
     {
         super.onUpdate();
@@ -249,9 +237,8 @@ public class EntityBear extends EntityAnimal
         return this.isShaking;
     }
 
-    /**
-     * Used when calculating the amount of shading to apply while the wolf is shaking.
-     */
+    //Used when calculating the amount of shading to apply while the wolf is shaking.
+
     @SideOnly(Side.CLIENT)
     public float getShadingWhileShaking(float par1)
     {
@@ -286,9 +273,8 @@ public class EntityBear extends EntityAnimal
         return (this.field_70924_f + (this.field_70926_e - this.field_70924_f) * par1) * 0.15F * (float)Math.PI;
     }
 
-    /**
-     * Called when the entity is attacked.
-     */
+    //Called when the entity is attacked.
+
     public boolean attackEntityFrom(DamageSource par1DamageSource, float par2)
     {
         if (this.isEntityInvulnerable())
@@ -329,35 +315,31 @@ public class EntityBear extends EntityAnimal
         }
     }
 
-    /**
-     * Checks if the parameter is an item which this animal can be fed to breed it (wheat, carrots or seeds depending on
-     * the animal type)
-     */
+    //Checks if the parameter is an item which this animal can be fed to breed it (wheat, carrots or seeds depending on
+    //the animal type)
+
     public boolean isBreedingItem(ItemStack par1ItemStack)
     {
         return par1ItemStack == null ? false : (!(par1ItemStack.getItem() instanceof ItemFood) ? false : ((ItemFood)par1ItemStack.getItem()).isWolfsFavoriteMeat());
     }
 
-    /**
-     * Will return how many at most can spawn in a chunk at once.
-     */
+    //Will return how many at most can spawn in a chunk at once.
+
     public int getMaxSpawnedInChunk()
     {
         return 8;
     }
 
-    /**
-     * Determines whether this wolf is angry or not.
-     */
+    //Determines whether this wolf is angry or not.
+
     public boolean isAngry()
     {
-//        return (this.dataWatcher.getWatchableObjectByte(16) & 2) != 0;
+            //return (this.dataWatcher.getWatchableObjectByte(16) & 2) != 0;
     	return false;
     }
 
-    /**
-     * Sets whether this wolf is angry or not.
-     */
+    //Sets whether this wolf is angry or not.
+
     public void setAngry(boolean par1)
     {
         byte b0 = this.dataWatcher.getWatchableObjectByte(16);
@@ -390,9 +372,8 @@ public class EntityBear extends EntityAnimal
         }
     }
 
-    /**
-     * Returns true if the mob is currently able to mate with the specified mob.
-     */
+    //Returns true if the mob is currently able to mate with the specified mob.
+
     public boolean canMateWith(EntityAnimal par1EntityAnimal)
     {
         if (par1EntityAnimal == this)
@@ -409,6 +390,4 @@ public class EntityBear extends EntityAnimal
             return this.isInLove() && entitybear.isInLove();
         }
     }
-
- 
 }

@@ -21,14 +21,14 @@ import net.minecraft.world.WorldServer;
 public class LightDimensionTeleporter extends Teleporter
 {
     private final WorldServer worldServerInstance;
-    /** A private Random() function in Teleporter */
+    //A private Random() function in Teleporter
     private final Random random;
-    /** Stores successful portal placement locations for rapid lookup. */
+    //Stores successful portal placement locations for rapid lookup.
     private final LongHashMap destinationCoordinateCache = new LongHashMap();
-    /**
-     * A list of valid keys for the destinationCoordainteCache. These are based on the X & Z of the players initial
-     * location.
-     */
+
+     //A list of valid keys for the destinationCoordainteCache. These are based on the X & Z of the players initial
+     //location.
+
     @SuppressWarnings("rawtypes")
 	private final List destinationCoordinateKeys = new ArrayList();
     @SuppressWarnings("unused")
@@ -41,9 +41,8 @@ public class LightDimensionTeleporter extends Teleporter
         this.random = new Random(p_i1963_1_.getSeed());
     }
 
-    /**
-     * Place an entity in a nearby portal, creating one if necessary.
-     */
+     //Place an entity in a nearby portal, creating one if necessary.
+
     public void placeInPortal(Entity p_77185_1_, double p_77185_2_, double p_77185_4_, double p_77185_6_, float p_77185_8_)
     {
         if (this.worldServerInstance.provider.dimensionId != 1)
@@ -82,9 +81,8 @@ public class LightDimensionTeleporter extends Teleporter
         }
     }
 
-    /**
-     * Place an entity in a nearby portal which already exists.
-     */
+     //Place an entity in a nearby portal which already exists.
+
     @SuppressWarnings("unchecked")
 	public boolean placeInExistingPortal(Entity p_77184_1_, double p_77184_2_, double p_77184_4_, double p_77184_6_, float p_77184_8_)
     {
@@ -494,10 +492,9 @@ public class LightDimensionTeleporter extends Teleporter
         return true;
     }
 
-    /**
-     * called periodically to remove out-of-date portal locations from the cache list. Argument par1 is a
-     * WorldServer.getTotalWorldTime() value.
-     */
+     //called periodically to remove out-of-date portal locations from the cache list. Argument par1 is a
+     //WorldServer.getTotalWorldTime() value.
+
     public void removeStalePortalLocations(long p_85189_1_)
     {
         if (p_85189_1_ % 100L == 0L)
@@ -522,7 +519,7 @@ public class LightDimensionTeleporter extends Teleporter
 
     public class PortalPosition extends ChunkCoordinates
     {
-        /** The worldtime at which this PortalPosition was last verified */
+        //The worldtime at which this PortalPosition was last verified
         public long lastUpdateTime;
         @SuppressWarnings("unused")
 		private static final String __OBFID = "CL_00000154";

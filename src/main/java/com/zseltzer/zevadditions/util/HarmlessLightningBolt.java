@@ -9,19 +9,16 @@ import net.minecraft.world.World;
 
 public class HarmlessLightningBolt extends EntityLightningBolt
 {
-    /**
-     * Declares which state the lightning bolt is in. Whether it's in the air, hit the ground, etc.
-     */
+    //Declares which state the lightning bolt is in. Whether it's in the air, hit the ground, etc.
+
     private int lightningState;
 
-    /**
-     * A random long that is used to change the vertex of the lightning rendered in RenderLightningBolt
-     */
+    //A random long that is used to change the vertex of the lightning rendered in RenderLightningBolt
+
     public long boltVertex;
 
-    /**
-     * Determines the time before the EntityLightningBolt is destroyed. It is a random integer decremented over time.
-     */
+    //Determines the time before the EntityLightningBolt is destroyed. It is a random integer decremented over time.
+
     private int boltLivingTime;
 
     public HarmlessLightningBolt(World par1World, double par2, double par4, double par6)
@@ -33,9 +30,8 @@ public class HarmlessLightningBolt extends EntityLightningBolt
         this.boltLivingTime = this.rand.nextInt(3) + 1;
     }
 
-    /**
-     * Called to update the entity's position/logic.
-     */
+     //Called to update the entity's position/logic.
+
     public void onUpdate()
     {
         //super.onUpdate();
@@ -73,21 +69,18 @@ public class HarmlessLightningBolt extends EntityLightningBolt
 
     protected void entityInit() {}
 
-    /**
-     * (abstract) Protected helper method to read subclass entity data from NBT.
-     */
+     //(abstract) Protected helper method to read subclass entity data from NBT.
+
     protected void readEntityFromNBT(NBTTagCompound par1NBTTagCompound) {}
 
-    /**
-     * (abstract) Protected helper method to write subclass entity data to NBT.
-     */
+     //(abstract) Protected helper method to write subclass entity data to NBT.
+
     protected void writeEntityToNBT(NBTTagCompound par1NBTTagCompound) {}
 
     @SideOnly(Side.CLIENT)
 
-/**
- * Checks using a Vec3d to determine if this entity is within range of that vector to be rendered. Args: vec3D
- */
+ //Checks using a Vec3d to determine if this entity is within range of that vector to be rendered. Args: vec3D
+
     public boolean isInRangeToRenderVec3D(Vec3 par1Vec3)
     {
         return this.lightningState >= 0;

@@ -1,7 +1,6 @@
 package com.zseltzer.zevadditions.superheroes.costumes;
 
 import com.zseltzer.zevadditions.Reference;
-import com.zseltzer.zevadditions.commands.CommandNewShazam;
 import com.zseltzer.zevadditions.superheroes.ModDCCostumes;
 import com.zseltzer.zevadditions.tabs.ModTabs;
 
