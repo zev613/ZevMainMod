@@ -106,9 +106,13 @@ public class ModArmory
 	public static Item sapphireAxe = new ModItemAxe(SAPPHIRE).setUnlocalizedName("sapphireAxe");
 		
 	public static Item sapphireHoe = new ModItemHoe(SAPPHIRE).setUnlocalizedName("sapphireHoe");
-		
-		//ARMOR SETS	
-	
+
+
+        //ARMOR SETS
+
+
+//SUPERHERO ARMOR
+
 	public static Item superheroHead = new SuperheroTestArmor(SUPERHERO_ARMOR, 0, "superheroHead");
 	
 	public static Item superheroChest = new SuperheroTestArmor(SUPERHERO_ARMOR, 1,"superheroChest");
@@ -196,7 +200,7 @@ public class ModArmory
 		RegisterHelper.registerItem(sapphireAxe);
 		RegisterHelper.registerItem(sapphireHoe);
 		
-//ARMOR
+//SUPERHERO ARMOR
 		
 		RegisterHelper.registerItem(superheroHead);
 		RegisterHelper.registerItem(superheroChest);
