@@ -2,11 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="874db64b-89d2-40f0-b380-62096396e79f" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/leaves_bamboo_fancy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/leaves_bamboo_fast.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/leaves_fir_fancy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/leaves_fir_fast.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/leaves_palm_fancy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/leaves_palm_fast.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/leaves_redwood_fancy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/leaves_redwood_fast.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/mapleSapling.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adamantiumBlock.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adamantiumOre.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobeIncAfterEffects.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobeIncAudition.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobeIncBridge.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobeIncDreamweaver.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobeIncEncore.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobeIncFireworks.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobeIncFlash.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobeIncIllustrator.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobeIncInDesign.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobeIncLightroom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobeIncPhotoshop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobeIncPrelude.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobeIncPremierPro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobeIncSpeedgrade.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobe_furnace_front_off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobe_furnace_front_on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobe_furnace_side.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobe_furnace_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/deadpoolBlock.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/kryptoniteBlock.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/kryptoniteOre.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/log_fir_heart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/log_fir_side.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/log_palm_heart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/log_palm_side.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/log_redwood_heart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/log_redwood_side.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/platinumOre.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/redDiamondOre.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/vibraniumOre.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/items/ATOMBoots.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/items/ATOMChest.png" afterPath="" />
@@ -3957,22 +3992,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/world/gen/WorldGenModMinable.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/world/genlayer/LightForestGenLayer.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/world/genlayer/LightForestGenLayerBiomes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockBasic.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockIDs.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockModBush.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockModLeaves.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockModLeavesBase.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockModLightGrass.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockModLightLeaves.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockModLightLog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockModLightSapling.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockModLogBase.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockModPortal.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockTreeInit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/config/ConfigTypes.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/config/ModConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/items/ColoredItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/particle/EntityTreeFX.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/renderers/CloudRenderer.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/renderers/SkyRenderer.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/renderers/WeatherRenderer.java" afterPath="" />
@@ -3986,10 +4005,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/world/ChunkProviderForest.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/world/Dimension.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/world/DimensionIDs.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/world/WorldChunkManagerForest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/world/WorldProviderForest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/world/WorldTypesTutorial.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/world/WorldTypesZevAdditions.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/world/biomes/BiomeDarkForest.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/world/biomes/BiomeIDs.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/world/biomes/BiomeLightForest.java" afterPath="" />
@@ -4001,51 +4016,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/world/gen/WorldGenForestAbstractTree.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/world/gen/WorldGenForestBigTree.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/world/gen/WorldGenForestGrass.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/world/gen/WorldGenForestTrees.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/world/gen/WorldGenModMinable.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/world/genlayer/LightForestGenLayer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/world/genlayer/LightForestGenLayerBiomes.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/blocks/log_fir_heart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/blocks/log_fir_side.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/blocks/log_palm_heart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/blocks/log_palm_side.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/blocks/log_redwood_heart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/blocks/log_redwood_side.png" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/leaves_bamboo_fancy.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/leaves_bamboo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/leaves_bamboo_fast.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/leaves_bamboo_opaque.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/leaves_fir_fancy.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/leaves_fir.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/leaves_fir_fast.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/leaves_fir_opaque.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/leaves_palm_fancy.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/leaves_palm.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/leaves_palm_fast.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/leaves_palm_opaque.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/leaves_redwood_fancy.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/leaves_redwood.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/leaves_redwood_fast.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/leaves_redwood_opaque.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobeIncAfterEffects.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/adobeIncAfterEffects.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobeIncAudition.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/adobeIncAudition.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobeIncBridge.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/adobeIncBridge.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobeIncDreamweaver.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/adobeIncDreamweaver.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobeIncEncore.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/adobeIncEncore.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobeIncFireworks.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/adobeIncFireworks.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobeIncFlash.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/adobeIncFlash.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobeIncIllustrator.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/adobeIncIllustrator.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobeIncInDesign.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/adobeIncInDesign.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobeIncLightroom.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/adobeIncLightroom.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobeIncPhotoshop.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/adobeIncPhotoshop.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobeIncPrelude.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/adobeIncPrelude.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobeIncPremierPro.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/adobeIncPremierPro.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobeIncSpeedgrade.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/adobeIncSpeedgrade.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobe_furnace_front_off.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/adobe_furnace_front_off.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobe_furnace_front_on.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/adobe_furnace_front_on.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobe_furnace_side.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/adobe_furnace_side.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobe_furnace_top.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/adobe_furnace_top.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/deadpoolBlock.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/deadpoolBlock.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/log_fir_heart.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/log_fir_top.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/log_fir_side.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/log_fir.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/log_palm_heart.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/log_palm_top.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/log_palm_side.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/log_palm..png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/log_redwood_heart.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/log_redwood_top.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/log_redwood_side.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/log_redwood.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/platinumOre.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/platinumOre.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/redDiamondOre.png" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/redDiamondOre.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/Main.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/Reference.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/Reference.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/RegisterHelper.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/RegisterHelper.class" />
@@ -4073,26 +4043,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Backup of SuperheroFiles/Main.java" afterPath="$PROJECT_DIR$/Backup of SuperheroFiles/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Backup of SuperheroFiles/events/EventHelper.java" afterPath="$PROJECT_DIR$/Backup of SuperheroFiles/events/EventHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZevMainMod.iws" afterPath="$PROJECT_DIR$/ZevMainMod.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/lang/en_US.lang" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/lang/en_US.lang" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/Reference.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/Reference.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/ZevBlockStairs.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/ZevBlockStairs.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/crafting/BlockRecipes.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/crafting/BlockRecipes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/events/EventHelper.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/events/EventHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/init/ModArmory.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/init/ModArmory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/init/ModBlocks.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/init/ModBlocks.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/init/ModItems.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/init/ModItems.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/init/ModSlabs.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/init/ModSlabs.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/init/ModStairs.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/init/ModStairs.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/items/ItemZevBlockSlab.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/items/ItemZevBlockSlab.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/keybindings/KeyBindings.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/keybindings/KeyBindings.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/proxies/ClientProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/proxies/ClientProxy.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/proxies/CommonProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/proxies/CommonProxy.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/tabs/ModTabs.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/tabs/ModTabs.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/util/HarmlessLightningBolt.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/util/HarmlessLightningBolt.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/lang/en_US.lang" afterPath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/lang/en_US.lang" />
     </list>
     <ignored path="ZevMainMod.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -4177,8 +4133,8 @@
       <file leaf-file-name="BlockRecipes.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/crafting/BlockRecipes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="184" column="17" selection-start-line="184" selection-start-column="17" selection-end-line="184" selection-end-column="17" />
+            <state relative-caret-position="429">
+              <caret line="191" column="16" selection-start-line="191" selection-start-column="16" selection-end-line="191" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -4274,9 +4230,10 @@
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="976" />
-    <option name="height" value="1038" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -4695,7 +4652,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="952" y="0" width="976" height="1038" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -4708,7 +4665,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40837103" sideWeight="0.49785408" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40798226" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19742489" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24892704" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -5006,8 +4963,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/crafting/BlockRecipes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="184" column="17" selection-start-line="184" selection-start-column="17" selection-end-line="184" selection-end-column="17" />
+        <state relative-caret-position="429">
+          <caret line="191" column="16" selection-start-line="191" selection-start-column="16" selection-end-line="191" selection-end-column="16" />
           <folding />
         </state>
       </provider>

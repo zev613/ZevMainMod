@@ -25,9 +25,6 @@ import com.zseltzer.zevadditions.superheroes.ModHeroBlocks;
 import com.zseltzer.zevadditions.superheroes.ModHeroItems;
 import com.zseltzer.zevadditions.superheroes.ModHeroTools;
 import com.zseltzer.zevadditions.superheroes.ModMarvelCostumes;
-import com.zseltzer.zevadditions.util.GameLogger;
-import com.zseltzer.zevadditions.world.Dimension;
-import com.zseltzer.zevadditions.world.WorldTypesTutorial;
 import com.zseltzer.zevadditions.world.biomes.ModBiomes;
 import com.zseltzer.zevadditions.world.gen.GeneralWorldGeneration;
 

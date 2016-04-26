@@ -34,8 +34,6 @@ public class HarmlessLightningBolt extends EntityLightningBolt
 
     public void onUpdate()
     {
-        //super.onUpdate();
-
         if (this.lightningState == 2)
         {
             this.worldObj.playSoundEffect(this.posX, this.posY, this.posZ, "ambient.weather.thunder", 10000.0F, 0.8F + this.rand.nextFloat() * 0.2F);

@@ -3,6 +3,7 @@ package com.zseltzer.zevadditions.tabs;
 import com.zseltzer.zevadditions.init.ModBlocks;
 import com.zseltzer.zevadditions.init.ModItems;
 
+import com.zseltzer.zevadditions.init.ModStairs;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.creativetab.CreativeTabs;
@@ -11,7 +12,6 @@ import net.minecraft.item.Item;
 
 public class ModTabs 
 {
-	
 	public static CreativeTabs tabNewBlocks = new CreativeTabs("tabNewBlocks") 
 	{
 	    @Override
@@ -42,13 +42,13 @@ public class ModTabs
 	    }
 	};
 	
-	public static CreativeTabs tabMassBlocks = new CreativeTabs("tabMassBlocks") 
+	public static CreativeTabs tabStairs = new CreativeTabs("tabStairs")
 	{
 	    @Override
 	    @SideOnly(Side.CLIENT)
 	    public Item getTabIconItem() 
 	    {
-	    	return Item.getItemFromBlock(ModBlocks.limeStone_smooth);
+	    	return Item.getItemFromBlock(ModStairs.enderPearlBlockStairs);
 	    }
 	};
 }

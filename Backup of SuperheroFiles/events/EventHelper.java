@@ -1,6 +1,5 @@
 package com.zseltzer.zevadditions.events;
 
-import com.zseltzer.zevadditions.blocks.BlockModLightSapling;
 import com.zseltzer.zevadditions.init.ModBlocks;
 
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
