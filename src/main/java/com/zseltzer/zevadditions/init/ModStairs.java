@@ -82,22 +82,6 @@ public class ModStairs
 	public static Block gravelStairs = new ZevBlockStairs(Blocks.gravel, "gravel");
 	public static Block gunpowderBlockStairs = new ZevBlockStairs(ModBlocks.gunpowderBlock, "gunpowderBlock");
 	public static Block hardenedClayStairs = new ZevBlockStairs(Blocks.hardened_clay, "hardenedClay");
-	public static Block hardenedClay_blackStairs = new ZevBlockStairs(Blocks.stained_hardened_clay, "hardenedClay_black");
-	public static Block hardenedClay_blueStairs = new ZevBlockStairs(Blocks.stained_hardened_clay, "hardenedClay_blue");
-	public static Block hardenedClay_brownStairs = new ZevBlockStairs(Blocks.stained_hardened_clay, "hardenedClay_brown");
-	public static Block hardenedClay_cyanStairs = new ZevBlockStairs(Blocks.stained_hardened_clay, "hardenedClay_cyan");
-	public static Block hardenedClay_grayStairs = new ZevBlockStairs(Blocks.stained_hardened_clay, "hardenedClay_gray");
-	public static Block hardenedClay_greenStairs = new ZevBlockStairs(Blocks.stained_hardened_clay, "hardenedClay_green");
-	public static Block hardenedClay_lightBlueStairs = new ZevBlockStairs(Blocks.stained_hardened_clay, "hardenedClay_lightBlue");
-	public static Block hardenedClay_lightGrayStairs = new ZevBlockStairs(Blocks.stained_hardened_clay, "hardenedClay_lightGray");
-	public static Block hardenedClay_limeStairs = new ZevBlockStairs(Blocks.stained_hardened_clay, "hardenedClay_lime");
-	public static Block hardenedClay_magentaStairs = new ZevBlockStairs(Blocks.stained_hardened_clay, "hardenedClay_magenta");
-	public static Block hardenedClay_orangeStairs = new ZevBlockStairs(Blocks.stained_hardened_clay, "hardenedClay_orange");
-	public static Block hardenedClay_pinkStairs = new ZevBlockStairs(Blocks.stained_hardened_clay, "hardenedClay_pink");
-	public static Block hardenedClay_purpleStairs = new ZevBlockStairs(Blocks.stained_hardened_clay, "hardenedClay_purple");
-	public static Block hardenedClay_redStairs = new ZevBlockStairs(Blocks.stained_hardened_clay, "hardenedClay_red");
-	public static Block hardenedClay_whiteStairs = new ZevBlockStairs(Blocks.stained_hardened_clay, "hardenedClay_white");
-	public static Block hardenedClay_yellowStairs = new ZevBlockStairs(Blocks.stained_hardened_clay, "hardenedClay_yellow");
 	public static Block hardenedDirtStairs = new ZevBlockStairs(ModBlocks.hardenedDirt, "hardenedDirt");
 	public static Block hardenedSandStairs = new ZevBlockStairs(ModBlocks.hardenedSand, "hardenedSand");
 	public static Block hardenedSandstoneStairs = new ZevBlockStairs(ModBlocks.hardenedSandstone, "hardenedSandstone");
@@ -110,8 +94,6 @@ public class ModStairs
 	public static Block ironOreStairs = new ZevBlockStairs(Blocks.iron_ore, "ironOre");
 	public static Block lapisBlockStairs = new ZevBlockStairs(Blocks.lapis_block, "lapisBlock");
 	public static Block lapisOreStairs = new ZevBlockStairs(Blocks.lapis_ore, "lapisOre");
-	public static Block lightForestDirtStairs = new ZevBlockStairs(ModBlocks.lightForestDirt, "lightForestDirt");
-	public static Block lightStoneStairs = new ZevBlockStairs(ModBlocks.lightStone, "lightStone");
 	public static Block limeStoneStairs = new ZevBlockStairs(ModBlocks.limeStone, "limeStone");
 	public static Block limeStone_smoothStairs = new ZevBlockStairs(ModBlocks.limeStone_smooth, "limeStone_smooth");
 	public static Block marbleStairs = new ZevBlockStairs(ModBlocks.marble, "marble");
@@ -202,22 +184,7 @@ public class ModStairs
 	public static Block topazBlockStairs = new ZevBlockStairs(ModBlocks.topazBlock, "topazBlock");
 	public static Block topazOreStairs = new ZevBlockStairs(ModBlocks.topazOre, "topazOre");
 	public static Block willow_planksStairs = new ZevBlockStairs(ModBlocks.willow_planks, "willow_planks");
-	public static Block wool_blackStairs = new ZevBlockStairs(Blocks.wool, "wool_black");
-	public static Block wool_blueStairs = new ZevBlockStairs(Blocks.wool, "wool_blue");
-	public static Block wool_brownStairs = new ZevBlockStairs(Blocks.wool, "wool_brown");
-	public static Block wool_cyanStairs = new ZevBlockStairs(Blocks.wool, "wool_cyan");
-	public static Block wool_grayStairs = new ZevBlockStairs(Blocks.wool, "wool_gray");
-	public static Block wool_greenStairs = new ZevBlockStairs(Blocks.wool, "wool_green");
-	public static Block wool_lightBlueStairs = new ZevBlockStairs(Blocks.wool, "wool_lightBlue");
-	public static Block wool_lightGrayStairs = new ZevBlockStairs(Blocks.wool, "wool_lightGray");
-	public static Block wool_limeStairs = new ZevBlockStairs(Blocks.wool, "wool_lime");
-	public static Block wool_magentaStairs = new ZevBlockStairs(Blocks.wool, "wool_magenta");
-	public static Block wool_orangeStairs = new ZevBlockStairs(Blocks.wool, "wool_orange");
-	public static Block wool_pinkStairs = new ZevBlockStairs(Blocks.wool, "wool_pink");
-	public static Block wool_purpleStairs = new ZevBlockStairs(Blocks.wool, "wool_purple");
-	public static Block wool_redStairs = new ZevBlockStairs(Blocks.wool, "red_wool");
-	public static Block wool_whiteStairs = new ZevBlockStairs(Blocks.wool, "wool_white");
-	public static Block wool_yellowStairs = new ZevBlockStairs(Blocks.wool, "Wool_yellow");
+	public static Block woolStairs = new ZevBlockStairs(Blocks.wool, "wool");
 	public static Block yellowStoneStairs = new ZevBlockStairs(ModBlocks.yellowStone, "yellowStone");
 	public static Block yellowStone_smoothStairs = new ZevBlockStairs(ModBlocks.yellowStone_smooth, "yellowStone_smooth");
 	
@@ -287,22 +254,6 @@ public class ModStairs
 		 RegisterHelper.registerBlock(granite_smoothStairs);
 		 RegisterHelper.registerBlock(graniteCobbleStairs);
 		 RegisterHelper.registerBlock(hardenedClayStairs);
-		 RegisterHelper.registerBlock(hardenedClay_blackStairs);
-		 RegisterHelper.registerBlock(hardenedClay_blueStairs);
-		 RegisterHelper.registerBlock(hardenedClay_brownStairs);
-		 RegisterHelper.registerBlock(hardenedClay_cyanStairs);
-		 RegisterHelper.registerBlock(hardenedClay_grayStairs);
-		 RegisterHelper.registerBlock(hardenedClay_greenStairs);
-		 RegisterHelper.registerBlock(hardenedClay_lightBlueStairs);
-		 RegisterHelper.registerBlock(hardenedClay_lightGrayStairs);
-		 RegisterHelper.registerBlock(hardenedClay_limeStairs);
-		 RegisterHelper.registerBlock(hardenedClay_magentaStairs);
-		 RegisterHelper.registerBlock(hardenedClay_orangeStairs);
-		 RegisterHelper.registerBlock(hardenedClay_pinkStairs);
-		 RegisterHelper.registerBlock(hardenedClay_purpleStairs);
-		 RegisterHelper.registerBlock(hardenedClay_redStairs);
-		 RegisterHelper.registerBlock(hardenedClay_whiteStairs);
-		 RegisterHelper.registerBlock(hardenedClay_yellowStairs);
 		 RegisterHelper.registerBlock(hardenedDirtStairs);
 		 RegisterHelper.registerBlock(hardenedSandStairs);
 		 RegisterHelper.registerBlock(hardenedSandstoneStairs);
@@ -402,22 +353,7 @@ public class ModStairs
 		 RegisterHelper.registerBlock(thatch_otherStairs);
 		 RegisterHelper.registerBlock(topazOreStairs);
 		 RegisterHelper.registerBlock(willow_planksStairs);
-		 RegisterHelper.registerBlock(wool_blackStairs);
-		 RegisterHelper.registerBlock(wool_blueStairs);
-		 RegisterHelper.registerBlock(wool_brownStairs);
-		 RegisterHelper.registerBlock(wool_cyanStairs);
-		 RegisterHelper.registerBlock(wool_grayStairs);
-		 RegisterHelper.registerBlock(wool_greenStairs);
-		 RegisterHelper.registerBlock(wool_lightBlueStairs);
-		 RegisterHelper.registerBlock(wool_lightGrayStairs);
-		 RegisterHelper.registerBlock(wool_limeStairs);
-		 RegisterHelper.registerBlock(wool_magentaStairs);
-		 RegisterHelper.registerBlock(wool_orangeStairs);
-		 RegisterHelper.registerBlock(wool_pinkStairs);
-		 RegisterHelper.registerBlock(wool_purpleStairs);
-		 RegisterHelper.registerBlock(wool_redStairs);
-		 RegisterHelper.registerBlock(wool_whiteStairs);
-		 RegisterHelper.registerBlock(wool_yellowStairs);
+		 RegisterHelper.registerBlock(woolStairs);
 		 RegisterHelper.registerBlock(yellowStoneStairs);
 		 RegisterHelper.registerBlock(yellowStone_smoothStairs);
 		 RegisterHelper.registerBlock(boneBlockStairs);
@@ -429,32 +365,5 @@ public class ModStairs
 		 RegisterHelper.registerBlock(rottenFleshBlockStairs);
 		 RegisterHelper.registerBlock(silverBlockStairs);	
 		 RegisterHelper.registerBlock(topazBlockStairs);
-		
-		/*
-		ZevBlockStairs[] allStairBlocks;
-
-		allStairBlocks =
-	            new ZevBlockStairs[2 * stairNames.length];
-		
-		for (int j = 0; j < stairNames.length; j++)
-		{
-		 ZevBlockStairs stairs = new ZevBlockStairs(stairBlockTypes[j], 0, stairNames[j]);
-         	allStairBlocks[2 * j] = stairs;      
-		 
-		 GameRegistry.registerBlock(stairs, stairNames[j]);
-		}
-		ZevBlockStairs[] stairBlocks;
-
-	    	stairBlocks =
-	            new ZevBlockStairs[2 * stairNames.length];
-	    	
-		 for (int j = 0; j < stairNames.length; j++) 
-		 {
-			 ZevBlockStairs blocks = new ZevBlockStairs(stairBlockTypes[j], 0, stairNames[j], Reference.MODID + ":" + stairNames[j]);
-	            stairBlocks[2 * j] = blocks;
-	            
-	            RegisterHelper.registerBlock(blocks);
-		}
-		*/
 	}
 }

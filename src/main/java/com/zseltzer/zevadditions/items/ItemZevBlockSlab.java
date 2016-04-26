@@ -7,7 +7,6 @@ import net.minecraft.item.ItemSlab;
 
 public class ItemZevBlockSlab extends ItemSlab 
 {
-	
 	public ItemZevBlockSlab(
 	        final Block block,
 	        final ZevBlockSlab slab,

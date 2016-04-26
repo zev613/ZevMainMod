@@ -7,8 +7,7 @@ import net.minecraft.item.Item;
 
 public class ModItems
 {
-	
-//METAL ITEMS
+    //METAL ITEMS
 	
 	public static Item rubyIngot = new GenericItem("rubyIngot");
 	

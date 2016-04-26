@@ -186,11 +186,7 @@ public class BlockRecipes
 
 		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.topazBlock, 1), new Object[] {new ItemStack(ModItems.topazIngot, 9)});
 
-		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.lightStone, 1), new Object[] {new ItemStack(Blocks.dirt, 2), new ItemStack(Blocks.cobblestone, 2)});
-		
 //SMELTING RECIPES		
-		
-		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.lightStone, 1), new Object[] {new ItemStack(Blocks.dirt, 2), new ItemStack(Blocks.cobblestone, 2)});
 
 		GameRegistry.addSmelting(ModBlocks.rubyOre, 
 				new ItemStack(ModItems.rubyIngot), 0.1F);

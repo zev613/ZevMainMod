@@ -18,8 +18,7 @@ import net.minecraftforge.common.util.EnumHelper;
 
 public class ModArmory 
 {
-	
-//Amethyst Material
+	//Amethyst Material
 	
 	static Item.ToolMaterial AMETHYST = EnumHelper.addToolMaterial
 		("AMETHYST", 3, 512, 2.0F, 2.0F, 14);

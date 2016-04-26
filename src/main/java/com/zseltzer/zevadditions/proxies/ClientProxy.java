@@ -12,7 +12,6 @@ import org.lwjgl.input.Keyboard;
 
 public class ClientProxy extends CommonProxy
 {
-
     public static KeyBinding[] keyBindings;
 
     public void init()

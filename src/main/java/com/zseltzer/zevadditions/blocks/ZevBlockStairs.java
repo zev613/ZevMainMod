@@ -16,7 +16,7 @@ public class ZevBlockStairs extends BlockStairs
 		this.setHardness(2.0F);
 		this.setHarvestLevel("pickaxe", 2);
 		this.setBlockName(unlocalizedName + "_Stairs");
-		this.setCreativeTab(ModTabs.tabMassBlocks);
+		this.setCreativeTab(ModTabs.tabStairs);
 		this.setBlockTextureName(Reference.MODID + ":" + unlocalizedName);
 	}
 }

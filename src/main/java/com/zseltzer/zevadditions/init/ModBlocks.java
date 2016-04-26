@@ -1,25 +1,15 @@
 package com.zseltzer.zevadditions.init;
 
 import com.zseltzer.zevadditions.RegisterHelper;
-import com.zseltzer.zevadditions.blocks.BlockBasic;
-import com.zseltzer.zevadditions.blocks.BlockModLightGrass;
-import com.zseltzer.zevadditions.blocks.BlockModLightLeaves;
-import com.zseltzer.zevadditions.blocks.BlockModLightLog;
-import com.zseltzer.zevadditions.blocks.BlockModLightSapling;
-import com.zseltzer.zevadditions.blocks.BlockModPortal;
-import com.zseltzer.zevadditions.blocks.GenericBaseBlock;
-import com.zseltzer.zevadditions.blocks.GenericSidedBlock;
-import com.zseltzer.zevadditions.blocks.GenericWoodBlock;
-import com.zseltzer.zevadditions.blocks.StorageBlock;
+import com.zseltzer.zevadditions.blocks.*;
 import com.zseltzer.zevadditions.tabs.ModTabs;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.init.Items;
 
-public class ModBlocks 
+public class ModBlocks
 {
-	
 //STANDARD BLOCKS
 	
 	public static Block adobeBlock = new GenericBaseBlock("adobeBlock", Material.rock);
@@ -180,78 +170,14 @@ public class ModBlocks
 
 //STAIR BLOCKS
 
-	/*
-	public static String[] stairTypeNames = {"bedrock", "sponge", "dirt", "smoothStone", "basalt", "shale", "obsidian", "iron_Block", "aquaStone", "endStone"};
-
-	public static Block[] stairBlockNames = {Blocks.bedrock, Blocks.sponge, Blocks.dirt, Blocks.stone, ModBlocks.basalt, ModBlocks.shale, Blocks.obsidian, Blocks.iron_block, ModBlocks.aquaStone, Blocks.end_stone,};
-	{
-	
-	for (int i = 0; i > stairTypeNames.length; i++)
-		{
-			Block stairBlockNames[i] = new ZevBlockStairs(stairBlockNames[i]);
-		}
-	}
-	*/
-	
-	public static int currentNum = 0;
-	
 //OTHER PLANTS
 	
 //TREES
-	/*
-	public static void initTrees()
-	{	
-		int i_this;
-		
-		for(int i = 0; i < BlockModLightLeaves.typeNames.length; i ++)
-		{
-			BlockModLightLog logs = new BlockModLightLog(BlockModLightLeaves.typeNames[i]);
-			BlockModLightLeaves leaves = new BlockModLightLeaves(BlockModLightLeaves.typeNames[i]);
-			BlockModLightSapling saplings = new BlockModLightSapling(BlockModLightLeaves.typeNames[i]);
 
-			 	//ZevBlockSlab doubleSlab =
-	                //new ZevBlockSlab(true, slabTypeNames[j]);
-	            //ItemSlab itemSlab = new ItemSlab(slab, slab, doubleSlab, false);
-	            //ItemSlab itemDoubleSlab =
-	                //new ItemSlab(doubleSlab, slab, doubleSlab, true);
-	            //allSlabBlocks[2 * j] = slab;
-	            //allSlabBlocks[2 * j + 1] = doubleSlab;
-	            //stainedBrickSlabItemBlocks[2 * j] = itemSlab;
-	            //stainedBrickSlabItemBlocks[2 * j + 1] = itemDoubleSlab;
-	            
-	            RegisterHelper.registerBlock(logs);
-	            RegisterHelper.registerBlock(leaves);
-	            RegisterHelper.registerBlock(saplings);
-		}
-	}
-	*/
-	
-//BIOMES BLOCKS	
-	
-	public static Block lightStone = new BlockBasic(Material.rock, "lightStone", "lightStone", Block.soundTypeStone);
-	public static Block lightForestGrass = new BlockModLightGrass(Material.rock, "lightForestGrass", Block.soundTypeGrass);
-	public static Block lightForestDirt = new BlockBasic(Material.rock, "lightForestDirt", "lightForestDirt", Block.soundTypeGrass);
-	//public static Block effectLeaves = new BlockModEffectLeaves("effectLeaves", "effect");
-	public static Block lightPortal = new BlockModPortal("lightPortal");
-	//public static Block lightFire  = new BlockModFire("lightFire");
-	
-	
-	public static Block lightLog = new BlockModLightLog("light");
-	public static Block lightLeaves = new BlockModLightLeaves("light");
-	public static Block lightSapling = new BlockModLightSapling("light");
-	
-	public static Block cherryLog = new BlockModLightLog("cherry");
-	public static Block cherryLeaves = new BlockModLightLeaves("cherry");
-	public static Block cherrySapling = new BlockModLightSapling("cherry");
-	
-	public static Block redwoodLog = new BlockModLightLog("redwood");
-	public static Block redwoodLeaves = new BlockModLightLeaves("redwood");
-	public static Block redwoodSapling = new BlockModLightSapling("redwood");
-	
+//BIOMES BLOCKS
 	
 public static void init()
 {
-
 	//STANDARD BLOCKS
 		
 	 RegisterHelper.registerBlock(adobeBlock);
@@ -412,30 +338,9 @@ public static void init()
 		
 //OTHER PLANTS
 		
-//TREES		
-		
-		RegisterHelper.registerBlock(lightLog);
-		RegisterHelper.registerBlock(lightLeaves);
-		RegisterHelper.registerBlock(lightSapling);
-		
-		RegisterHelper.registerBlock(cherryLog);
-		RegisterHelper.registerBlock(cherryLeaves);
-		RegisterHelper.registerBlock(cherrySapling);
-		
-		RegisterHelper.registerBlock(redwoodLog);
-		RegisterHelper.registerBlock(redwoodLeaves);
-		RegisterHelper.registerBlock(redwoodSapling);
-		
+//TREES
+
 //BIOME BLOCKS	
 		
-		RegisterHelper.registerBlock(lightForestDirt);
-		RegisterHelper.registerBlock(lightForestGrass);
-		RegisterHelper.registerBlock(lightStone);
-		RegisterHelper.registerBlock(lightPortal);
-		//RegisterHelper.registerBlock(lightFire);
-		//RegisterHelper.registerBlock(lightLog);
-		//RegisterHelper.registerBlock(lightLeaves);
-		//RegisterHelper.registerBlock(effectLeaves);
-		//RegisterHelper.registerBlock(lightSapling);
 	}
 }
