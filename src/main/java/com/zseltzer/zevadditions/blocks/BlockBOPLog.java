@@ -96,7 +96,7 @@ public class BlockBOPLog extends Block
     {
         int pos = meta;
 
-        if (pos == 0 && (side == 1 || side == 0) || pos == 4 && (side == 5 || side == 4) || pos == 8 && (side == 2 || side == 3))
+        if (pos == 0 && (side == 1 || side == 0) || pos == 4 && (side == 5 || side == 4))
             return logTop[(getTypeFromMeta(meta)/* + category.ordinal() * 4*/)];
         else
             return textures[(getTypeFromMeta(meta)/* + category.ordinal() * 4*/)];
