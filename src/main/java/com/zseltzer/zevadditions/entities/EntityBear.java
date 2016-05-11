@@ -51,8 +51,6 @@ public class EntityBear extends EntityAnimal
 
     private float timeBearIsShaking;
     private float prevTimeBearIsShaking;
-    private static final String __OBFID = "CL_00001654";
-
 
     public EntityBear(World par1World)
 	{
@@ -320,7 +318,7 @@ public class EntityBear extends EntityAnimal
 
     public boolean isBreedingItem(ItemStack par1ItemStack)
     {
-        return par1ItemStack == null ? false : (!(par1ItemStack.getItem() instanceof ItemFood) ? false : ((ItemFood)par1ItemStack.getItem()).isWolfsFavoriteMeat());
+        return par1ItemStack != null && (par1ItemStack.getItem() instanceof ItemFood && ((ItemFood) par1ItemStack.getItem()).isWolfsFavoriteMeat());
     }
 
     //Will return how many at most can spawn in a chunk at once.

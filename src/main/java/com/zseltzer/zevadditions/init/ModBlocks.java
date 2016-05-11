@@ -1,17 +1,26 @@
 package com.zseltzer.zevadditions.init;
-
 import com.zseltzer.zevadditions.RegisterHelper;
 import com.zseltzer.zevadditions.blocks.*;
+import com.zseltzer.zevadditions.itemblocks.ItemBlockLeaves;
+import com.zseltzer.zevadditions.itemblocks.ItemBlockLog;
+import com.zseltzer.zevadditions.itemblocks.ItemBlockSapling;
 import com.zseltzer.zevadditions.tabs.ModTabs;
 
+import cpw.mods.fml.common.registry.GameData;
+import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.init.Items;
+import net.minecraft.item.ItemBlock;
 
 public class ModBlocks
 {
 //STANDARD BLOCKS
-	
+
+    public static Block logs;
+    public static Block leaves;
+    public static Block saplings;
+
 	public static Block adobeBlock = new GenericBaseBlock("adobeBlock", Material.rock);
 	public static Block adobe_bricks = new GenericBaseBlock("adobe_bricks", Material.rock);
 	public static Block adobeTile = new GenericBaseBlock("adobeTile", Material.rock);
@@ -174,12 +183,64 @@ public class ModBlocks
 	
 //TREES
 
+    //public static Block log = new ZevLog().setBlockName("log");
+    //public static Block leaves = new ZevLeavesNew().setBlockName("leaves");
+    //public static Block sapling = new ZevSapling();
+
+    public static Block registerBlock(Block block)
+    {
+        GameRegistry.registerBlock(block, block.getUnlocalizedName().substring(5));
+        return block;
+    }
+
+    public static Block registerBlock(Block block, Class<? extends ItemBlock > itemBlockClass)
+    {
+        GameRegistry.registerBlock(block, itemBlockClass, block.getUnlocalizedName().substring(5));
+        return block;
+    }
+
+    public static Block registerBlock(Block block, Class<? extends ItemBlock> itemBlockClass, Object... constructorArgs)
+    {
+        GameRegistry.registerBlock(block, itemBlockClass, block.getUnlocalizedName().substring(5), constructorArgs);
+        return block;
+    }
+
+    /*
+    public static String getUniqueName(Block block)
+    {
+        return GameData.getBlockRegistry().getNameForObject(block);
+    }
+    */
+
 //BIOMES BLOCKS
-	
+
+    public static void registerBlocks()
+    {
+		/*
+		logs1 = registerBlock(new BlockBOPLog(BlockBOPLog.LogCategory.CAT1).setBlockName("logs1"), ItemBlockLog.class);
+		logs2 = registerBlock(new BlockBOPLog(BlockBOPLog.LogCategory.CAT2).setBlockName("logs2"), ItemBlockLog.class);
+		logs3 = registerBlock(new BlockBOPLog(BlockBOPLog.LogCategory.CAT3).setBlockName("logs3"), ItemBlockLog.class);
+		logs4 = registerBlock(new BlockBOPLog(BlockBOPLog.LogCategory.CAT4).setBlockName("logs4"), ItemBlockLog.class);
+
+		leaves1 = registerBlock(new BlockBOPLeaves(BlockBOPLeaves.LeafCategory.CAT1).setBlockName("leaves1"), ItemBlockLeaves.class);
+		leaves2 = registerBlock(new BlockBOPLeaves(BlockBOPLeaves.LeafCategory.CAT2).setBlockName("leaves2"), ItemBlockLeaves.class);
+		leaves3 = registerBlock(new BlockBOPLeaves(BlockBOPLeaves.LeafCategory.CAT3).setBlockName("leaves3"), ItemBlockLeaves.class);
+		leaves4 = registerBlock(new BlockBOPLeaves(BlockBOPLeaves.LeafCategory.CAT4).setBlockName("leaves4"), ItemBlockLeaves.class);
+		*/
+
+        logs = registerBlock(new BlockBOPLog().setBlockName("logs"), ItemBlockLog.class);
+
+        leaves = registerBlock(new BlockBOPLeaves().setBlockName("leaves"), ItemBlockLeaves.class);
+
+        saplings = registerBlock(new BlockBOPSapling().setBlockName("saplings"), ItemBlockSapling.class);
+    }
+
 public static void init()
 {
 	//STANDARD BLOCKS
-		
+
+    registerBlocks();
+
 	 RegisterHelper.registerBlock(adobeBlock);
 	 RegisterHelper.registerBlock(adobe_bricks);
 	 RegisterHelper.registerBlock(adobeTile);
@@ -339,6 +400,10 @@ public static void init()
 //OTHER PLANTS
 		
 //TREES
+
+        //RegisterHelper.registerBlock(log);
+        //RegisterHelper.registerBlock(leaves);
+        //RegisterHelper.registerBlock(sapling);
 
 //BIOME BLOCKS	
 		

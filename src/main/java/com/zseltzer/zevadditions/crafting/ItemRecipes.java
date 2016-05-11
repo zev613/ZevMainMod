@@ -14,11 +14,10 @@ public class ItemRecipes
 	public static void init()
 	{	
 
-GameRegistry.addShapedRecipe(new ItemStack(Items.saddle), 
-		new Object[] {
-				"A A", 
-				"A A", 
-				"BCB", 
-				'A', Items.leather, 'B', Items.iron_ingot, 'C', Blocks.iron_block});
+GameRegistry.addShapedRecipe(new ItemStack(Items.saddle),
+		"A A",
+		"A A",
+		"BCB",
+		'A', Items.leather, 'B', Items.iron_ingot, 'C', Blocks.iron_block);
 	}
 }

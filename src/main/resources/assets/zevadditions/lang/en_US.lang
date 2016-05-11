@@ -214,3 +214,6 @@ generator.TUTORIAL=Tut Type
 generator.TUTORIAL.info=Notice: Testing Custom World Type, Uses Mega Taiga Biome.
 
 entity.entityBear.name=Bear
+
+achievement.testAchievement=Test Completed
+achievement.testAchievement.desc=This is Zev's Test Achievement!

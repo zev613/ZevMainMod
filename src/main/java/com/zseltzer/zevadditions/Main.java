@@ -3,12 +3,7 @@ package com.zseltzer.zevadditions;
 import com.zseltzer.zevadditions.crafting.ModRecipes;
 import com.zseltzer.zevadditions.events.EventHelper;
 import com.zseltzer.zevadditions.events.KeyInputHandler;
-import com.zseltzer.zevadditions.init.ModArmory;
-import com.zseltzer.zevadditions.init.ModBlocks;
-import com.zseltzer.zevadditions.init.ModEntities;
-import com.zseltzer.zevadditions.init.ModItems;
-import com.zseltzer.zevadditions.init.ModSlabs;
-import com.zseltzer.zevadditions.init.ModStairs;
+import com.zseltzer.zevadditions.init.*;
 import com.zseltzer.zevadditions.keybindings.KeyBindings;
 import com.zseltzer.zevadditions.proxies.CommonProxy;
 
@@ -21,6 +16,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.event.FMLServerStartingEvent;
+import net.minecraftforge.common.MinecraftForge;
 
 @Mod(modid = Reference.MODID, name = Reference.NAME, version = Reference.VERSION)
 
@@ -47,7 +43,7 @@ public class Main
 
         ModEntities.init();
 
-            FMLCommonHandler.instance().bus().register(new KeyInputHandler());
+		FMLCommonHandler.instance().bus().register(new KeyInputHandler());
 
             KeyBindings.init();
     }
@@ -57,7 +53,9 @@ public class Main
 	{
 		ModRecipes.init();
 
-		EventHelper.registerEvents();
+        ModAchievements.init();
+
+        EventHelper.registerEvents();
 		
 		proxy.registerRenderers();
     }

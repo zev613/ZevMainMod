@@ -51,4 +51,14 @@ public class ModTabs
 	    	return Item.getItemFromBlock(ModStairs.enderPearlBlockStairs);
 	    }
 	};
+
+	public static CreativeTabs tabTrees = new CreativeTabs("tabTrees")
+	{
+		@Override
+		@SideOnly(Side.CLIENT)
+		public Item getTabIconItem()
+		{
+			return Item.getItemFromBlock(ModBlocks.redwood_planks);
+		}
+	};
 }

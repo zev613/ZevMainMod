@@ -2,139 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="874db64b-89d2-40f0-b380-62096396e79f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.0/taskArtifacts/cache.properties.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.0/taskArtifacts/fileHashes.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.0/taskArtifacts/fileSnapshots.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.0/taskArtifacts/outputFileStates.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.0/taskArtifacts/taskArtifacts.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2016-04-06-1.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2016-04-06-2.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2016-04-06-3.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2016-04-06-4.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2016-04-06-5.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2016-04-06-6.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2016-04-06-7.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2016-04-07-1.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2016-04-07-2.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2016-04-07-3.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2016-04-07-4.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2016-04-07-5.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2016-04-07-6.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2016-04-07-7.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2016-04-10-1.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2016-04-10-2.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2016-04-10-3.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2016-04-10-4.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2016-04-10-5.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2016-04-10-6.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2016-04-10-7.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2016-04-11-1.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2016-04-11-2.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2016-04-11-3.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2016-04-11-4.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2016-04-11-5.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2016-04-11-6.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2016-04-11-7.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2016-04-25-1.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2016-04-25-2.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2016-04-25-3.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2016-04-25-4.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2016-04-25-5.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2016-04-25-6.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/2016-04-25-7.log.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World-20160425-074731.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World-20160425-084208.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World-20160425-110343.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World-20160425-120201.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World-20160425-230505.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/DIM-1/data/villages.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/DIM-1/forcedchunks.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/DIM1/data/villages.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/DIM1/forcedchunks.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/DIM35/data/villages.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/DIM35/forcedchunks.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/DIM35/region/r.-1.-1.mca" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/DIM35/region/r.-1.0.mca" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/DIM35/region/r.-1.1.mca" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/DIM35/region/r.0.-1.mca" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/DIM35/region/r.0.0.mca" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/DIM35/region/r.0.1.mca" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/DIM35/region/r.1.0.mca" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/DIM35/region/r.1.1.mca" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/DIM35/region/r.2.0.mca" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/DIM35/region/r.2.1.mca" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/data/villages.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/forcedchunks.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/level.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/level.dat_mcr" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/level.dat_old" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/playerdata/00bb7f76-47ca-3891-96fe-03177d2fac78.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/playerdata/05d2e66a-903f-3232-a8b0-3899ccc17800.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/playerdata/24c19b83-c868-336d-a5c8-61e6dc8d3cd5.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/playerdata/2797ecaf-07ab-3788-a2f8-6002cfc50e1d.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/playerdata/57e72990-8f4d-370a-9882-2dee063faae3.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/playerdata/66157e7a-53e0-3299-9208-7674efd706f9.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/playerdata/7e352200-5a1b-37ca-9d08-8fe764041962.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/playerdata/82eab9c5-ed04-3a17-8da6-2923b8b4dcf8.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/playerdata/d8673417-c4e9-3a05-9b69-9e1ec4bb9002.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/playerdata/da075988-6245-3890-84d4-251ff8c86547.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/playerdata/e7f0f282-ec78-3bba-aaaf-9edc548f540d.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/region/r.-1.0.mca" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/region/r.-1.1.mca" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/region/r.-1.2.mca" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/region/r.0.-1.mca" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/region/r.0.0.mca" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/region/r.0.1.mca" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/region/r.0.2.mca" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/region/r.1.0.mca" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/region/r.1.1.mca" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/region/r.1.2.mca" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/session.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Testing World-20160406-114440.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Testing World-20160410-224030.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.classpath" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.0/taskArtifacts/cache.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/gradle.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.project" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/config/forge.cfg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/config/forgeChunkLoading.cfg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/config/splash.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/crash-reports/crash-2016-04-10_22.13.02-client.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/crash-reports/crash-2016-04-10_22.48.47-client.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/crash-reports/crash-2016-04-10_22.52.14-client.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/crash-reports/crash-2016-04-10_22.54.24-client.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/crash-reports/crash-2016-04-11_01.05.01-client.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/crash-reports/crash-2016-04-11_01.07.39-server.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/crash-reports/crash-2016-04-11_01.11.55-client.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/crash-reports/crash-2016-04-11_01.20.07-client.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/crash-reports/crash-2016-04-11_08.32.26-server.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/crash-reports/crash-2016-04-11_19.46.39-client.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/crash-reports/crash-2016-04-11_19.50.03-server.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/crash-reports/crash-2016-04-25_08.44.38-client.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/crash-reports/crash-2016-04-25_11.07.24-client.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/crash-reports/crash-2016-04-25_11.12.38-client.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/crash-reports/crash-2016-04-25_11.17.58-client.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-1.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-2.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-3.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/fml-junk-earlystartup.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/logs/latest.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/options.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/stats/00bb7f76-47ca-3891-96fe-03177d2fac78.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/stats/05d2e66a-903f-3232-a8b0-3899ccc17800.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/stats/24c19b83-c868-336d-a5c8-61e6dc8d3cd5.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/stats/2797ecaf-07ab-3788-a2f8-6002cfc50e1d.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/stats/57e72990-8f4d-370a-9882-2dee063faae3.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/stats/66157e7a-53e0-3299-9208-7674efd706f9.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/stats/7e352200-5a1b-37ca-9d08-8fe764041962.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/stats/82eab9c5-ed04-3a17-8da6-2923b8b4dcf8.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/stats/d8673417-c4e9-3a05-9b69-9e1ec4bb9002.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/stats/da075988-6245-3890-84d4-251ff8c86547.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/saves/Modding Test World/stats/e7f0f282-ec78-3bba-aaaf-9edc548f540d.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eclipse/usernamecache.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/achievements/Achievements.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BOPBlock.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockBOPLeaves.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockBOPLog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockBOPSapling.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/ZevBlockLeavesBase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/ZevBlockLog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/ZevLeaves.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/ZevLeavesNew.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/ZevLog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/ZevSapling.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/events/BOPEventHandlers.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/init/ModAchievements.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/itemblocks/ItemBlockLeaves.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/itemblocks/ItemBlockLog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/itemblocks/ItemBlockSapling.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/world/ZevGameRules.java" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/mapleSapling.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/sapling_bamboo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/sapling_fir.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/sapling_palm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/sapling_redwood.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/Unused/sapling_whitecherry.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adamantiumBlock.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adamantiumOre.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobeIncAfterEffects.png" afterPath="" />
@@ -156,8 +46,13 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobe_furnace_side.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/adobe_furnace_top.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/deadpoolBlock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/effect_leaves.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/effect_leaves_opaque.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/kryptoniteBlock.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/kryptoniteOre.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/light_Sapling.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/light_leaves.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/light_leaves_opaque.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/blocks/vibraniumOre.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/items/ATOMBoots.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/textures/items/ATOMChest.png" afterPath="" />
@@ -4075,7 +3970,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/tools/HeroItemPickaxe.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/tools/HeroItemShovel.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/superheroes/tools/HeroItemSword.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/tabs/ModTabs$5.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/tabs/ModTabs$6.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/tabs/ModTabs$7.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/util/BlockList.class" afterPath="" />
@@ -4108,11 +4002,30 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/world/gen/WorldGenModMinable.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/world/genlayer/LightForestGenLayer.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/world/genlayer/LightForestGenLayerBiomes.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/blocks/Unused/sapling_bamboo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/blocks/Unused/sapling_fir.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/blocks/Unused/sapling_palm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/blocks/Unused/sapling_redwood.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/blocks/Unused/sapling_whitecherry.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/blocks/effect_leaves.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/blocks/effect_leaves_opaque.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/blocks/light_Sapling.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/blocks/light_leaves.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/blocks/light_leaves_opaque.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/textures/items/bronzeIngot.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/Main.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/Reference.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/Reference.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/RegisterHelper.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/RegisterHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/blocks/GenericBaseBlock.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/blocks/GenericBaseBlock.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/blocks/GenericSidedBlock.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/blocks/GenericSidedBlock.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/blocks/GenericWoodBlock.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/blocks/GenericWoodBlock.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/blocks/StorageBlock.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/blocks/StorageBlock.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/blocks/ZevBlockSlab.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/blocks/ZevBlockSlab.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/blocks/ZevBlockStairs.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/blocks/ZevBlockStairs.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/crafting/ArmorRecipes.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/crafting/ArmorRecipes.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/crafting/BlockRecipes.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/crafting/BlockRecipes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/crafting/ItemRecipes.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/crafting/ItemRecipes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/crafting/ToolRecipes.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/crafting/ToolRecipes.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/entities/EntityBear.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/entities/EntityBear.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/entities/RenderBear.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/entities/RenderBear.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/events/EventHelper.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/events/EventHelper.class" />
@@ -4130,11 +4043,29 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/tabs/ModTabs$2.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/tabs/ModTabs$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/tabs/ModTabs$3.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/tabs/ModTabs$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/tabs/ModTabs$4.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/tabs/ModTabs$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/tabs/ModTabs$5.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/tabs/ModTabs$5.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/tabs/ModTabs.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/tabs/ModTabs.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/util/HarmlessLightningBolt.class" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/com/zseltzer/zevadditions/util/HarmlessLightningBolt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZevMainMod.iws" afterPath="$PROJECT_DIR$/ZevMainMod.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/lang/en_US.lang" afterPath="$PROJECT_DIR$/out/production/ZevMainMod/assets/zevadditions/lang/en_US.lang" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/GenericBaseBlock.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/GenericBaseBlock.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/GenericSidedBlock.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/GenericSidedBlock.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/GenericWoodBlock.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/GenericWoodBlock.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/StorageBlock.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/StorageBlock.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/ZevBlockSlab.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/ZevBlockSlab.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/ZevBlockStairs.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/ZevBlockStairs.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/crafting/ArmorRecipes.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/crafting/ArmorRecipes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/crafting/BlockRecipes.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/crafting/BlockRecipes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/crafting/ItemRecipes.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/crafting/ItemRecipes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/crafting/ToolRecipes.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/crafting/ToolRecipes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/entities/EntityBear.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/entities/EntityBear.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/entities/RenderBear.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/entities/RenderBear.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/events/EventHelper.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/events/EventHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/events/KeyInputHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/events/KeyInputHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/init/ModBlocks.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/init/ModBlocks.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/tabs/ModTabs.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/tabs/ModTabs.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/lang/en_US.lang" afterPath="$PROJECT_DIR$/src/main/resources/assets/zevadditions/lang/en_US.lang" />
     </list>
     <ignored path="ZevMainMod.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -4194,34 +4125,99 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="StorageBlock.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/StorageBlock.java">
+      <file leaf-file-name="ItemBlockSapling.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/itemblocks/ItemBlockSapling.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="144">
+              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="e#958#959#0" expanded="true" />
+                <element signature="e#985#986#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Reference.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/Reference.java">
+      <file leaf-file-name="ModBlocks.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/init/ModBlocks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-              <folding />
+            <state relative-caret-position="264">
+              <caret line="180" column="0" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlockRecipes.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/crafting/BlockRecipes.java">
+      <file leaf-file-name="BlockBOPSapling.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockBOPSapling.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="182" column="85" selection-start-line="182" selection-start-column="85" selection-end-line="182" selection-end-column="85" />
-              <folding />
+            <state relative-caret-position="308">
+              <caret line="43" column="99" selection-start-line="43" selection-start-column="99" selection-end-line="43" selection-end-column="99" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#7746#7747#0" expanded="true" />
+                <element signature="e#7781#7782#0" expanded="true" />
+                <element signature="e#7898#7899#0" expanded="true" />
+                <element signature="e#7960#7961#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemBlockLeaves.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/itemblocks/ItemBlockLeaves.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+              <folding>
+                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlockBOPLog.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockBOPLog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemBlockLog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/itemblocks/ItemBlockLog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlockBOPLeaves.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockBOPLeaves.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="89" column="56" selection-start-line="89" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#12680#12681#0" expanded="true" />
+                <element signature="e#12759#12760#0" expanded="true" />
+                <element signature="e#13047#13048#0" expanded="true" />
+                <element signature="e#13101#13102#0" expanded="true" />
+                <element signature="e#13420#13431#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -4247,57 +4243,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/items/ItemSapphireArmor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/items/ModItemAxe.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/items/ModItemEnchantedSword.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/items/ModItemHoe.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/items/ModItemPickaxe.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/items/ModItemSword.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/items/ItemEmeraldArmor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/particle/EntityTreeFX.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/RegisterHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/util/Names.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/util/ReadFile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/util/LightDimensionTeleporter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/util/BlockList.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/util/GameLogHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/util/GameLogger.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/util/ColorUtility.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/items/ColoredItem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/entities/EntityBear.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/init/BOPBlocks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BOPSapling.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/world/features/tree/WorldGenPoplarTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/world/features/tree/WorldGenOriginalTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/world/ZevGameRules.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/StorageBlock.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/entities/RenderBear.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/entities/ModelBear.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/ZevBlockStairs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/tabs/ModTabs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/world/gen/WorldGenForestAbstractTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/world/gen/WorldGenForestBigTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/world/gen/WorldGenForestTrees.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/world/biomes/decorators/BiomeDecoratorMod.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/world/gen/WorldGenEffectTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockModLeaves.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockModLeavesBase.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockModLeavesNew.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockModLightLeaves.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockModLogBase.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockModLightLog.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockTreeInit.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockModLightSapling.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockModSaplingBase.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/events/EventHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/init/ModBlocks.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/init/ModStairs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/entities/EntityBear.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/world/ZevWorldGenBigTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/world/ZevWorldGenMegaPineTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/init/ModSlabs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/init/ModItems.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/init/ModArmory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/items/ItemZevBlockSlab.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/keybindings/KeyBindings.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/proxies/ClientProxy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/proxies/CommonProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/events/KeyInputHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/ZevBlockStairs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/ZevBlockSlab.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/GenericWoodBlock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/GenericBlockLeavesBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/GenericBlockLog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/tabs/ModTabs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/GenericLogs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/GenericSapling.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/GenericLeavesMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/GenericLeaves.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/util/HarmlessLightningBolt.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/Reference.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/crafting/BlockRecipes.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/zevadditions/lang/en_US.lang" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/achievements/Achievements.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/GenericSideBlock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/GenericSidedBlock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/init/ModAchievements.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/events/EventHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/GenericBaseBlock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/itemblocks/ItemBlockSapling.java" />
+        <option value="$PROJECT_DIR$/src/main/java/itemblocks/ItemBlockLog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/itemblocks/ItemBlockLeaves.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/itemblocks/ItemBlockBOPPlank.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/events/BOPEventHandlers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BOPBlock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/itemblocks/ItemBlockBOPSlab.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/world/ZevWorldGenTrees.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/ZevSapling.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/ZevLog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/ZevLeavesNew.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/ZevLeaves.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/ZevBlockLog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/ZevBlockLeavesBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockBOPSapling.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockBOPLeaves.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/init/ModBlocks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/itemblocks/ItemBlockSapling.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/itemblocks/ItemBlockLeaves.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/itemblocks/ItemBlockLog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockBOPLog.java" />
       </list>
     </option>
   </component>
@@ -4354,9 +4350,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -4419,8 +4412,161 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZevMainMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZevMainMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zevadditions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="world" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZevMainMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZevMainMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zevadditions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="itemblocks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZevMainMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZevMainMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zevadditions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="init" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZevMainMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZevMainMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zevadditions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="events" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZevMainMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZevMainMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zevadditions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blocks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -4435,7 +4581,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -4738,59 +4884,59 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33144796" sideWeight="0.4914163" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40837103" sideWeight="0.50214595" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886267" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09028571" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23868778" sideWeight="0.82027894" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40837103" sideWeight="0.49785408" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19742489" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24892704" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.104613736" sideWeight="0.49542335" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24833703" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21618626" sideWeight="0.5045767" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39932126" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33295193" sideWeight="0.4914163" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39954337" sideWeight="0.49784714" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22997712" sideWeight="0.82027894" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20112994" sideWeight="0.49570817" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.113142855" sideWeight="0.49570817" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3337104" sideWeight="0.4914163" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33144796" sideWeight="0.4914163" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40837103" sideWeight="0.50214595" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39954337" sideWeight="0.49784714" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22997712" sideWeight="0.82027894" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09028571" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14253394" sideWeight="0.82027894" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40837103" sideWeight="0.49785408" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40798226" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.104613736" sideWeight="0.49542335" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20112994" sideWeight="0.49570817" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24892704" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.113142855" sideWeight="0.49570817" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24833703" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21618626" sideWeight="0.5045767" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39932126" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -4810,7 +4956,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -4819,239 +4965,399 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/world/biomes/decorators/BiomeDecoratorMod.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/world/gen/WorldGenEffectTree.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockModLeavesNew.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockModLeaves.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockModLightGrass.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockModLightLeaves.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockModLeavesBase.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockModLightLog.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockTreeInit.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockModLogBase.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1558-1.7.10/forgeSrc-1.7.10-10.13.4.1558-1.7.10-sources.jar!/net/minecraft/block/BlockSapling.java">
+    <entry file="file://$PROJECT_DIR$/../../Modding/Mod - Sources/Minecrift-Vive/src/com/mtbs3d/minecrift/gameplay/VRPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="29" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="247" selection-end-column="1" />
+        <state relative-caret-position="460">
+          <caret line="57" column="51" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockModLightSapling.java" />
-    <entry file="file://$PROJECT_DIR$/../../Modding/Decompiled-Sources/ExtraBiomesXL1.7.10/src/main/java/extrabiomes/blocks/BlockNewLog.java">
+    <entry file="file://$PROJECT_DIR$/../../Modding/Mod - Sources/Minecrift-Vive/src/com/mtbs3d/minecrift/gameplay/VRMovementStyle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-719">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="680">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Modding/Decompiled-Sources/BiomesOPlenty/src/main/java/biomesoplenty/common/blocks/BlockBOPLog.java">
+    <entry file="file://$PROJECT_DIR$/../../Modding/Mod - Sources/Minecrift-Vive/src/com/mtbs3d/minecrift/gameplay/EntityVRTeleportFX.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        <state relative-caret-position="440">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Modding/Decompiled-Sources/BiomesOPlenty/src/main/java/biomesoplenty/common/blocks/BlockBOPLeaves.java">
+    <entry file="file://$PROJECT_DIR$/../../Modding/Mod - Sources/Minecrift-Vive/src/com/mtbs3d/minecrift/settings/VRSettings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Modding/Decompiled-Sources/BiomesOPlenty/src/main/java/biomesoplenty/common/blocks/BlockBOPSapling.java">
+    <entry file="file://$PROJECT_DIR$/../../Modding/Mod - Sources/BiomesOPlenty/java/biomesoplenty/common/eventhandler/misc/BonemealEventHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockModSaplingBase.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockBasic.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockModBush.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/config/ModConfig.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/config/ConfigTypes.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/events/KeyInputHandler.java">
+    <entry file="file://$PROJECT_DIR$/../../Modding/Mod - Sources/BiomesOPlenty/java/biomesoplenty/common/blocks/BlockBOPPlank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Modding/Mod - Sources/BiomesOPlenty/java/biomesoplenty/common/blocks/BlockBOPSlab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Modding/Mod - Sources/BiomesOPlenty/java/biomesoplenty/common/world/features/trees/WorldGenPalmTree1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Modding/Mod - Sources/BiomesOPlenty/java/biomesoplenty/common/world/features/trees/WorldGenBOPBigTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/init/ModBlocks.java">
+    <entry file="file://$PROJECT_DIR$/../../Modding/Mod - Sources/BiomesOPlenty/java/biomesoplenty/common/world/features/trees/WorldGenRedwoodTree2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/events/EventHelper.java">
+    <entry file="file://$PROJECT_DIR$/../../Modding/Mod - Sources/BiomesOPlenty/java/biomesoplenty/common/world/features/trees/WorldGenRedwoodTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/init/ModStairs.java">
+    <entry file="file://$PROJECT_DIR$/../../Modding/Mod - Sources/BiomesOPlenty/java/biomesoplenty/common/world/features/trees/WorldGenRainforestTree1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="345" column="8" selection-start-line="345" selection-start-column="8" selection-end-line="345" selection-end-column="8" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/init/ModSlabs.java">
+    <entry file="file://$PROJECT_DIR$/../../Modding/Mod - Sources/BiomesOPlenty/java/biomesoplenty/common/world/features/trees/WorldGenPoplar2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/init/ModItems.java">
+    <entry file="file://$PROJECT_DIR$/../../Modding/Mod - Sources/BiomesOPlenty/java/biomesoplenty/common/world/features/trees/WorldGenPoplar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/init/ModEntities.java">
+    <entry file="file://$PROJECT_DIR$/../../Modding/Mod - Sources/BiomesOPlenty/java/biomesoplenty/common/world/features/trees/WorldGenPineTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="0" column="50" selection-start-line="0" selection-start-column="50" selection-end-line="0" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/items/ColoredItem.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/items/ModItemEnchantedSword.java">
+    <entry file="file://$PROJECT_DIR$/../../Modding/Mod - Sources/BiomesOPlenty/java/biomesoplenty/common/blocks/BlockBOPStairs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/items/ModItemAxe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/items/ItemZevBlockSlab.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/items/GenericItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/keybindings/KeyBindings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/proxies/ClientProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/init/ModArmory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/util/BlockList.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/util/ColorUtility.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/proxies/CommonProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/util/GameLogHelper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/util/GameLogger.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/Main.java">
+    <entry file="file://$PROJECT_DIR$/../../Modding/Mod - Sources/BiomesOPlenty/java/biomesoplenty/common/itemblocks/ItemBlockSapling.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <caret line="15" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/util/HarmlessLightningBolt.java">
+    <entry file="file://$PROJECT_DIR$/../../Modding/Mod - Sources/BiomesOPlenty/java/biomesoplenty/common/itemblocks/ItemBlockLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Modding/Mod - Sources/BiomesOPlenty/java/biomesoplenty/common/itemblocks/ItemBlockLeaves.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Modding/Mod - Sources/BiomesOPlenty/java/biomesoplenty/common/itemblocks/ItemBlockSlab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Modding/Mod - Sources/BiomesOPlenty/java/biomesoplenty/common/itemblocks/ItemBlockPlank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Modding/Mod - Sources/BiomesOPlenty/java/biomesoplenty/common/eventhandler/BOPEventHandlers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="52" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="75" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Modding/Mod - Sources/BiomesOPlenty/java/biomesoplenty/common/blocks/BOPBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="40" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Modding/Mod - Sources/BiomesOPlenty/java/biomesoplenty/common/core/BOPItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1558-1.7.10/forgeSrc-1.7.10-10.13.4.1558-1.7.10-sources.jar!/net/minecraft/item/ItemSlab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/itemblocks/ItemBlockBOPSlab.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/itemblocks/ItemBlockBOPPlank.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/events/BOPEventHandlers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Modding/Mod - Sources/BiomesOPlenty/java/biomesoplenty/api/BOPBlockHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Modding/Mod - Sources/BiomesOPlenty/java/biomesoplenty/common/core/BOPBlocks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="43" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Modding/Mod - Sources/BiomesOPlenty/java/biomesoplenty/api/content/BOPCBlocks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/world/ZevWorldGenTrees.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/ZevLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="49" column="3" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/ZevLeaves.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="384" column="3" selection-start-line="384" selection-start-column="3" selection-end-line="384" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/ZevSapling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1558-1.7.10/forgeSrc-1.7.10-10.13.4.1558-1.7.10-sources.jar!/net/minecraft/client/renderer/EntityRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="1155" column="21" selection-start-line="1155" selection-start-column="21" selection-end-line="1155" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1558-1.7.10/forgeSrc-1.7.10-10.13.4.1558-1.7.10-sources.jar!/net/minecraft/item/Item.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
-          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+          <caret line="606" column="0" selection-start-line="606" selection-start-column="0" selection-end-line="606" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/src.zip!/java/lang/Enum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="88" column="26" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BOPBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/ZevLeavesNew.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <folding>
+            <marker date="1462905264865" expanded="false" signature="3628:3643" placeholder=" { " />
+            <marker date="1462905264865" expanded="false" signature="3660:3666" placeholder=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/ZevBlockLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <marker date="1462905417811" expanded="false" signature="1091:1106" placeholder=" { " />
+            <marker date="1462905417811" expanded="false" signature="1123:1129" placeholder=" }" />
+            <marker date="1462905417811" expanded="false" signature="1242:1257" placeholder=" { " />
+            <marker date="1462905417811" expanded="false" signature="1266:1272" placeholder=" }" />
+            <marker date="1462905417811" expanded="false" signature="1345:1360" placeholder=" { " />
+            <marker date="1462905417811" expanded="false" signature="1395:1401" placeholder=" }" />
+            <marker date="1462905417811" expanded="false" signature="2323:2338" placeholder=" { " />
+            <marker date="1462905417811" expanded="false" signature="2394:2400" placeholder=" }" />
+            <marker date="1462905417811" expanded="false" signature="2470:2485" placeholder=" { " />
+            <marker date="1462905417811" expanded="false" signature="2542:2548" placeholder=" }" />
+            <marker date="1462905417811" expanded="false" signature="2640:2655" placeholder=" { " />
+            <marker date="1462905417811" expanded="false" signature="2667:2673" placeholder=" }" />
+            <marker date="1462905417811" expanded="false" signature="2755:2770" placeholder=" { " />
+            <marker date="1462905417811" expanded="false" signature="2782:2788" placeholder=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/ZevBlockLeavesBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/GenericBaseBlock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/GenericSidedBlock.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockBOPLeaves.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="176">
+          <caret line="89" column="56" selection-start-line="89" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#12680#12681#0" expanded="true" />
+            <element signature="e#12759#12760#0" expanded="true" />
+            <element signature="e#13047#13048#0" expanded="true" />
+            <element signature="e#13101#13102#0" expanded="true" />
+            <element signature="e#13420#13431#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/ZevBlockSlab.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockBOPSapling.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/GenericWoodBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="308">
+          <caret line="43" column="99" selection-start-line="43" selection-start-column="99" selection-end-line="43" selection-end-column="99" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#7746#7747#0" expanded="true" />
+            <element signature="e#7781#7782#0" expanded="true" />
+            <element signature="e#7898#7899#0" expanded="true" />
+            <element signature="e#7960#7961#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/StorageBlock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="308">
+          <caret line="18" column="85" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/init/ModBlocks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="180" column="0" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/itemblocks/ItemBlockSapling.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state relative-caret-position="144">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/Reference.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/itemblocks/ItemBlockLeaves.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-          <folding />
+        <state relative-caret-position="220">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding>
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/crafting/BlockRecipes.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/itemblocks/ItemBlockLog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="182" column="85" selection-start-line="182" selection-start-column="85" selection-end-line="182" selection-end-column="85" />
-          <folding />
+        <state relative-caret-position="249">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/zevadditions/blocks/BlockBOPLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

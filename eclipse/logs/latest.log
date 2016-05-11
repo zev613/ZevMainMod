@@ -1,0 +1,31 @@
+[09:15:53] [main/INFO]: Setting user: Player681
+[09:15:54] [Client thread/INFO]: LWJGL Version: 2.9.1
+[09:16:14] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Zev's Additions
+[09:16:16] [Sound Library Loader/INFO]: Sound engine started
+[09:16:18] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[09:16:18] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[09:16:18] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Zev's Additions
+[09:16:20] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
+[09:16:20] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[09:16:21] [Sound Library Loader/INFO]: Sound engine started
+[09:16:36] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[09:16:36] [Server thread/INFO]: Generating keypair
+[09:16:37] [Server thread/INFO]: Preparing start region for level 0
+[09:16:38] [Server thread/INFO]: Changing view distance to 13, from 10
+[09:16:39] [Server thread/INFO]: Player681[local:E:5a94e878] logged in with entity id 178 at (-177.85358090962615, 4.0, 1258.300000011921)
+[09:16:39] [Server thread/INFO]: Player681 joined the game
+[09:16:40] [Server thread/INFO]: Saving and pausing game...
+[09:16:40] [Server thread/INFO]: Saving chunks for level 'Modding Test World'/Overworld
+[09:16:40] [Server thread/INFO]: Saving chunks for level 'Modding Test World'/Nether
+[09:16:40] [Server thread/INFO]: Saving chunks for level 'Modding Test World'/The End
+[09:16:56] [Server thread/INFO]: Player681 has just earned the achievement [Taking Inventory]
+[09:16:56] [Client thread/INFO]: [CHAT] Player681 has just earned the achievement [Taking Inventory]
+[09:17:31] [Client thread/INFO]: Stopping!
+[09:17:31] [Server thread/INFO]: Stopping server
+[09:17:31] [Server thread/INFO]: Saving players
+[09:17:31] [Server thread/INFO]: Saving worlds
+[09:17:31] [Server thread/INFO]: Saving chunks for level 'Modding Test World'/Overworld
+[09:17:31] [Server thread/INFO]: Saving chunks for level 'Modding Test World'/Nether
+[09:17:31] [Server thread/INFO]: Saving chunks for level 'Modding Test World'/The End
+[09:17:31] [Client Shutdown Thread/INFO]: Stopping server
+[09:17:31] [Client Shutdown Thread/INFO]: Saving players

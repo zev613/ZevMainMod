@@ -1,5 +1,6 @@
 package com.zseltzer.zevadditions.entities;
 
+import com.zseltzer.zevadditions.Reference;
 import org.lwjgl.opengl.GL11;
 
 import cpw.mods.fml.relauncher.Side;
@@ -22,14 +23,13 @@ public class RenderBear extends RenderLiving
 	private void setEntityTexture() 
 	{
 		// TODO Auto-generated method stub
-		bearTextures =  new ResourceLocation("zevadditions:zevadditions/textures/entity/bear.png");
+		bearTextures =  new ResourceLocation(Reference.MODID + ":zevadditions/textures/entity/bear.png");
 	}
 
-	private static ResourceLocation bearTextures = new ResourceLocation("zevadditions:textures/entity/bear.png");
+	private static ResourceLocation bearTextures = new ResourceLocation(Reference.MODID + ":textures/entity/bear.png");
         //private static final ResourceLocation tamedWolfTextures = new ResourceLocation("textures/entity/wolf/wolf_tame.png");
         //private static final ResourceLocation anrgyWolfTextures = new ResourceLocation("textures/entity/wolf/wolf_angry.png");
         //private static final ResourceLocation wolfCollarTextures = new ResourceLocation("textures/entity/wolf/wolf_collar.png");
-    private static final String __OBFID = "CL_00001036";
 
     public RenderBear(ModelBase par1ModelBase, ModelBase par2ModelBase, float par3)
     {
@@ -81,7 +81,7 @@ public class RenderBear extends RenderLiving
     
     protected float handleRotationFloat(EntityLivingBase par1EntityLivingBase, float par2)
     {
-        return this.handleRotationFloat((EntityBear)par1EntityLivingBase, par2);
+        return this.handleRotationFloat(par1EntityLivingBase, par2);
     }
 
     //Returns the location of an entity's texture. Doesn't seem to be called unless you call Render.bindEntityTexture.
