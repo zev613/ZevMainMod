@@ -1,6 +1,7 @@
 package com.zseltzer.zevadditions.crafting;
 
 import com.zseltzer.zevadditions.init.ModArmory;
+import com.zseltzer.zevadditions.init.ModBlocks;
 import com.zseltzer.zevadditions.init.ModItems;
 
 import cpw.mods.fml.common.registry.GameRegistry;
@@ -14,12 +15,14 @@ public class ToolRecipes
 	{	
 
 //AMETHYST TOOL RECIPES		
-			
+
 	GameRegistry.addShapedRecipe(new ItemStack(ModArmory.amethystSword),
 			" A ",
 			" A ",
 			" B ",
 			'A', ModItems.amethystIngot, 'B', Items.stick);
+
+	GameRegistry.addShapelessRecipe(new ItemStack(ModArmory.amethystPoisonedSword, 1), new ItemStack(ModArmory.amethystSword), (Items.fermented_spider_eye));
 
 	GameRegistry.addShapedRecipe(new ItemStack(ModArmory.amethystPickaxe),
 			"AAA",
@@ -140,5 +143,69 @@ GameRegistry.addShapedRecipe(new ItemStack(ModArmory.sapphireSword),
 			" B ",
 			" B ",
 			'A', ModItems.sapphireIngot, 'B', Items.stick);
+
+//BRONZE TOOL RECIPES
+
+    GameRegistry.addShapedRecipe(new ItemStack(ModArmory.bronzeSword),
+            " A ",
+            " A ",
+            " B ",
+            'A', ModItems.bronzeIngot, 'B', Items.stick);
+
+    GameRegistry.addShapedRecipe(new ItemStack(ModArmory.bronzePickaxe),
+            "AAA",
+            " B ",
+            " B ",
+            'A', ModItems.bronzeIngot, 'B', Items.stick);
+
+    GameRegistry.addShapedRecipe(new ItemStack(ModArmory.bronzeShovel),
+            " A ",
+            " B ",
+            " B ",
+            'A', ModItems.bronzeIngot, 'B', Items.stick);
+
+    GameRegistry.addShapedRecipe(new ItemStack(ModArmory.bronzeAxe),
+            "AA ",
+            "AB ",
+            " B ",
+            'A', ModItems.bronzeIngot, 'B', Items.stick);
+
+    GameRegistry.addShapedRecipe(new ItemStack(ModArmory.bronzeHoe),
+            "AA ",
+            " B ",
+            " B ",
+            'A', ModItems.bronzeIngot, 'B', Items.stick);
+
+//SILVER TOOL RECIPES
+
+    GameRegistry.addShapedRecipe(new ItemStack(ModArmory.silverSword),
+            " A ",
+            " A ",
+            " B ",
+            'A', ModItems.silverIngot, 'B', Items.stick);
+
+    GameRegistry.addShapedRecipe(new ItemStack(ModArmory.silverPickaxe),
+            "AAA",
+            " B ",
+            " B ",
+            'A', ModItems.silverIngot, 'B', Items.stick);
+
+    GameRegistry.addShapedRecipe(new ItemStack(ModArmory.silverShovel),
+            " A ",
+            " B ",
+            " B ",
+            'A', ModItems.silverIngot, 'B', Items.stick);
+
+    GameRegistry.addShapedRecipe(new ItemStack(ModArmory.silverAxe),
+            "AA ",
+            "AB ",
+            " B ",
+            'A', ModItems.silverIngot, 'B', Items.stick);
+
+    GameRegistry.addShapedRecipe(new ItemStack(ModArmory.silverHoe),
+            "AA ",
+            " B ",
+            " B ",
+            'A', ModItems.silverIngot, 'B', Items.stick);
 	}
 }

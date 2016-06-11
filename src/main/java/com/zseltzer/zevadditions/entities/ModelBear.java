@@ -8,7 +8,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.util.MathHelper;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-
+/*
 @SideOnly (Side.CLIENT)
 public class ModelBear extends ModelBase 
 {
@@ -118,5 +118,6 @@ public class ModelBear extends ModelBase
       this.leg2.rotateAngleX = MathHelper.cos(par1 * 0.6662F + (float)Math.PI) * 1.4F * par2;
       this.leg3.rotateAngleX = MathHelper.cos(par1 * 0.6662F + (float)Math.PI) * 1.4F * par2;
       this.leg4.rotateAngleX = MathHelper.cos(par1 * 0.6662F) * 1.4F * par2;
-  }
+ }
 }
+*/

@@ -3,7 +3,7 @@ package com.zseltzer.zevadditions.keybindings;
 import cpw.mods.fml.client.registry.ClientRegistry;
 import net.minecraft.client.settings.KeyBinding;
 import org.lwjgl.input.Keyboard;
-
+/*
 public class KeyBindings
 {
     // Declare two KeyBindings, ping and pong
@@ -30,3 +30,4 @@ public class KeyBindings
         ClientRegistry.registerKeyBinding(pong);
     }
 }
+*/

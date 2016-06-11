@@ -9,6 +9,7 @@ public class ModAchievements
     public static Achievement craftSapphire;
     public static Achievement pickupSecond;
     public static Achievement smeltRubyIngot;
+    public static Achievement dropItem;
 
     public static AchievementPage zevPage;
 
@@ -20,7 +21,9 @@ public class ModAchievements
 
         smeltRubyIngot = new Achievement("", "SmeltRubyIngot", 2, 0, ModItems.rubyIngot, craftSapphire);
 
-        zevPage = new AchievementPage("ZevAdditions Achievements", craftSapphire, smeltRubyIngot, pickupSecond);
+        dropItem = new Achievement("", "dropItem", 4, 0, Items.arrow, null);
+
+        zevPage = new AchievementPage("ZevAdditions Achievements", craftSapphire, smeltRubyIngot, pickupSecond, dropItem);
         AchievementPage.registerAchievementPage(zevPage);
 
         /*

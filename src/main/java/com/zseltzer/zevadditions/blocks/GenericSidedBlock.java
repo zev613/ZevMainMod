@@ -19,13 +19,13 @@ public class GenericSidedBlock extends BlockRotatedPillar
 
     public static String NAME;
 
-    public GenericSidedBlock(String unlocalizedName, Material blockMaterial)
+    public GenericSidedBlock(String name, Material blockMaterial)
     {
         super(blockMaterial);
         this.setCreativeTab(ModTabs.tabNewBlocks);
-        this.setBlockName(unlocalizedName);
+        this.setBlockName(name);
         this.setBlockTextureName(Reference.MODID + ":" + getUnlocalizedName().substring(5));
-        this.NAME = unlocalizedName;
+        this.NAME = name;
     }
 
     @SideOnly(Side.CLIENT)

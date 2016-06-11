@@ -17,7 +17,7 @@ public final ToolMaterial toolMaterial;
 	{
 		super(EnumToolMaterial);
 		toolMaterial = EnumToolMaterial;
-		setCreativeTab(ModTabs.tabNewItems);
+		setCreativeTab(ModTabs.tabArmory);
 	}
 	
 	@Override

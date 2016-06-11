@@ -38,7 +38,7 @@ import net.minecraft.pathfinding.PathEntity;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.MathHelper;
 import net.minecraft.world.World;
-
+/*
 public class EntityBear extends EntityAnimal 
 {
     private float field_70926_e;
@@ -389,3 +389,4 @@ public class EntityBear extends EntityAnimal
         }
     }
 }
+*/

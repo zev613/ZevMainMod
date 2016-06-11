@@ -23,7 +23,7 @@ public class ZevBlockSlab extends BlockSlab
         this.setBlockTextureName(Reference.MODID + ":" + unlocalizedName);
         if (stacked == false)
         {
-            setCreativeTab(ModTabs.tabNewSlabs);
+            setCreativeTab(ModTabs.tabDecorations);
             setBlockName(unlocalizedName + "_Slab");
             STACKED = false;
         }

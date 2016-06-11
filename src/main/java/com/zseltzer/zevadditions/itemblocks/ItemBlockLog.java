@@ -24,8 +24,7 @@ public class ItemBlockLog extends ItemBlock
     @Override
     public String getUnlocalizedName(ItemStack itemStack)
     {
-    //TODO:							block
     BlockBOPLog block = (BlockBOPLog)field_150939_a;
-    return super.getUnlocalizedName() + "_" + block.getWoodType(itemStack.getItemDamage()) + "_log";
+    return /*super.getUnlocalizedName() + "_" + */block.getWoodType(itemStack.getItemDamage()) + "_log";
 }
 }

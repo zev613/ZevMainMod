@@ -1,12 +1,16 @@
 package com.zseltzer.zevadditions;
 
 import com.zseltzer.zevadditions.crafting.ModRecipes;
+import com.zseltzer.zevadditions.events.BonemealEventHandler;
 import com.zseltzer.zevadditions.events.EventHelper;
-import com.zseltzer.zevadditions.events.KeyInputHandler;
+//import com.zseltzer.zevadditions.events.KeyInputHandler;
 import com.zseltzer.zevadditions.init.*;
-import com.zseltzer.zevadditions.keybindings.KeyBindings;
+//import com.zseltzer.zevadditions.keybindings.KeyBindings;
 import com.zseltzer.zevadditions.proxies.CommonProxy;
 
+import com.zseltzer.zevadditions.world.gen.ChestGen;
+import com.zseltzer.zevadditions.world.gen.DungeonGen;
+import com.zseltzer.zevadditions.world.gen.FishingGen;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
@@ -43,9 +47,8 @@ public class Main
 
         ModEntities.init();
 
-		FMLCommonHandler.instance().bus().register(new KeyInputHandler());
-
-            KeyBindings.init();
+		//FMLCommonHandler.instance().bus().register(new KeyInputHandler());
+            //KeyBindings.init();
     }
 	
 	@Mod.EventHandler
@@ -56,8 +59,14 @@ public class Main
         ModAchievements.init();
 
         EventHelper.registerEvents();
-		
+
 		proxy.registerRenderers();
+
+		ChestGen.init();
+
+		DungeonGen.init();
+
+		FishingGen.init();
     }
 	
 	@EventHandler

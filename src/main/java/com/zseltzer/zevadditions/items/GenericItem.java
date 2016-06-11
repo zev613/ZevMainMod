@@ -13,9 +13,9 @@ public class GenericItem extends Item
 	public GenericItem(String unlocalizedName)
 	{
 		super();
-		this.setCreativeTab(ModTabs.tabNewItems);
 		this.setUnlocalizedName(unlocalizedName);
 		this.setTextureName(Reference.MODID + ":" + unlocalizedName);
+		this.setCreativeTab(ModTabs.tabNewItems);
 	}
 	
 	@SideOnly(Side.CLIENT)

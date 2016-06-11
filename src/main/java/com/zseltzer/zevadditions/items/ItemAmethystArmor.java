@@ -17,7 +17,7 @@ public class ItemAmethystArmor extends ItemArmor
 			super(material, 0, ArmorType);
 			setUnlocalizedName(name);
 			setTextureName(Reference.MODID + ":" + getUnlocalizedName().substring(5));
-			setCreativeTab(ModTabs.tabNewItems);
+			setCreativeTab(ModTabs.tabArmory);
 		}
 	 
 		public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type)

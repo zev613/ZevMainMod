@@ -1,5 +1,6 @@
 package com.zseltzer.zevadditions.tabs;
 
+import com.zseltzer.zevadditions.init.ModArmory;
 import com.zseltzer.zevadditions.init.ModBlocks;
 import com.zseltzer.zevadditions.init.ModItems;
 
@@ -22,27 +23,37 @@ public class ModTabs
 	    }
 	};
 
-	public static CreativeTabs tabNewItems = new CreativeTabs("tabNewItems") 
+	public static CreativeTabs tabArmory = new CreativeTabs("tabArmory")
 	{
 	    @Override
 	    @SideOnly(Side.CLIENT)
-	    public Item getTabIconItem() 
+	    public Item getTabIconItem()
 	    {
-	        return ModItems.sapphireIngot;
+	        return ModArmory.rubyChestplate;
 	    }
 	};
-	
-	public static CreativeTabs tabNewSlabs = new CreativeTabs("tabNewSlabs") 
+
+    public static CreativeTabs tabNewItems = new CreativeTabs("tabNewItems")
+    {
+        @Override
+        @SideOnly(Side.CLIENT)
+        public Item getTabIconItem()
+        {
+            return ModItems.sapphireIngot;
+        }
+    };
+
+	public static CreativeTabs tabNewRocks = new CreativeTabs("tabNewRocks")
 	{
-	    @Override
-	    @SideOnly(Side.CLIENT)
-	    public Item getTabIconItem() 
-	    {
-	    	return Item.getItemFromBlock(Blocks.stone_slab);
-	    }
+		@Override
+		@SideOnly(Side.CLIENT)
+		public Item getTabIconItem()
+		{
+			return Item.getItemFromBlock(ModBlocks.gabbro);
+		}
 	};
 	
-	public static CreativeTabs tabStairs = new CreativeTabs("tabStairs")
+	public static CreativeTabs tabDecorations = new CreativeTabs("tabDecorations")
 	{
 	    @Override
 	    @SideOnly(Side.CLIENT)
@@ -52,13 +63,13 @@ public class ModTabs
 	    }
 	};
 
-	public static CreativeTabs tabTrees = new CreativeTabs("tabTrees")
-	{
-		@Override
-		@SideOnly(Side.CLIENT)
-		public Item getTabIconItem()
-		{
-			return Item.getItemFromBlock(ModBlocks.redwood_planks);
-		}
-	};
+    public static CreativeTabs tabWorld = new CreativeTabs("tabWorld")
+    {
+        @Override
+        @SideOnly(Side.CLIENT)
+        public Item getTabIconItem()
+        {
+            return Item.getItemFromBlock(ModBlocks.hardenedDirt);
+        }
+    };
 }

@@ -10,7 +10,7 @@ import net.minecraft.client.renderer.entity.RenderLiving;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.util.ResourceLocation;
-
+/*
 @SideOnly(Side.CLIENT)
 public class RenderBear extends RenderLiving
 {
@@ -37,14 +37,14 @@ public class RenderBear extends RenderLiving
         this.setRenderPassModel(par2ModelBase);
     }
 
-    /*
+
         //Defines what float the third param in setRotationAngles of ModelBase is
      
-    protected float handleRotationFloat(EntityWolf par1EntityWolf, float par2)
-    {
-        return par1EntityWolf.getTailRotation();
-    }
-    */
+    //protected float handleRotationFloat(EntityWolf par1EntityWolf, float par2)
+    //{
+    //    return par1EntityWolf.getTailRotation();
+    //}
+
 
     //Queries whether should render the specified pass or not.
 
@@ -91,3 +91,4 @@ public class RenderBear extends RenderLiving
         return this.getEntityTexture((EntityBear)par1Entity);
     }
 }
+*/

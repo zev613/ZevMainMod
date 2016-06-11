@@ -4,7 +4,10 @@ import java.util.List;
 
 import com.zseltzer.zevadditions.Reference;
 import com.zseltzer.zevadditions.tabs.ModTabs;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockRotatedPillar;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
@@ -49,33 +52,21 @@ public class BlockBOPLog extends Block
     //Jacaranda			(2)
     //Mahogany			(3)
 
-    private static final String[] types = new String[] {"redwood", "maple", "palm", "willow", "pine", "fir", "chestnut", "sequoia", "elm", "hickory", "cedar", "sycamore", "cypress", "hemlock", "mahogany", "hawthorn"};
+    private static final String[] types = new String[] {"redwood", "maple", "palm", "willow", "pine", "fir", "chestnut", "sequoia", "elm", "hickory", "cedar", "sycamore", "cypress", "eucalyptus", "mahogany", "magnolia"};
     private IIcon[] textures;
     private IIcon[] logTop;
 
-    //private final LogCategory category;
-
-    public BlockBOPLog(/*LogCategory cat*/)
+    public BlockBOPLog()
     {
-        //TODO: Material.wood
         super(Material.wood);
-
-        //category = cat;
-
-        //TODO: this.setHardness
         this.setHardness(2.0F);
         this.setHarvestLevel("axe", 0);
-
-        //TODO: this.setResistance
         this.setResistance(5.0F);
-        //TODO setStepSound(Block.soundWoodFootstep)
         this.setStepSound(Block.soundTypeWood);
-
-        this.setCreativeTab(ModTabs.tabTrees);
+        this.setCreativeTab(ModTabs.tabWorld);
     }
 
     @Override
-    //TODO:		registerIcons()
     public void registerBlockIcons(IIconRegister iconRegister)
     {
         textures = new IIcon[types.length];
@@ -84,22 +75,32 @@ public class BlockBOPLog extends Block
         for (int i = 0; i < types.length; ++i)
         {
             {
-                textures[i] = iconRegister.registerIcon(Reference.MODID + ":" + types[i] + "log_side");
-                logTop[i] = iconRegister.registerIcon(Reference.MODID + ":" + types[i] + "log_top");
+                textures[i] = iconRegister.registerIcon(Reference.MODID + ":" + types[i] + "_log_side");
+                logTop[i] = iconRegister.registerIcon(Reference.MODID + ":" + types[i] + "_log_top");
             }
         }
     }
 
     @Override
-    //TODO:		 getIcon()
     public IIcon getIcon(int side, int meta)
     {
-        int pos = meta;
 
-        if (pos == 0 && (side == 1 || side == 0) || pos == 4 && (side == 5 || side == 4))
-            return logTop[(getTypeFromMeta(meta)/* + category.ordinal() * 4*/)];
+        if ((side == 1 || side == 0))
+            return logTop[(getTypeFromMeta(meta))];
         else
-            return textures[(getTypeFromMeta(meta)/* + category.ordinal() * 4*/)];
+            return textures[(getTypeFromMeta(meta))];
+    }
+
+    @SideOnly(Side.CLIENT)
+    protected IIcon getSideIcon(int side)
+    {
+        return this.textures[side % this.textures.length];
+    }
+
+    @SideOnly(Side.CLIENT)
+    protected IIcon getTopIcon(int top)
+    {
+        return this.logTop[top % this.logTop.length];
     }
 
     @Override
@@ -125,7 +126,6 @@ public class BlockBOPLog extends Block
                 {
                     for (int k = -radius; k <= radius; ++k)
                     {
-                        //TODO:				getBlock()
                         Block block = world.getBlock(x + i, y + j, z + k);
 
                         if (block.isLeaves(world, x, y, z))
@@ -138,8 +138,30 @@ public class BlockBOPLog extends Block
         }
     }
 
+    public int onBlockPlaced(World world, int x, int y, int z, int side, float hitX, float hitY, float hitZ, int meta)
+    {
+        int type = meta & 3;
+        byte orientation = 0;
+
+        switch (side)
+        {
+            case 0:
+            case 1:
+                orientation = 0;
+                break;
+            case 2:
+            case 3:
+                orientation = 8;
+                break;
+            case 4:
+            case 5:
+                orientation = 4;
+        }
+        return type | orientation;
+    }
+
+/*
     @Override
-    //TODO:		onBlockPlaced()
     public int onBlockPlaced(World world, int x, int y, int z, int side, float hitX, float hitY, float hitZ, int meta)
     {
         int type = getTypeFromMeta(meta);
@@ -164,11 +186,12 @@ public class BlockBOPLog extends Block
 
         return type | orientation;
     }
+*/
 
     @Override
     public int getFlammability(IBlockAccess world, int x, int y, int z, ForgeDirection face)
     {
-        if (/*category == LogCategory.CAT4 && */world.getBlockMetadata(x, y, z) == 1)
+        if (world.getBlockMetadata(x, y, z) == 1)
         {
             return 0;
         }
@@ -181,7 +204,7 @@ public class BlockBOPLog extends Block
     @Override
     public int getFireSpreadSpeed(IBlockAccess world, int x, int y, int z, ForgeDirection face)
     {
-        if (/*category == LogCategory.CAT4 && */world.getBlockMetadata(x, y, z) == 1)
+        if (world.getBlockMetadata(x, y, z) == 1)
         {
             return 0;
         }
@@ -194,7 +217,7 @@ public class BlockBOPLog extends Block
     @Override
     public boolean isFlammable(IBlockAccess world, int x, int y, int z, ForgeDirection face)
     {
-        if (/*category == LogCategory.CAT4 && */world.getBlockMetadata(x, y, z) == 1)
+        if (world.getBlockMetadata(x, y, z) == 1)
         {
             return false;
         }
@@ -236,10 +259,8 @@ public class BlockBOPLog extends Block
 
     public String getWoodType(int meta)
     {
-        //return types[getTypeFromMeta(meta) + category.ordinal() * 4];
         return types[getTypeFromMeta(meta)];
     }
-
 
     private static int getTypeFromMeta(int meta)
     {

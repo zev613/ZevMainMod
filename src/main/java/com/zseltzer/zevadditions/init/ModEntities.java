@@ -1,8 +1,8 @@
 package com.zseltzer.zevadditions.init;
 
-import com.zseltzer.zevadditions.entities.EntityBear;
-import com.zseltzer.zevadditions.entities.ModelBear;
-import com.zseltzer.zevadditions.entities.RenderBear;
+//import com.zseltzer.zevadditions.entities.EntityBear;
+//import com.zseltzer.zevadditions.entities.ModelBear;
+//import com.zseltzer.zevadditions.entities.RenderBear;
 import com.zseltzer.zevadditions.RegisterHelper;
 import cpw.mods.fml.client.registry.RenderingRegistry;
 import cpw.mods.fml.common.registry.EntityRegistry;
@@ -19,6 +19,6 @@ public class ModEntities
 {
 	 public static void init()
 	 { 
-		 RegisterHelper.registerEntity(EntityBear.class, "entityBear");
+		 //RegisterHelper.registerEntity(EntityBear.class, "entityBear");
 	 }
 }

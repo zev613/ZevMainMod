@@ -14,7 +14,7 @@ public abstract class BOPBlock extends Block
     {
         super(material);
 
-        this.setCreativeTab(ModTabs.tabTrees);
+        this.setCreativeTab(ModTabs.tabWorld);
     }
 
     @Override

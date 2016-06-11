@@ -38,7 +38,6 @@ public class ModStairs
 	public static Block brownStone_smoothStairs = new ZevBlockStairs(ModBlocks.brownStone_smooth, "brownStone_smooth");
 	public static Block cementBlockStairs = new ZevBlockStairs(ModBlocks.cementBlock, "cementBlock");
 	public static Block charcoalBlockStairs = new ZevBlockStairs(ModBlocks.charcoalBlock, "charcoalBlock");
-	//public static Block cherry_planksStairs = new ZevBlockStairs(ModBlocks.cherryTreePlank, "cherry_planks");
 	public static Block chertStairs = new ZevBlockStairs(ModBlocks.chert, "chert");
 	public static Block chert_bricksStairs = new ZevBlockStairs(ModBlocks.chert_bricks, "chert_bricks");
 	public static Block chertPolishedBlockStairs = new ZevBlockStairs(ModBlocks.chertPolishedBlock, "chertPolishedBlock");
@@ -46,7 +45,6 @@ public class ModStairs
 	public static Block clayStairs = new ZevBlockStairs(Blocks.clay, "clay");
 	public static Block coalBlockStairs = new ZevBlockStairs(Blocks.coal_block, "coalBlock");
 	public static Block coarseDirtStairs = new ZevBlockStairs(ModBlocks.coarseDirt, "coarseDirt");
-	public static Block copperOreStairs = new ZevBlockStairs(ModBlocks.copperOre, "copperOre");
 	public static Block crackedSandStairs = new ZevBlockStairs(ModBlocks.crackedSand, "crackedSand");
 	public static Block cragRockStairs = new ZevBlockStairs(ModBlocks.cragRock, "cragRock");
 	public static Block daciteStairs = new ZevBlockStairs(ModBlocks.dacite, "dacite");
@@ -66,7 +64,6 @@ public class ModStairs
 	public static Block enderPearlBlockStairs = new ZevBlockStairs(ModBlocks.enderPearlBlock, "enderPearlBlock");
 	public static Block endStoneStairs = new ZevBlockStairs(Blocks.end_stone, "endStone");
 	public static Block endStoneBricksStairs = new ZevBlockStairs(ModBlocks.endStoneBricks, "endStoneBricks");
-	public static Block fir_planksStairs = new ZevBlockStairs(ModBlocks.fir_planks, "fir_planks");
 	public static Block flintBlockStairs = new ZevBlockStairs(ModBlocks.flintBlock, "flintBlock");
 	public static Block gabbroStairs = new ZevBlockStairs(ModBlocks.gabbro, "gabbro");
 	public static Block gabbro_bricksStairs = new ZevBlockStairs(ModBlocks.gabbro_bricks, "gabbro_bricks");
@@ -80,6 +77,8 @@ public class ModStairs
 	public static Block granite_smoothStairs = new ZevBlockStairs(ModBlocks.granite_smooth, "granite_smooth");
 	public static Block graniteCobbleStairs = new ZevBlockStairs(ModBlocks.graniteCobble, "graniteCobble");
 	public static Block gravelStairs = new ZevBlockStairs(Blocks.gravel, "gravel");
+	public static Block greenStoneStairs = new ZevBlockStairs(ModBlocks.greenStone, "greenStone");
+	public static Block greenStone_smoothStairs = new ZevBlockStairs(ModBlocks.greenStone_smooth, "greenStone_smooth");
 	public static Block gunpowderBlockStairs = new ZevBlockStairs(ModBlocks.gunpowderBlock, "gunpowderBlock");
 	public static Block hardenedClayStairs = new ZevBlockStairs(Blocks.hardened_clay, "hardenedClay");
 	public static Block hardenedDirtStairs = new ZevBlockStairs(ModBlocks.hardenedDirt, "hardenedDirt");
@@ -89,14 +88,17 @@ public class ModStairs
 	public static Block hardenedSandstoneCobbleStairs = new ZevBlockStairs(ModBlocks.hardenedSandstoneCobble, "hardenedSandstoneCobble");
 	public static Block hardenedSandstonePolishedBlockStairs = new ZevBlockStairs(ModBlocks.hardenedSandstonePolishedBlock, "hardenedSandstonePolishedBlock");
 	public static Block hardenedIceStairs = new ZevBlockStairs(ModBlocks.hardenedIce, "hardenedIce");
-	public static Block hayVariant1Stairs = new ZevBlockStairs(ModBlocks.hayVariant1, "hayVariant1");
+	public static Block hayVariantStairs = new ZevBlockStairs(ModBlocks.hayVariant, "hayVariant");
 	public static Block ironBlockStairs = new ZevBlockStairs(Blocks.iron_block, "ironBlock");
 	public static Block ironOreStairs = new ZevBlockStairs(Blocks.iron_ore, "ironOre");
 	public static Block lapisBlockStairs = new ZevBlockStairs(Blocks.lapis_block, "lapisBlock");
 	public static Block lapisOreStairs = new ZevBlockStairs(Blocks.lapis_ore, "lapisOre");
-	public static Block limeStoneStairs = new ZevBlockStairs(ModBlocks.limeStone, "limeStone");
-	public static Block limeStone_smoothStairs = new ZevBlockStairs(ModBlocks.limeStone_smooth, "limeStone_smooth");
-	public static Block marbleStairs = new ZevBlockStairs(ModBlocks.marble, "marble");
+	public static Block limestoneStairs = new ZevBlockStairs(ModBlocks.limestone, "limestone");
+	public static Block limestone_bricksStairs = new ZevBlockStairs(ModBlocks.limestone_bricks, "limestone_bricks");
+	public static Block limestoneCobbleStairs = new ZevBlockStairs(ModBlocks.limestoneCobble, "limestoneCobble");
+	public static Block limestonePolishedBlockStairs = new ZevBlockStairs(ModBlocks.limestonePolishedBlock, "limestonePolishedBlock");
+	public static Block magmaBlockStairs = new ZevBlockStairs(ModBlocks.magmaBlock, "magmaBlock");
+    public static Block marbleStairs = new ZevBlockStairs(ModBlocks.marble, "marble");
 	public static Block marble_bricksStairs = new ZevBlockStairs(ModBlocks.marble_bricks, "marble_bricks");
 	public static Block marblePolishedBlockStairs = new ZevBlockStairs(ModBlocks.marblePolishedBlock, "marblePolishedBlock");
 	public static Block marbleCobbleStairs = new ZevBlockStairs(ModBlocks.marbleCobble, "marbleCobble");
@@ -108,11 +110,10 @@ public class ModStairs
 	public static Block mushroomBlock3Stairs = new ZevBlockStairs(Blocks.red_mushroom_block, "mushroomBlock3").setBlockTextureName(Reference.MODID + ":mushroomBlock3");
 	public static Block mushroomBlock4Stairs = new ZevBlockStairs(Blocks.red_mushroom_block, "mushroomBlock4").setBlockTextureName(Reference.MODID + ":mushroomBlock4");
 	public static Block netherrackStairs = new ZevBlockStairs(Blocks.netherrack, "netherrack");
+	public static Block netherWartBlockStairs = new ZevBlockStairs(ModBlocks.netherWartBlock, "netherWartBlock");
 	public static Block obsidianStairs = new ZevBlockStairs(Blocks.obsidian, "obsidian");
 	public static Block obsidian_smoothStairs = new ZevBlockStairs(ModBlocks.obsidian_smooth, "obsidian_smooth");
 	public static Block packedIceStairs = new ZevBlockStairs(Blocks.packed_ice, "packedIce");
-	public static Block palm_planksStairs = new ZevBlockStairs(ModBlocks.palm_planks, "palm_planks");
-	public static Block pine_planksStairs = new ZevBlockStairs(ModBlocks.pine_planks, "pine_planks");
 	public static Block pinkStoneStairs = new ZevBlockStairs(ModBlocks.pinkStone, "pinkStone");
 	public static Block pinkStone_smoothStairs = new ZevBlockStairs(ModBlocks.pinkStone_smooth, "pinkStone_smooth");
 	public static Block prismarine_bricksStairs = new ZevBlockStairs(ModBlocks.prismarine_bricks, "prismarine_bricks");
@@ -121,12 +122,12 @@ public class ModStairs
 	public static Block quartzStonePolishedBlockStairs = new ZevBlockStairs(ModBlocks.quartzStonePolishedBlock, "quartzStonePolishedBlock");
 	public static Block quartzStoneCobbleStairs = new ZevBlockStairs(ModBlocks.quartzStoneCobble, "quartzStoneCobble");
 	public static Block quickSandStairs = new ZevBlockStairs(ModBlocks.quickSand, "quickSand");
+	public static Block redNetherBrickStairs = new ZevBlockStairs(ModBlocks.redNetherBrick, "redNetherBrick");
 	public static Block redRockStairs = new ZevBlockStairs(ModBlocks.redRock, "redRock");
 	public static Block redRock_bricksStairs = new ZevBlockStairs(ModBlocks.redRock_bricks, "redRock_bricks");
 	public static Block redRockCobbleStairs = new ZevBlockStairs(ModBlocks.redRockCobble, "redRockCobble");
 	public static Block redRockTileStairs = new ZevBlockStairs(ModBlocks.redRockTile, "redRockTile");
 	public static Block redstoneBlockStairs = new ZevBlockStairs(Blocks.redstone_block, "redstone_block");
-	public static Block redwood_planksStairs = new ZevBlockStairs(ModBlocks.redwood_planks, "redwood_planks");
 	public static Block rhyoliteStairs = new ZevBlockStairs(ModBlocks.rhyolite, "rhyolite");
 	public static Block rhyolite_bricksStairs = new ZevBlockStairs(ModBlocks.rhyolite_bricks, "rhyolite_bricks");
 	public static Block rhyolitePolishedBlockStairs = new ZevBlockStairs(ModBlocks.rhyolitePolishedBlock, "rhyolitePolishedBlock");
@@ -162,11 +163,7 @@ public class ModStairs
 	public static Block stoneChalk_bricksStairs = new ZevBlockStairs(ModBlocks.stoneChalk_bricks, "stoneChalk_bricks");
 	public static Block stoneChalkPolishedBlockStairs = new ZevBlockStairs(ModBlocks.stoneChalkPolishedBlock, "stoneChalkPolishedBlock");
 	public static Block stoneChalkCobbleStairs = new ZevBlockStairs(ModBlocks.stoneChalkCobble, "stoneChalkCobble");
-	public static Block stone_limestoneStairs = new ZevBlockStairs(ModBlocks.stone_limestone, "stone_limestone");
-	public static Block stone_limestone_bricksStairs = new ZevBlockStairs(ModBlocks.stone_limestone_bricks, "stone_limestone_bricks");
-	public static Block stone_limestoneCobbleStairs = new ZevBlockStairs(ModBlocks.stone_limestoneCobble, "stone_limestoneCobble");
-	public static Block stone_limestonePolishedBlockStairs = new ZevBlockStairs(ModBlocks.stone_limestonePolishedBlock, "stone_limestonePolishedBlock");
-	public static Block stone1Stairs = new ZevBlockStairs(ModBlocks.stone1, "stone1");
+    public static Block stone1Stairs = new ZevBlockStairs(ModBlocks.stone1, "stone1");
 	public static Block stone2Stairs = new ZevBlockStairs(ModBlocks.stone2, "stone2");
 	public static Block stone3Stairs = new ZevBlockStairs(ModBlocks.stone3, "stone3");
 	public static Block stone4Stairs = new ZevBlockStairs(ModBlocks.stone4, "stone4");
@@ -180,15 +177,30 @@ public class ModStairs
 	public static Block stone12Stairs = new ZevBlockStairs(ModBlocks.stone12, "stone12");
 	public static Block sugarBlockStairs = new ZevBlockStairs(ModBlocks.sugarBlock, "sugarBlock");
 	public static Block thatchStairs = new ZevBlockStairs(ModBlocks.thatch, "thatch");
-	public static Block thatch_otherStairs = new ZevBlockStairs(ModBlocks.thatch_other, "thatch_other");
 	public static Block topazBlockStairs = new ZevBlockStairs(ModBlocks.topazBlock, "topazBlock");
 	public static Block topazOreStairs = new ZevBlockStairs(ModBlocks.topazOre, "topazOre");
-	public static Block willow_planksStairs = new ZevBlockStairs(ModBlocks.willow_planks, "willow_planks");
 	public static Block woolStairs = new ZevBlockStairs(Blocks.wool, "wool");
 	public static Block yellowStoneStairs = new ZevBlockStairs(ModBlocks.yellowStone, "yellowStone");
 	public static Block yellowStone_smoothStairs = new ZevBlockStairs(ModBlocks.yellowStone_smooth, "yellowStone_smooth");
-	
-	public static void init()
+
+    public static Block redwood_planksStairs = new ZevBlockStairs(ModBlocks.redwood_planks, "redwood_planks");
+    public static Block maple_planksStairs = new ZevBlockStairs(ModBlocks.maple_planks, "maple_planks");
+    public static Block palm_planksStairs = new ZevBlockStairs(ModBlocks.palm_planks, "palm_planks");
+    public static Block willow_planksStairs = new ZevBlockStairs(ModBlocks.willow_planks, "willow_planks");
+    public static Block pine_planksStairs = new ZevBlockStairs(ModBlocks.pine_planks, "pine_planks");
+    public static Block fir_planksStairs = new ZevBlockStairs(ModBlocks.fir_planks, "fir_planks");
+    public static Block chestnut_planksStairs = new ZevBlockStairs(ModBlocks.chestnut_planks, "chestnut_planks");
+    public static Block sequoia_planksStairs = new ZevBlockStairs(ModBlocks.sequoia_planks, "sequoia_planks");
+    public static Block elm_planksStairs = new ZevBlockStairs(ModBlocks.elm_planks, "elm_planks");
+    public static Block hickory_planksStairs = new ZevBlockStairs(ModBlocks.hickory_planks, "hickory_planks");
+    public static Block cedar_planksStairs = new ZevBlockStairs(ModBlocks.cedar_planks, "cedar_planks");
+    public static Block sycamore_planksStairs = new ZevBlockStairs(ModBlocks.sycamore_planks, "sycamore_planks");
+    public static Block cypress_planksStairs = new ZevBlockStairs(ModBlocks.cypress_planks, "cypress_planks");
+    public static Block eucalyptus_planksStairs = new ZevBlockStairs(ModBlocks.eucalyptus_planks, "eucalyptus_planks");
+    public static Block mahogany_planksStairs = new ZevBlockStairs(ModBlocks.mahogany_planks, "mahogany_planks");
+    public static Block magnolia_planksStairs = new ZevBlockStairs(ModBlocks.magnolia_planks, "magnolia_planks");
+
+    public static void init()
 	{	
 		 RegisterHelper.registerBlock(adobeBlockStairs);
 		 RegisterHelper.registerBlock(adobe_bricksStairs);
@@ -221,7 +233,6 @@ public class ModStairs
 		 RegisterHelper.registerBlock(clayStairs);
 		 RegisterHelper.registerBlock(coalBlockStairs);
 		 RegisterHelper.registerBlock(coarseDirtStairs);
-		 RegisterHelper.registerBlock(copperOreStairs);
 		 RegisterHelper.registerBlock(crackedSandStairs);
 		 RegisterHelper.registerBlock(cragRockStairs);
 		 RegisterHelper.registerBlock(daciteStairs);
@@ -240,7 +251,6 @@ public class ModStairs
 		 RegisterHelper.registerBlock(emeraldOreStairs);
 		 RegisterHelper.registerBlock(endStoneStairs);
 		 RegisterHelper.registerBlock(endStoneBricksStairs);
-		 RegisterHelper.registerBlock(fir_planksStairs);
 		 RegisterHelper.registerBlock(gabbroStairs);
 		 RegisterHelper.registerBlock(gabbro_bricksStairs);
 		 RegisterHelper.registerBlock(gabbroPolishedBlockStairs);
@@ -253,6 +263,8 @@ public class ModStairs
 		 RegisterHelper.registerBlock(granite_bricksStairs);
 		 RegisterHelper.registerBlock(granite_smoothStairs);
 		 RegisterHelper.registerBlock(graniteCobbleStairs);
+		 RegisterHelper.registerBlock(greenStoneStairs);
+		 RegisterHelper.registerBlock(greenStone_smoothStairs);
 		 RegisterHelper.registerBlock(hardenedClayStairs);
 		 RegisterHelper.registerBlock(hardenedDirtStairs);
 		 RegisterHelper.registerBlock(hardenedSandStairs);
@@ -261,14 +273,17 @@ public class ModStairs
 		 RegisterHelper.registerBlock(hardenedSandstoneCobbleStairs);
 		 RegisterHelper.registerBlock(hardenedSandstonePolishedBlockStairs);
 		 RegisterHelper.registerBlock(hardenedIceStairs);
-		 RegisterHelper.registerBlock(hayVariant1Stairs);
+		 RegisterHelper.registerBlock(hayVariantStairs);
 		 RegisterHelper.registerBlock(ironBlockStairs);
 		 RegisterHelper.registerBlock(ironOreStairs);
 		 RegisterHelper.registerBlock(lapisBlockStairs);
 		 RegisterHelper.registerBlock(lapisOreStairs);
-		 RegisterHelper.registerBlock(limeStoneStairs);
-		 RegisterHelper.registerBlock(limeStone_smoothStairs);
-		 RegisterHelper.registerBlock(marbleStairs);
+        RegisterHelper.registerBlock(limestoneStairs);
+        RegisterHelper.registerBlock(limestone_bricksStairs);
+        RegisterHelper.registerBlock(limestoneCobbleStairs);
+        RegisterHelper.registerBlock(limestonePolishedBlockStairs);
+         RegisterHelper.registerBlock(magmaBlockStairs);
+         RegisterHelper.registerBlock(marbleStairs);
 		 RegisterHelper.registerBlock(marble_bricksStairs);
 		 RegisterHelper.registerBlock(marblePolishedBlockStairs);
 		 RegisterHelper.registerBlock(marbleCobbleStairs);
@@ -280,11 +295,10 @@ public class ModStairs
 		 RegisterHelper.registerBlock(mushroomBlock3Stairs);
 		 RegisterHelper.registerBlock(mushroomBlock4Stairs);
 		 RegisterHelper.registerBlock(netherrackStairs);
+         RegisterHelper.registerBlock(netherWartBlockStairs);
 		 RegisterHelper.registerBlock(obsidianStairs);
 		 RegisterHelper.registerBlock(obsidian_smoothStairs);
 		 RegisterHelper.registerBlock(packedIceStairs);
-		 RegisterHelper.registerBlock(palm_planksStairs);
-		 RegisterHelper.registerBlock(pine_planksStairs);
 		 RegisterHelper.registerBlock(pinkStoneStairs);
 		 RegisterHelper.registerBlock(pinkStone_smoothStairs);
 		 RegisterHelper.registerBlock(prismarine_bricksStairs);
@@ -293,12 +307,12 @@ public class ModStairs
 		 RegisterHelper.registerBlock(quartzStonePolishedBlockStairs);
 		 RegisterHelper.registerBlock(quartzStoneCobbleStairs);
 		 RegisterHelper.registerBlock(quickSandStairs);
+		 RegisterHelper.registerBlock(redNetherBrickStairs);
 		 RegisterHelper.registerBlock(redRockStairs);
 		 RegisterHelper.registerBlock(redRock_bricksStairs);
 		 RegisterHelper.registerBlock(redRockCobbleStairs);
 		 RegisterHelper.registerBlock(redRockTileStairs);
 		 RegisterHelper.registerBlock(redstoneBlockStairs);
-		 RegisterHelper.registerBlock(redwood_planksStairs);
 		 RegisterHelper.registerBlock(rhyoliteStairs);
 		 RegisterHelper.registerBlock(rhyolite_bricksStairs);
 		 RegisterHelper.registerBlock(rhyolitePolishedBlockStairs);
@@ -332,10 +346,6 @@ public class ModStairs
 		 RegisterHelper.registerBlock(snowStairs);
 		 RegisterHelper.registerBlock(soulSandStairs);
 		 RegisterHelper.registerBlock(spongeStairs);
-		 RegisterHelper.registerBlock(stone_limestoneStairs);
-		 RegisterHelper.registerBlock(stone_limestone_bricksStairs);
-		 RegisterHelper.registerBlock(stone_limestoneCobbleStairs);
-		 RegisterHelper.registerBlock(stone_limestonePolishedBlockStairs);
 		 RegisterHelper.registerBlock(stone1Stairs);
 		 RegisterHelper.registerBlock(stone2Stairs);
 		 RegisterHelper.registerBlock(stone3Stairs);
@@ -348,11 +358,10 @@ public class ModStairs
 		 RegisterHelper.registerBlock(stone10Stairs);
 		 RegisterHelper.registerBlock(stone11Stairs);
 		 RegisterHelper.registerBlock(stone12Stairs);
+
 		 RegisterHelper.registerBlock(sugarBlockStairs);
 		 RegisterHelper.registerBlock(thatchStairs);
-		 RegisterHelper.registerBlock(thatch_otherStairs);
 		 RegisterHelper.registerBlock(topazOreStairs);
-		 RegisterHelper.registerBlock(willow_planksStairs);
 		 RegisterHelper.registerBlock(woolStairs);
 		 RegisterHelper.registerBlock(yellowStoneStairs);
 		 RegisterHelper.registerBlock(yellowStone_smoothStairs);
@@ -365,5 +374,23 @@ public class ModStairs
 		 RegisterHelper.registerBlock(rottenFleshBlockStairs);
 		 RegisterHelper.registerBlock(silverBlockStairs);	
 		 RegisterHelper.registerBlock(topazBlockStairs);
-	}
+
+        RegisterHelper.registerBlock(redwood_planksStairs);
+        RegisterHelper.registerBlock(maple_planksStairs);
+        RegisterHelper.registerBlock(palm_planksStairs);
+        RegisterHelper.registerBlock(willow_planksStairs);
+        RegisterHelper.registerBlock(pine_planksStairs);
+        RegisterHelper.registerBlock(fir_planksStairs);
+        RegisterHelper.registerBlock(chestnut_planksStairs);
+        RegisterHelper.registerBlock(sequoia_planksStairs);
+        RegisterHelper.registerBlock(elm_planksStairs);
+        RegisterHelper.registerBlock(hickory_planksStairs);
+        RegisterHelper.registerBlock(cedar_planksStairs);
+        RegisterHelper.registerBlock(sycamore_planksStairs);
+        RegisterHelper.registerBlock(cypress_planksStairs);
+        RegisterHelper.registerBlock(eucalyptus_planksStairs);
+        RegisterHelper.registerBlock(mahogany_planksStairs);
+        RegisterHelper.registerBlock(magnolia_planksStairs);
+
+    }
 }

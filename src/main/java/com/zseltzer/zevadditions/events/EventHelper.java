@@ -1,7 +1,6 @@
 package com.zseltzer.zevadditions.events;
 
 import com.zseltzer.zevadditions.Main;
-import com.zseltzer.zevadditions.blocks.ZevSapling;
 import com.zseltzer.zevadditions.init.ModAchievements;
 import com.zseltzer.zevadditions.init.ModArmory;
 import com.zseltzer.zevadditions.init.ModBlocks;
@@ -15,6 +14,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Items;
 import net.minecraft.world.biome.BiomeGenBase;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.event.entity.item.ItemTossEvent;
 import net.minecraftforge.event.entity.living.LivingDeathEvent;
 import net.minecraftforge.event.entity.player.BonemealEvent;
 import net.minecraftforge.event.entity.player.PlayerPickupXpEvent;
@@ -28,6 +28,7 @@ public class EventHelper
     public static void registerEvents()
     {
         MinecraftForge.EVENT_BUS.register(new EventHelper());
+        MinecraftForge.EVENT_BUS.register(new BonemealEventHandler());
     }
 
     public int applesFound = 0;
@@ -74,6 +75,7 @@ public class EventHelper
         }
     }
 
+    @SubscribeEvent
     public void pickup(PlayerEvent.ItemPickupEvent event)
     {
 
@@ -105,4 +107,22 @@ public class EventHelper
             }
         }
     }
+    @SubscribeEvent
+    public void dropItem(ItemTossEvent event)
+    {
+        if(event.entityItem != null)
+        {
+            event.player.addStat(ModAchievements.dropItem, 1);
+        }
+    }
+/*
+    @SubscribeEvent
+    private void achievement2(PlayerEvent. event)
+    {
+        if(event.getItem() == ModItems.rubyIngot)
+        {
+            event.player.addStat(ModAchievements.smeltRubyIngot, 1);
+        }
+    }
+*/
 }

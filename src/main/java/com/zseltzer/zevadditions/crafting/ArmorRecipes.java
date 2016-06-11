@@ -108,5 +108,54 @@ GameRegistry.addShapedRecipe(new ItemStack(ModArmory.amethystBoots),
 			"A A",
 			"A A",
 			'A', ModItems.sapphireIngot);
+
+		//BRONZE ARMOR RECIPES
+
+		GameRegistry.addShapedRecipe(new ItemStack(ModArmory.bronzeHelmet),
+				"AAA",
+				"A A",
+				'A', ModItems.bronzeIngot);
+
+		GameRegistry.addShapedRecipe(new ItemStack(ModArmory.bronzeChestplate),
+				"A A",
+				"AAA",
+				"AAA",
+				'A', ModItems.bronzeIngot);
+
+		GameRegistry.addShapedRecipe(new ItemStack(ModArmory.bronzeLeggings),
+				"AAA",
+				"A A",
+				"A A",
+				'A', ModItems.bronzeIngot);
+
+		GameRegistry.addShapedRecipe(new ItemStack(ModArmory.bronzeBoots),
+				"A A",
+				"A A",
+				'A', ModItems.bronzeIngot);
+
+		//SILVER ARMOR RECIPES
+
+		GameRegistry.addShapedRecipe(new ItemStack(ModArmory.silverHelmet),
+				"AAA",
+				"A A",
+				'A', ModItems.silverIngot);
+
+		GameRegistry.addShapedRecipe(new ItemStack(ModArmory.silverChestplate),
+				"A A",
+				"AAA",
+				"AAA",
+				'A', ModItems.silverIngot);
+
+		GameRegistry.addShapedRecipe(new ItemStack(ModArmory.silverLeggings),
+				"AAA",
+				"A A",
+				"A A",
+				'A', ModItems.silverIngot);
+
+		GameRegistry.addShapedRecipe(new ItemStack(ModArmory.silverBoots),
+				"A A",
+				"A A",
+				'A', ModItems.silverIngot);
+
 	}
 }

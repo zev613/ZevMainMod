@@ -6,8 +6,7 @@ public class ModRecipes
 {
 
 	public static void init()
-	{	
-		
+	{
 		BlockRecipes.init();
 		
 		ItemRecipes.init();
@@ -15,5 +14,7 @@ public class ModRecipes
 		ToolRecipes.init();
 		
 		ArmorRecipes.init();
+
+		//RemoveRecipes.removeRecipe();
 	}
 }
