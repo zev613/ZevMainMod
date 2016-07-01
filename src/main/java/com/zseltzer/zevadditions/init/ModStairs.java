@@ -51,7 +51,8 @@ public class ModStairs
 	public static Block dacite_bricksStairs = new ZevBlockStairs(ModBlocks.dacite_bricks, "dacite_bricks");
 	public static Block dacitePolishedBlockStairs = new ZevBlockStairs(ModBlocks.dacitePolishedBlock, "dacitePolishedBlock");
 	public static Block daciteCobbleStairs = new ZevBlockStairs(ModBlocks.daciteCobble, "daciteCobble");
-	public static Block darkPrismarineStairs = new ZevBlockStairs(ModBlocks.darkPrismarine, "DarkPrismarine");
+	public static Block darkPrismarineStairs = new ZevBlockStairs(ModBlocks.darkPrismarine, "darkPrismarine");
+	public static Block darkQuartzBlockStairs = new ZevBlockStairs(ModBlocks.darkQuartzBlock, "darkQuartzBlock");
 	public static Block diamondBlockStairs = new ZevBlockStairs(Blocks.diamond_block, "diamondBlock");
 	public static Block diamondOreStairs = new ZevBlockStairs(Blocks.diamond_ore, "diamondOre");
 	public static Block dioriteStairs = new ZevBlockStairs(ModBlocks.diorite, "diorite");
@@ -240,6 +241,7 @@ public class ModStairs
 		 RegisterHelper.registerBlock(dacitePolishedBlockStairs);
 		 RegisterHelper.registerBlock(daciteCobbleStairs); 
 		 RegisterHelper.registerBlock(darkPrismarineStairs);
+         RegisterHelper.registerBlock(darkQuartzBlockStairs);
 		 RegisterHelper.registerBlock(diamondBlockStairs);
 		 RegisterHelper.registerBlock(diamondOreStairs);
 		 RegisterHelper.registerBlock(dioriteStairs);

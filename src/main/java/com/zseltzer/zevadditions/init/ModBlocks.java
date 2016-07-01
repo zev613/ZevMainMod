@@ -9,11 +9,13 @@ import com.zseltzer.zevadditions.tabs.ModTabs;
 import cpw.mods.fml.common.registry.GameData;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockRotatedPillar;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
+import net.minecraft.util.IIcon;
 
 public class ModBlocks
 {
@@ -25,7 +27,7 @@ public class ModBlocks
 
 	public static Block adobeBlock = new GenericBaseBlock("adobeBlock", Material.rock).setCreativeTab(ModTabs.tabWorld);
 	public static Block adobe_bricks = new GenericBaseBlock("adobe_bricks", Material.rock).setCreativeTab(ModTabs.tabNewBlocks);
-	public static Block adobeTile = new GenericBaseBlock("adobeTile", Material.rock).setCreativeTab(ModTabs.tabNewBlocks);
+    public static Block adobeTile = new GenericBaseBlock("adobeTile", Material.rock).setCreativeTab(ModTabs.tabNewBlocks);
 	public static Block amethystOre = new GenericBaseBlock("amethystOre", Material.rock).setCreativeTab(ModTabs.tabNewBlocks);
 	public static Block andesite = new GenericBaseBlock("andesite", Material.rock).setCreativeTab(ModTabs.tabNewRocks);
 	public static Block andesite_bricks = new GenericBaseBlock("andesite_bricks", Material.rock).setCreativeTab(ModTabs.tabNewRocks);
@@ -58,6 +60,9 @@ public class ModBlocks
 	public static Block dacitePolishedBlock = new GenericBaseBlock("dacitePolishedBlock", Material.rock).setCreativeTab(ModTabs.tabNewRocks);
 	public static Block daciteCobble = new GenericBaseBlock("daciteCobble", Material.rock).setCreativeTab(ModTabs.tabNewRocks);
 	public static Block darkPrismarine = new GenericBaseBlock("darkPrismarine", Material.rock).setCreativeTab(ModTabs.tabNewBlocks);
+	public static Block darkQuartzBlock = new GenericBaseBlock("darkQuartzBlock", Material.rock).setCreativeTab(ModTabs.tabNewBlocks);
+	public static Block darkQuartzChiseled = new GenericSidedBlock("darkQuartzChiseled", Material.rock).setCreativeTab(ModTabs.tabNewBlocks);
+	public static Block darkQuartzPillar = new GenericSidedBlock("darkQuartzPillar", Material.rock).setCreativeTab(ModTabs.tabNewBlocks);
 	public static Block diorite = new GenericBaseBlock("diorite", Material.rock).setCreativeTab(ModTabs.tabNewRocks);
 	public static Block diorite_bricks = new GenericBaseBlock("diorite_bricks", Material.rock).setCreativeTab(ModTabs.tabNewRocks);
 	public static Block diorite_smooth = new GenericBaseBlock("diorite_smooth", Material.rock).setCreativeTab(ModTabs.tabNewRocks);
@@ -279,6 +284,9 @@ public static void init()
 	 RegisterHelper.registerBlock(dacitePolishedBlock);
 	 RegisterHelper.registerBlock(daciteCobble); 
 	 RegisterHelper.registerBlock(darkPrismarine);
+	 RegisterHelper.registerBlock(darkQuartzBlock);
+     RegisterHelper.registerBlock(darkQuartzChiseled);
+     RegisterHelper.registerBlock(darkQuartzPillar);
 	 RegisterHelper.registerBlock(diorite);
 	 RegisterHelper.registerBlock(diorite_bricks);
 	 RegisterHelper.registerBlock(diorite_smooth);
